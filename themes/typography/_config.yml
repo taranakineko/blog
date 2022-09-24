@@ -1,5 +1,5 @@
-title_primary: "活版印字" # the bigger text
-title_secondary: "Typography" # the smaller text
+title_primary: "湛蓝的调色板" # the bigger text
+title_secondary: "下一首歌应该怎么唱呢？" # the smaller text
 keywords:
 
 twitter: #username
@@ -7,12 +7,14 @@ rss: atom.xml
 weibo: #username/id
 instagram: #username
 github: #username
+telegram:
+mail:
 
 # Choose the comment service according to your need.
 # Please do not use the two services at the same time.
 livere: # [data-uid] on livere.com
 disqus: # [short_name] on disqus.com
-dove: # For fun ONLY. Set to true to 'disable' comments on your site.
+dove: true # For fun ONLY. Set to true to 'disable' comments on your site.
 
 # Set true to show the page indicator.
 showPageCount: true

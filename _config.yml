@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: ":year-:month-:day :title.md" # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -140,7 +140,13 @@ feed:
   content_limit_delim: ' '
 
 # For syntax highlighting
+# For syntax highlighting
 prism_plugin:
   mode: 'preprocess'
   theme: 'default'
   line_number: true 
+
+lazyload:
+  enable: true
+  onlypost: false # optional
+  loadingImg: /images/favicon.png # optional eg ./images/loading.gif

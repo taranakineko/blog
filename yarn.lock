@@ -2,6 +2,17 @@
 # yarn lockfile v1
 
 
+"@ada87/hexo-prism-plugin@^2.3.0":
+  "integrity" "sha512-n1rm27gF02ctTQmwLaVnYskJo/ga4kxYKgtlYwFazQodNg+nMFE1egq8XzniRUBIeU+bg3ndTBkgkUvsz+DGYg=="
+  "resolved" "https://registry.npmjs.org/@ada87/hexo-prism-plugin/-/hexo-prism-plugin-2.3.0.tgz"
+  "version" "2.3.0"
+  dependencies:
+    "dir-resolve" "^1.0.2"
+    "hexo-fs" "^0.2.1"
+    "node-prismjs" "^0.1.0"
+    "prism-themes" "^1.0.0"
+    "prismjs" "^1.6.0"
+
 "@tootallnate/once@2":
   "integrity" "sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A=="
   "resolved" "https://registry.npmjs.org/@tootallnate/once/-/once-2.0.0.tgz"
@@ -1267,6 +1278,13 @@
   dependencies:
     "sprintf-js" "^1.0.3"
 
+"hexo-lazyload-image@^1.0.12":
+  "integrity" "sha512-FYtWS3MnEesDqDKwxGIoGG8j5m8jzJAJoDa22rEsztI/fYxtnXZzypinyADRlOczXQLHqKqtjBR+rdpnynJtJQ=="
+  "resolved" "https://registry.npmjs.org/hexo-lazyload-image/-/hexo-lazyload-image-1.0.12.tgz"
+  "version" "1.0.12"
+  dependencies:
+    "uglify-js" "^3.0.27"
+
 "hexo-log@^2.0.0":
   "integrity" "sha512-U7zdDae74pXcyhQEyNmpJdq3UI6zWKxQ7/zLoMr/d3CBRdIfB5yO8DWqKUnewfibYv0gODyTWUIhxQDWuwloow=="
   "resolved" "https://registry.npmjs.org/hexo-log/-/hexo-log-2.0.0.tgz"
@@ -1292,17 +1310,6 @@
   "integrity" "sha512-miEVFgxchPr2qNWxw0JWpJ9R/Yaf7HjHBZVjvCCcqfbsLyYtCvIfJDxcEwz1sDOC/fLzYPqNnhUI73uNxBHRSA=="
   "resolved" "https://registry.npmjs.org/hexo-pagination/-/hexo-pagination-1.0.0.tgz"
   "version" "1.0.0"
-
-"hexo-prism-plugin@^2.3.0":
-  "integrity" "sha512-jn8aSVwo8odrZpf2qgETiZeO6cR7D7uDvljHD+CQqWOP97e8LvYAwaFlEvTgJwwKSERZbI5RlwtTOX7CDjz1Mw=="
-  "resolved" "https://registry.npmjs.org/hexo-prism-plugin/-/hexo-prism-plugin-2.3.0.tgz"
-  "version" "2.3.0"
-  dependencies:
-    "dir-resolve" "^1.0.2"
-    "hexo-fs" "^0.2.1"
-    "node-prismjs" "^0.1.0"
-    "prism-themes" "^1.0.0"
-    "prismjs" "^1.6.0"
 
 "hexo-renderer-ejs@^2.0.0":
   "integrity" "sha512-qCjE1IdwgDgv65qyb0KMVCwCdSVAkH0vwAe9XihjvaKWkmb9dtt8DgErOdqCXn0HReSyWiEVP2BrLRj3gyHwOQ=="
@@ -2974,6 +2981,11 @@
     "yargs" "~3.10.0"
   optionalDependencies:
     "uglify-to-browserify" "~1.0.0"
+
+"uglify-js@^3.0.27":
+  "integrity" "sha512-bbxglRjsGQMchfvXZNusUcYgiB9Hx2K4AHYXQy2DITZ9Rd+JzhX7+hoocE5Winr7z2oHvPsekkBwXtigvxevXg=="
+  "resolved" "https://registry.npmjs.org/uglify-js/-/uglify-js-3.17.2.tgz"
+  "version" "3.17.2"
 
 "uglify-js@~2.2.5":
   "integrity" "sha512-viLk+/8G0zm2aKt1JJAVcz5J/5ytdiNaIsKgrre3yvSUjwVG6ZUujGH7E2TiPigZUwLYCe7eaIUEP2Zka2VJPA=="

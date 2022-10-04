@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Emoji';
   src: url('/fonts/NotoColorEmoji.woff2');
+  font-display: swap;
 }
 
 $backgroundColor: #ffffff !default;

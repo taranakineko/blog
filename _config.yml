@@ -4,16 +4,16 @@
 
 # Site
 title: 湛蓝的调色板
-subtitle: お願いどうか覚めないでよ
+subtitle: 
 description: "青く滲む 青く滲む 綺麗に / 浅渗湛蓝 纵使青涩 难掩绮丽"
 keywords:
-author: YiniTara
+author: Taranakienko
 language: zh-cn
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://taranakineko.pages.dev
+url: https://nekoq.eu.org
 permalink: posts/:year:month:day/:hash.html
 permalink_defaults:
 pretty_urls:

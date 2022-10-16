@@ -14,7 +14,8 @@ mail:
 # Please do not use the two services at the same time.
 livere: # [data-uid] on livere.com
 disqus: # [short_name] on disqus.com
-dove: true # For fun ONLY. Set to true to 'disable' comments on your site.
+dove: # For fun ONLY. Set to true to 'disable' comments on your site.
+giscus: true
 
 # Set true to show the page indicator.
 showPageCount: true

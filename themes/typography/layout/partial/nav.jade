@@ -42,6 +42,9 @@ div#site-nav.site-title-links
             if theme.telegram
                 a(href="https://t.me/" + theme.telegram, target="_blank", rel="noopener noreferrer", aria-label="Telegram")
                     i.fa.fa-telegram &nbsp;
+            if theme.mastodon
+                a(href=theme.mastodon, target="_blank", rel="noopener noreferrer", aria-label="Mastodon")
+                    i.fa.fa-globe &nbsp;
             if theme.mail
                 a(href="mailto:" + theme.mail, target="_blank", rel="noopener noreferrer", aria-label="Mail")
                     i.fa.fa-envelope &nbsp;

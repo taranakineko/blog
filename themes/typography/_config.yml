@@ -2,12 +2,13 @@ title_primary: "湛蓝的调色板" # the bigger text
 title_secondary: "" # the smaller text
 keywords:
 
-twitter: #username
+twitter: taranakineko
 rss: atom.xml
 weibo: #username/id
 instagram: #username
-github: #username
+github: taranakineko
 telegram:
+mastodon: https://mstdn.social/@TaranakiNeko
 mail:
 
 # Choose the comment service according to your need.

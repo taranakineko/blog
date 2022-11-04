@@ -13,6 +13,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "@ada87/hexo-prism-plugin": "^2.3.0",
     "hexo": "^6.3.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category-enhance": "^0.1.6",
@@ -20,7 +21,6 @@
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-lazyload-image": "^1.0.12",
-    "@ada87/hexo-prism-plugin": "^2.3.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-jade": "^0.5.0",
     "hexo-renderer-marked": "^5.0.0",

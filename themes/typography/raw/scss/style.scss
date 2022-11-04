@@ -1,16 +1,10 @@
-@font-face {
-  font-family: 'Emoji';
-  src: url('/fonts/NotoColorEmoji.woff2');
-  font-display: swap;
-}
-
 $backgroundColor: #ffffff !default;
 $foregroundColor: #2e405b !default;
 $fontList: "Source Sans Pro", "Roboto", "Helvetica", "Helvetica Neue",
   "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK",
-  "PingFang TC", "Emoji", sans-serif !default;
+  "PingFang TC", "Noto Color Emoji", sans-serif !default;
 $titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
-  "Source Han Serif TC", "Emoji", serif !default;
+  "Source Han Serif TC", "Noto Color Emoji", serif !default;
 $verticalPrimaryPaddingTopPatch: 0;
 $verticalSecondaryPaddingTopPatch: 1px;
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600");
@@ -384,6 +378,10 @@ footer * {
 
 .post-abstract {
   font-size: 18px;
+}
+
+.clearfix-r {
+  text-align: right;
 }
 
 li {

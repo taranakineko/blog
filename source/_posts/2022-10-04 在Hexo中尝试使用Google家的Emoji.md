@@ -74,3 +74,29 @@ $titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
 文章的最后也放几个 Emoji 测试一下显示效果
 
 🌌🍥😊🤣❤️🥰😶‍🌫️🙄🤤😇
+
+---
+
+2022.11.04 更新
+
+还有另外一种办法
+
+在 head.jade 中加入以下代码
+
+````jade
+link(rel="preconnect" href="https://fonts.googleapis.com")
+link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+link(href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet")
+````
+
+随后在 style.scss 中修改 `$fontList` 和 `$titleFontList` ，还是像下面这样
+
+```css
+$fontList: "Source Sans Pro", "Roboto", "Helvetica", "Helvetica Neue",
+  "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK",
+  "PingFang TC", "Noto Color Emoji", sans-serif !default;
+$titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
+  "Source Han Serif TC", "Noto Color Emoji", serif !default;
+```
+
+随后保存生成，搞定

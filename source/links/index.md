@@ -17,11 +17,12 @@ date: 2022-11-05 23:43:58
 
 ---
 
-- [Moe23333](https://moe23333.vercel.app) : *We shall meet in the place where there is no darkness.*
-- [Tony Ding's Blog](https://blog.tonyding.net) : *World Peace.*
-- [Ny3a](https://ny3a.github.io)
-- [Lily Ellenvia](https://lilynet.work) : *Lily Network*
-- [ShinoMoe笔记本](https://shinomoe.xyz) : *ShinoMoe 进行一个笔记的写*
-- [Jackie的猫窝](https://jackiecat.top) : *一只猫猫的猫窝*
+- [Moe23333](https://moe23333.vercel.app/) : *We shall meet in the place where there is no darkness.*
+- [Tony Ding's Blog](https://blog.tonyding.net/) : *World Peace.*
+- [Ny3a](https://ny3a.github.io/)
+- [Lily Ellenvia](https://lilynet.work/) : *Lily Network*
+- [ShinoMoe笔记本](https://shinomoe.xyz/) : *ShinoMoe 进行一个笔记的写*
+- [Jackie的猫窝](https://jackiecat.top/) : *一只猫猫的猫窝*
+- [Moeri落落格](https://blog.bakalu.cyou/) : *看一只自稱貓娘的日常*
 
 <!-- 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) -->

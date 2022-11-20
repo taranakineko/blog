@@ -149,4 +149,4 @@ prism_plugin:
 lazyload:
   enable: false
   onlypost: false # optional
-  loadingImg: /images/favicon.png # optional eg ./images/loading.gif
+  loadingImg: "https://nekoq.eu.org/images/favicon.png" # optional eg ./images/loading.gif

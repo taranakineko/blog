@@ -44,7 +44,7 @@ mixin make_page_links()
     if site.pages
         - site.pages.each(function (page) {
             li
-                    if is_current(page.path)
+                    if is_current(page.link)
                         a.current(href=config.root+page.link)= page.title
                     else
                         a(href=config.root+page.link)= page.title

@@ -45,9 +45,9 @@ mixin make_page_links()
         - site.pages.each(function (page) {
             li
                     if is_current(page.path)
-                        a.current(href=config.root+page.path)= page.title
+                        a.current(href=config.root+page.link)= page.title
                     else
-                        a(href=config.root+page.path)= page.title
+                        a(href=config.root+page.link)= page.title
         - });
 
 

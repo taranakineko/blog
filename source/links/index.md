@@ -25,5 +25,6 @@ link: /links
 - [ShinoMoe笔记本](https://shinomoe.xyz/) : *ShinoMoe 进行一个笔记的写*
 - [Jackie的猫窝](https://jackiecat.top/) : *一只猫猫的猫窝*
 - [Moeri落落格](https://blog.bakalu.cyou/) : *看一只自稱貓娘的日常*
+- [Lenger的后花园](https://spookerv5.github.io/) : *如果是你的话，一定没问题*
 
 <!-- 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) -->

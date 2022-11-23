@@ -28,6 +28,6 @@ link: /links
 - [Lenger的后花园](https://spookerv5.github.io/) : *如果是你的话，一定没问题*
 - [UMR's Blog](https://www.umr.wiki/)
 - [Fika's blog](https://fika.ink/) : *Debug the World*
-- [高科技大脑指挥部]（https://hightechbrain.ml/)
+- [高科技大脑指挥部](https://hightechbrain.ml/)
 
 <!-- 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) -->

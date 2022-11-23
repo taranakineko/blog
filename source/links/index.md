@@ -29,5 +29,6 @@ link: /links
 - [UMR's Blog](https://www.umr.wiki/)
 - [Fika's blog](https://fika.ink/) : *Debug the World*
 - [高科技大脑指挥部](https://hightechbrain.ml/)
+- [梦墨's Blog](https://blog.dreamo.ink/) : *这个人很懒，但ta似乎留下了什么？*
 
 <!-- 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) -->

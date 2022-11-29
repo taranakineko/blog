@@ -1,9 +1,10 @@
 ---
 title: 关于从 Hexo 迁移到 Next.js 的步骤以及踩到的坑
 date: 2022.11.29 03:24:00
-summary: '迁移迁到到原地爆炸！——写在第二次迁移的路上'
+summary: '迁移迁到原地爆炸！——写在第二次迁移的路上'
 tags: ['Hexo', 'Next.js']
-images: ['static/blog/hexo-to-nextjs.png']
+images: ['/static/blog/hexo-to-nextjs.png']
+draft: false
 ---
 
 ![文章封面图，虽说是自己糊的](/static/blog/hexo-to-nextjs.png)

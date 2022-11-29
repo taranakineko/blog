@@ -144,6 +144,8 @@ npx degit https://github.com/timlrx/tailwind-nextjs-starter-blog.git
 npm install
 ```
 
+1
+
 ## Development
 
 First, run the development server:
@@ -257,7 +259,6 @@ Apart from changes mentioned above for `next/image`, configurations should be ch
 ## Support
 
 Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/timlrx).
-
 
 ## Licence
 

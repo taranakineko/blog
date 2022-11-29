@@ -13,9 +13,7 @@ const siteMetadata = {
   email: '',
   github: 'https://github.com/taranakineko',
   twitter: 'https://twitter.com/taranakineko',
-  facebook: '',
-  youtube: '',
-  linkedin: '',
+  mastodon: 'https://mstdn.social/@TaranakiNeko',
   locale: 'zh-CN',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

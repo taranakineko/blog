@@ -5,8 +5,8 @@ occupation:
 company:
 email:
 twitter: https://twitter.com/taranakineko
-linkedin:
 github: https://github.com/taranakineko
+mastodon: https://mstdn.social/@TaranakiNeko
 ---
 
 有些东西还没完成，还请稍等...

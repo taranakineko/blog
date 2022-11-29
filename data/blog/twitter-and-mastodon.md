@@ -25,20 +25,20 @@ images: ['static/blog/twitter-and-mastodon/head.png']
 
 好啦，最后，Enojy it.
 
-{/* 自适应代码来源：https://ray233.pages.dev/webpage-embed-auto-size-iframe-video/ 
-谢谢！*/}
+{/_ 自适应代码来源：https://ray233.pages.dev/webpage-embed-auto-size-iframe-video/
+谢谢！_/}
 
 <div style={{ 'paddingTop': '56.25%', position: 'relative'}}>
   <iframe src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2" style={{'position': 'absolute', 'height': '100%', 'width': '100%', 'top': '0', 'left': '0'}}></iframe>
 </div>
 
-[推特与Mastodon比较.xlsx](static/blog/推特与Mastodon比较.xlsx)
+[推特与 Mastodon 比较.xlsx](static/blog/推特与Mastodon比较.xlsx)
 
 ---
 
 参考资料：
 
-- [Twitter 春🦊🌹(@KoharuCiaoM)](https://web.archive.org/web/20201213094030/https://twitter.com/KoharuCiaoM/status/1338056076902592513)
+- [Twitter 春 🦊🌹(@KoharuCiaoM)](https://web.archive.org/web/20201213094030/https://twitter.com/KoharuCiaoM/status/1338056076902592513)
 - [Mastodon 帮助文档（中文）](https://docs.joinmastodon.org/zh-cn/)
 - [Twitter Help](https://help.twitter.com)
 - [Twitter Developer Platform](https://developer.twitter.com/zh-cn/docs)
@@ -48,4 +48,4 @@ images: ['static/blog/twitter-and-mastodon/head.png']
 
 ---
 
-{/* 正在播放 [【湊あくあ】向日葵的约定 / ひまわりの約束（附工程简析）](https://www.bilibili.com/video/av755229443/) */}
+{/_ 正在播放 [【湊あくあ】向日葵的约定 / ひまわりの約束（附工程简析）](https://www.bilibili.com/video/av755229443/) _/}

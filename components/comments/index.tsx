@@ -16,8 +16,8 @@ const GiscusComponent = dynamic(
 const Comments = ({ frontMatter }: Props) => {
   let term
   switch (
-  siteMetadata.comment.giscusConfig.mapping ||
-  siteMetadata.comment.utterancesConfig.issueTerm
+    siteMetadata.comment.giscusConfig.mapping ||
+    siteMetadata.comment.utterancesConfig.issueTerm
   ) {
     case 'pathname':
       term = frontMatter.slug

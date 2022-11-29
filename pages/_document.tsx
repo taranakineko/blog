@@ -31,12 +31,6 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
           <meta charSet="UTF-8" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap"
-            rel="stylesheet"
-          />
         </Head>
         <body className="antialiased text-black bg-white dark:bg-black dark:text-white">
           <Main />

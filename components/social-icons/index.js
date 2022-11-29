@@ -1,15 +1,17 @@
 import Mail from './mail.svg'
 import Github from './github.svg'
-import Twitter from './twitter.svg'
 import Mastodon from './mastodon.svg'
+import Twitter from './twitter.svg'
+import Skype from './skype.svg'
 
 // Icons taken from: https://simpleicons.org/
 
 const components = {
   mail: Mail,
   github: Github,
-  twitter: Twitter,
   mastodon: Mastodon,
+  twitter: Twitter,
+  skype: Skype,
 }
 
 const SocialIcon = ({ kind, href, size = 8 }) => {

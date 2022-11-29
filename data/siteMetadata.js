@@ -12,8 +12,9 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: '',
   github: 'https://github.com/taranakineko',
-  twitter: 'https://twitter.com/taranakineko',
   mastodon: 'https://mstdn.social/@TaranakiNeko',
+  twitter: 'https://twitter.com/taranakineko',
+  skype: '22333333',
   locale: 'zh-CN',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

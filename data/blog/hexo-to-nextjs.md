@@ -1,7 +1,7 @@
 ---
 title: 关于从 Hexo 迁移到 Next.js 的步骤以及踩到的坑
 date: 2022.11.29 03:24:00
-summary: "迁移到原地爆炸！——写在第二次迁移的路上"
+summary: '迁移到原地爆炸！——写在第二次迁移的路上'
 tags: ['Hexo', 'Next.js']
 ---
 
@@ -49,7 +49,7 @@ But，点进去文章一看，Error
 
 查看控制台，输出如下
 
-````shell
+```shell
  > _mdx_bundler_entry_point-69f21335-281c-44cc-b042-69486d439282.mdx:45:1: error: [plugin: esbuild-xdm] Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
     45 │ <!-- 自适应代码来源：https://ray233.pages.dev/webpage-embed-auto-size-iframe-video/
        ╵  ^
@@ -58,7 +58,7 @@ wait  - compiling /_error (client and server)...
 event - compiled client and server successfully in 177 ms (420 modules)
 error - Error: Build failed with 1 error:
 _mdx_bundler_entry_point-69f21335-281c-44cc-b042-69486d439282.mdx:45:1: error: [plugin: esbuild-xdm] Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
-````
+```
 
 当然，解决方案也非常简单，就是使用 `{/* 注释内容 */}` 代替 `<!-- 注释内容 -->` 即可
 
@@ -70,31 +70,33 @@ _mdx_bundler_entry_point-69f21335-281c-44cc-b042-69486d439282.mdx:45:1: error: [
 
 但是默认插入后只有很小一片，于是就在网络上找到了一段适应代码并抄进去，像下面这样
 
-````html
-<style type='text/css'>
-.iframe-container {
-  /* 
+```html
+<style type="text/css">
+  .iframe-container {
+    /* 
   padding-top 为高/宽的值
   16:9 为 9/16=56.25%
   */
-  padding-top: 56.25%;
-  position: relative;
-}
-.iframe-container iframe {
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   top: 0;
-   left: 0;
-}
+    padding-top: 56.25%;
+    position: relative;
+  }
+  .iframe-container iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
 </style>
 <!-- 自适应代码来源：https://ray233.pages.dev/webpage-embed-auto-size-iframe-video/ 
 谢谢！
 -->
 <div class="iframe-container">
-  <iframe src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2"></iframe>
+  <iframe
+    src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2"
+  ></iframe>
 </div>
-````
+```
 
 在迁移到 Next.js 架构的时候，会遇到下面的报错
 
@@ -105,7 +107,7 @@ _mdx_bundler_entry_point-69f21335-281c-44cc-b042-69486d439282.mdx:45:1: error: [
 
 error - Error: Build failed with 1 error:
 _mdx_bundler_entry_point-ad4ebb27-776b-4ec8-9b87-2f5741a7cd6e.mdx:29:91: error: [plugin: esbuild-xdm] Could not parse expression with acorn: Unexpected content after expression
-````
+```
 
 ~~当然，第一次迁移的时候就是因为这个问题把自己修炸了就放弃适应代码了~~
 
@@ -115,11 +117,14 @@ _mdx_bundler_entry_point-ad4ebb27-776b-4ec8-9b87-2f5741a7cd6e.mdx:29:91: error: 
 
 修改后的代码如下
 
-````jsx
-<div style={{ 'paddingTop': '56.25%', position: 'relative'}}>
-  <iframe src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2" style={{'position': 'absolute', 'height': '100%', 'width': '100%', 'top': '0', 'left': '0'}} />
+```jsx
+<div style={{ paddingTop: '56.25%', position: 'relative' }}>
+  <iframe
+    src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2"
+    style={{ position: 'absolute', height: '100%', width: '100%', top: '0', left: '0' }}
+  />
 </div>
-````
+```
 
 ## 引用的 imframe 白屏不加载问题
 
@@ -142,7 +147,7 @@ const ContentSecurityPolicy = `
   (此处略过)
   frame-src giscus.app onedrive.live.com
 `
-````
+```
 
 ### 自定义页不生成
 
@@ -156,7 +161,7 @@ const ContentSecurityPolicy = `
 
 **请注意，以下代码仅适用于以 [timlrx/tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) 为模板所构建的博客**
 
-````js
+```js
 // page/links.js
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { getFileBySlug } from '@/lib/mdx'
@@ -164,7 +169,7 @@ import { getFileBySlug } from '@/lib/mdx'
 const DEFAULT_LAYOUT = 'PostSimple' // 这里按照自己喜欢修改成其他的，对应 layouts 文件夹内的文件名称
 
 export async function getStaticProps() {
-  const authorDetails = await getFileBySlug('', ['links']) 
+  const authorDetails = await getFileBySlug('', ['links'])
   // '' 内是路径，['']是文件名
   // 咱的 links 页是放在 data/links.mdx（相当于 links/），所以才会这样写
   return { props: { authorDetails } }
@@ -181,13 +186,39 @@ export default function links({ authorDetails }) {
     />
   )
 }
-````
+```
 
 ### RSS 不输出文章内容
 
 说真，这个实在想不出来怎么修复
 
-抱歉了 ​( ´_ゝ｀)
+抱歉了 ​( ´\_ゝ｀)
+
+### 添加其他社交链接
+
+咱使用的默认只有 email github twitter 等几个常见的，虽说可以手动添加
+
+除了在 README.md 中提到的步骤之外，还有这两个地方
+
+```js
+// layouts/AuthorLayout.js
+(此处略过)
+<SocialIcon kind="linkedin" href={linkedin} />
+<SocialIcon kind="twitter" href={twitter} />
+<SocialIcon kind="mastodon" href={mastodon} />
+```
+
+```js
+// components/Footer.js
+(此处略过)
+<SocialIcon kind="github" href={siteMetadata.github} size="6" />
+<SocialIcon kind="twitter" href={siteMetadata.twitter} size="6" />
+<SocialIcon kind="mastodon" href={siteMetadata.mastodon} size="6" />
+```
+
+完成.webp
+
+~~这么简单的问题竟然还折腾了咱差不多一个小时~~
 
 ---
 
@@ -217,7 +248,7 @@ export default function links({ authorDetails }) {
 
 ## 参考资料：
 
-- [MDX中文文档](https://www.mdxjs.cn/)
+- [MDX 中文文档](https://www.mdxjs.cn/)
 - [Front-matter | Hexo](https://hexo.io/zh-cn/docs/front-matter)
 - [Embedding videos \#116](https://github.com/timlrx/tailwind-nextjs-starter-blog/discussions/116)
 - Microsoft Edge DevTools

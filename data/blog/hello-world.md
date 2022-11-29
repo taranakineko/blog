@@ -3,6 +3,7 @@ title: Hello World
 date: 2022-09-24 21:10:39
 summary: "再一次的，Hello World"
 tags: ['Hexo']
+draft: false
 ---
 
 这是一篇在搭建 Hexo 站点时自动生成的文章，留下仅为纪念

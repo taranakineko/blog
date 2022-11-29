@@ -1,13 +1,12 @@
-![tailwind-nextjs-banner](/public/static/images/twitter-card.png)
+# Austin's Blog [https://blog.r00ks.io](https://blog.r00ks.io)
 
-# Tailwind Nextjs Starter Blog
+Forked from the excellent [Tailwind Nextjs Starter Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog)
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/timlrx/tailwind-nextjs-starter-blog?style=social)](https://GitHub.com/timlrx/tailwind-nextjs-starter-blog/stargazers/)
-[![GitHub forks](https://img.shields.io/github/forks/timlrx/tailwind-nextjs-starter-blog?style=social)](https://GitHub.com/timlrx/tailwind-nextjs-starter-blog/network/)
-[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Ftimlrxx)](https://twitter.com/timlrxx)
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&link=https://github.com/sponsors/timlrx)](https://github.com/sponsors/timlrx)
+## Stack
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/timlrx/tailwind-nextjs-starter-blog)
+- [Next.js](https://nextjs.org/) - Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+- [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework.
+- [Framer Motion](https://www.framer.com/motion/) - An animation library for React.
 
 This is a [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) blogging starter template. Probably the most feature-rich Next.js markdown blogging template out there. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.
 
@@ -203,34 +202,26 @@ Frontmatter follows [Hugo's standards](https://gohugo.io/content-management/fron
 Currently 7 fields are supported.
 
 ```
-title (required)
-date (required)
-tags (required, can be empty array)
-lastmod (optional)
-draft (optional)
-summary (optional)
-images (optional, if none provided defaults to socialBanner in siteMetadata config)
-authors (optional list which should correspond to the file names in `data/authors`. Uses `default` if none is specified)
-layout (optional list which should correspond to the file names in `data/layouts`)
-canonicalUrl (optional, canonical url for the post for SEO)
+$PROJECT_ROOT
+│   # Page files
+├── pages
+│   # Markdown files for project posts
+├── data
+    └──blog
+│   # React component files
+├── components
+│   # Non-react modules
+├── lib
+│   # Static files for images, rss, and assets
+├── public
+|   # Global CSS
+└── css
 ```
 
-Here's an example of a post's frontmatter:
+## Stats
 
-```
----
-title: 'Introducing Tailwind Nexjs Starter Blog'
-date: '2021-01-12'
-lastmod: '2021-01-18'
-tags: ['next-js', 'tailwind', 'guide']
-draft: false
-summary: 'Looking for a performant, out of the box template, with all the best in web technology to support your blogging needs? Checkout the Tailwind Nextjs Starter Blog template.'
-images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.jpg']
-authors: ['default', 'sparrowhawk']
-layout: PostLayout
-canonicalUrl: https://tailwind-nextjs-starter-blog.vercel.app/blog/introducing-tailwind-nextjs-starter-blog
----
-```
+- Desktop Lighthouse Score:
+<img width="412" alt="Screen Shot 2022-08-06 at 2 21 37 PM" src="https://user-images.githubusercontent.com/12260975/183263337-3df0264b-e39a-4fd8-9f26-ea21f7616c04.png">
 
 ### Compose
 

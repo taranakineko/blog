@@ -10,8 +10,8 @@ const ContentSecurityPolicy = `
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
-  font-src 'self' fonts.gstatic.com;
-  frame-src giscus.app onedrive.live.com
+  font-src 'self' fonts.gstatic.com cdn.jsdelivr.net;
+  frame-src giscus.app
 `
 
 const securityHeaders = [
@@ -43,7 +43,7 @@ const securityHeaders = [
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
   {
     key: 'Strict-Transport-Security',
-    value: 'max-age=31536000; includeSubDomains',
+    value: 'max-age=31536000; includeSubDomains; preload',
   },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy
   {
@@ -52,9 +52,12 @@ const securityHeaders = [
   },
 ]
 
+/**
+ * @type {import('next/dist/next-server/server/config').NextConfig}
+ **/
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
-  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
   },
@@ -67,6 +70,19 @@ module.exports = withBundleAnalyzer({
     ]
   },
   webpack: (config, { dev, isServer }) => {
+    config.module.rules.push({
+      test: /\.(png|jpe?g|gif|mp4)$/i,
+      use: [
+        {
+          loader: 'file-loader',
+          options: {
+            publicPath: '/_next',
+            name: 'static/media/[name].[hash].[ext]',
+          },
+        },
+      ],
+    })
+
     config.module.rules.push({
       test: /\.svg$/,
       use: ['@svgr/webpack'],

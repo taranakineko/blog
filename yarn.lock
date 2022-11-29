@@ -1052,6 +1052,18 @@
     "@citation-js/date" "^0.5.0"
     "citeproc" "^2.4.6"
 
+"@emotion/is-prop-valid@^0.8.2":
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
+  integrity sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==
+  dependencies:
+    "@emotion/memoize" "0.7.4"
+
+"@emotion/memoize@0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
+  integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
+
 "@esbuild-plugins/node-resolve@^0.1.4":
   "integrity" "sha512-haFQ0qhxEpqtWWY0kx1Y5oE3sMyO1PcoSiWEPrAw6tm/ZOOLXjSs6Q+v1v9eyuVF0nNt50YEvrcrvENmyoMv5g=="
   "resolved" "https://registry.npmjs.org/@esbuild-plugins/node-resolve/-/node-resolve-0.1.4.tgz"
@@ -1447,6 +1459,20 @@
   "resolved" "https://registry.npmjs.org/@types/prismjs/-/prismjs-1.16.6.tgz"
   "version" "1.16.6"
 
+"@types/prop-types@*":
+  version "15.7.5"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
+  integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
+
+"@types/react@^18.0.25":
+  version "18.0.25"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.25.tgz#8b1dcd7e56fe7315535a4af25435e0bb55c8ae44"
+  integrity sha512-xD6c0KDT4m7n9uD4ZHi02lzskaiqcBxf4zi+tXZY98a04wvc0hi/TcCPC2FOESZi51Nd7tlUeOJY8RofL799/g==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
 "@types/resolve@^1.17.1":
   "integrity" "sha512-Ku5+GPFa12S3W26Uwtw+xyrtIpaZsGYHH6zxNbZlstmlvMYSZRzOwzwsXbxlVUbHyUucctSyuFtu6bNxwYomIw=="
   "resolved" "https://registry.npmjs.org/@types/resolve/-/resolve-1.20.1.tgz"
@@ -1458,6 +1484,23 @@
   "version" "1.0.0"
   dependencies:
     "@types/node" "*"
+
+"@types/scheduler@*":
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
+  integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
+
+"@types/semver@^7.3.12":
+  version "7.3.13"
+  resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.13.tgz#da4bfd73f49bd541d28920ab0e2bf0ee80f71c91"
+  integrity sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==
+
+"@types/tailwindcss@^3.0.11":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@types/tailwindcss/-/tailwindcss-3.1.0.tgz#1185e4b3437c6e0f19d6cc8cd42738a94fd7b64f"
+  integrity sha512-JxPzrm609hzvF4nmOI3StLjbBEP3WWQxDDJESqR1nh94h7gyyy3XSl0hn5RBMJ9mPudlLjtaXs5YEBtLw7CnPA==
+  dependencies:
+    tailwindcss "*"
 
 "@types/unist@*", "@types/unist@^2.0.0":
   "integrity" "sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ=="
@@ -3710,7 +3753,7 @@
   "resolved" "https://registry.npmjs.org/hast-util-is-conditional-comment/-/hast-util-is-conditional-comment-2.0.0.tgz"
   "version" "2.0.0"
   dependencies:
-    "@types/hast" "^2.0.0"
+    hast-util-is-element "^1.1.0"
 
 "hast-util-is-css-link@^2.0.0":
   "integrity" "sha512-aHTdshwLQJHuwR1r2QOU6o2tL0ocsEr6zvT9s9tIVz+Ofc8KFzg136OfY8opAObfA5IvwHQqPSYWQCM8D9krpg=="
@@ -5338,18 +5381,19 @@
     "postcss" "8.4.5"
     "styled-jsx" "5.0.1"
   optionalDependencies:
-    "@next/swc-android-arm-eabi" "12.1.4"
-    "@next/swc-android-arm64" "12.1.4"
-    "@next/swc-darwin-arm64" "12.1.4"
-    "@next/swc-darwin-x64" "12.1.4"
-    "@next/swc-linux-arm-gnueabihf" "12.1.4"
-    "@next/swc-linux-arm64-gnu" "12.1.4"
-    "@next/swc-linux-arm64-musl" "12.1.4"
-    "@next/swc-linux-x64-gnu" "12.1.4"
-    "@next/swc-linux-x64-musl" "12.1.4"
-    "@next/swc-win32-arm64-msvc" "12.1.4"
-    "@next/swc-win32-ia32-msvc" "12.1.4"
-    "@next/swc-win32-x64-msvc" "12.1.4"
+    "@next/swc-android-arm-eabi" "12.3.4"
+    "@next/swc-android-arm64" "12.3.4"
+    "@next/swc-darwin-arm64" "12.3.4"
+    "@next/swc-darwin-x64" "12.3.4"
+    "@next/swc-freebsd-x64" "12.3.4"
+    "@next/swc-linux-arm-gnueabihf" "12.3.4"
+    "@next/swc-linux-arm64-gnu" "12.3.4"
+    "@next/swc-linux-arm64-musl" "12.3.4"
+    "@next/swc-linux-x64-gnu" "12.3.4"
+    "@next/swc-linux-x64-musl" "12.3.4"
+    "@next/swc-win32-arm64-msvc" "12.3.4"
+    "@next/swc-win32-ia32-msvc" "12.3.4"
+    "@next/swc-win32-x64-msvc" "12.3.4"
 
 "node-abi@^2.21.0":
   "integrity" "sha512-/2D0wOQPgaUWzVSVgRMx+trKJRC2UG4SUc4oCJoXx9Uxjtp0Vy3/kt7zcbxHF8+Z/pK3UloLWzBISg72brfy1w=="

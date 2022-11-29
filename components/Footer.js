@@ -23,6 +23,10 @@ export default function Footer() {
           <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
             Tailwind Nextjs Theme
           </Link>
+          {` • `}
+          <Link href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+            Use CC BY-NC-SA 4.0.
+          </Link>
         </div>
       </div>
     </footer>

@@ -1,12 +1,13 @@
 import { TagSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import ListLayout from '@/layouts/ListLayout'
-import generateRss from '@/lib/generate-rss'
+import generateRss from 'lib/generate-rss'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
 import fs from 'fs'
 import path from 'path'
+import ScrollTop from '@/components/ScrollTop'
 
 const root = process.cwd()
 
@@ -49,7 +50,8 @@ export default function Tag({ posts, tag }) {
         title={`${tag} - ${siteMetadata.author}`}
         description={`${tag} tags - ${siteMetadata.author}`}
       />
-      <ListLayout posts={posts} title={title} />
+      <ListLayout posts={posts} title={`Tag : ` + title} />
+      <ScrollTop />
     </>
   )
 }

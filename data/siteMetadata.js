@@ -10,7 +10,7 @@ const siteMetadata = {
   siteLogo: '/static/images/avatar.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: '',
+  email: 'taranakineko@pm.me',
   github: 'https://github.com/taranakineko',
   mastodon: 'https://mstdn.social/@TaranakiNeko',
   twitter: 'https://twitter.com/taranakineko',

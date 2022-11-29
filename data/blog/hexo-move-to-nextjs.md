@@ -7,7 +7,7 @@ images: ['/static/blog/hexo-to-nextjs.png']
 draft: false
 ---
 
-![文章封面图，虽说是自己糊的](/static/blog/hexo-to-nextjs.png)
+![文章封面图，虽说是自己糊的2333](/static/blog/hexo-to-nextjs.png)
 
 ## 前言
 

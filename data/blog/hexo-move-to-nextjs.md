@@ -4,13 +4,14 @@ date: 2022.11.29 03:24:00
 summary: '迁移迁到原地爆炸！——写在第二次迁移的路上'
 tags: ['Hexo', 'Next.js']
 images: ['/static/blog/hexo-to-nextjs.png']
+draft: true
 ---
 
 ![文章封面图，虽说是自己糊的](/static/blog/hexo-to-nextjs.png)
 
 ## 前言
 
-好久不见，甚至想念（什
+好久不见，甚是想念（什
 
 开门见山，至于咱为什么说要迁移博客框架，主要还是感觉 Hexo 用腻了 ~~，或者这样说吧，纯属无聊~~
 
@@ -197,6 +198,8 @@ export default function links({ authorDetails }) {
 
 抱歉了 ​( ´\_ゝ｀)
 
+孩子已经整疯了啊啊啊啊啊啊啊啊啊，没技术力啊啊啊啊啊啊啊啊
+
 ### 添加其他社交链接
 
 咱使用的默认只有 email github twitter 等几个常见的，虽说可以手动添加
@@ -246,6 +249,12 @@ export default function links({ authorDetails }) {
 最后，Thank to read! See you next time!
 
 ~~哦天，咱还没配置完呜呜呜~~
+
+---
+
+## 能不能再给咱说一次后话（
+
+虽说迁移是迁移了，过程还好吧
 
 ---
 

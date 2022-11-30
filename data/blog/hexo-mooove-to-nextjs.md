@@ -4,7 +4,7 @@ date: 2022.11.29 03:24:00
 summary: '迁移迁到原地爆炸！——写在第二次迁移的路上'
 tags: ['Hexo', 'Next.js']
 images: ['/static/blog/hexo-to-nextjs.png']
-draft: true
+draft: false
 ---
 
 ![文章封面图，虽说是自己糊的](/static/blog/hexo-to-nextjs.png)
@@ -37,7 +37,7 @@ draft: true
 
 虽说这次的迁移对象和目标，文章都有使用 Markdown 来完成编写，也就方便了许多
 
-但是但是，坑还是有的，不止一个
+但是但是，坑还是有的，不止一个，对咱来说
 
 ---
 
@@ -254,7 +254,35 @@ export default function links({ authorDetails }) {
 
 ## 能不能再给咱说一次后话（
 
-虽说迁移是迁移了，过程还好吧
+虽说迁移是迁移了，过程...还好吧？
+
+哦不对，不是还好，本来说已经迁移好了就没事了对吧
+
+但是呢，第二天就去尝试作死魔改了，直到现在为止也就才实现了部分页面自定义和深浅切换动画什么的（
+
+~~两个字，简陋~~
+
+中途还因为操作失误导致存魔改工程的文件夹大大滴被破坏了（
+
+就...可能以后还会选择继续折腾吧，或者说早点搬家去其他地方（）
+
+~~目前： Github + Next.JS + [timlrx/tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) + Netlify~~
+
+但有一说一，因为连续熬夜魔改导致这几天早上被班主任微信电话提醒几次了（）
+
+~~因为熬夜完之后就睡觉去了，结果一睡睡过头了 2333~~
+
+~~所以咱在说什么胡话呢，有谁知道？~~
+
+~~然后咱就没话可说了~~
+
+所以，最后的最后，现在是 2022 年 12 月 1 日 0:30
+
+再次 see you next time!
+
+祝大家晚安，好梦
+
+~~欸？已经 12 月了？~~
 
 ---
 

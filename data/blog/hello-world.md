@@ -1,9 +1,8 @@
 ---
 title: Hello World
 date: 2022-09-24 21:10:39
-summary: "再一次的，Hello World"
+summary: '再一次的，Hello World'
 tags: ['Hexo']
-draft: false
 ---
 
 这是一篇在搭建 Hexo 站点时自动生成的文章，留下仅为纪念
@@ -18,7 +17,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ### Create a new post
 
-``` bash
+```bash
 $ hexo new "My New Post"
 ```
 
@@ -26,7 +25,7 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
 
-``` bash
+```bash
 $ hexo server
 ```
 
@@ -34,7 +33,7 @@ More info: [Server](https://hexo.io/docs/server.html)
 
 ### Generate static files
 
-``` bash
+```bash
 $ hexo generate
 ```
 
@@ -42,7 +41,7 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 
 ### Deploy to remote sites
 
-``` bash
+```bash
 $ hexo deploy
 ```
 

@@ -1,9 +1,8 @@
 ---
-title: "在 Typography 主题尝试使用 Noto Color Emoji"
+title: '在 Typography 主题尝试使用 Noto Color Emoji'
 date: 2022-10-04 19:03:44
 tags: ['Hexo']
-summary: "有一说一，比微软家的自带的 Emoji 好看一些"
-draft: false
+summary: '有一说一，比微软家的自带的 Emoji 好看一些'
 ---
 
 麻烦，不想写开头了，直接进入主题得了
@@ -14,9 +13,13 @@ draft: false
 
 在某猫猫 Moe 的建议下，尝试在 head 里添加以下内容
 
-````html
-<link href="https://fonts.googleapis.com/css?family=Noto%20Color%20Emoji&display=swap" rel="stylesheet" data-optimized-fonts="true">
-````
+```html
+<link
+  href="https://fonts.googleapis.com/css?family=Noto%20Color%20Emoji&display=swap"
+  rel="stylesheet"
+  data-optimized-fonts="true"
+/>
+```
 
 结果等咱兴高采烈地打开，然后发现，用的还是默认的微软家的 Emoji（这里没截图，因为实在没什么好截图的）
 
@@ -30,11 +33,11 @@ link 方式行不通，咱就去主题文件夹里翻翻找找了
 
 然后就是尝试在 style.scss 里修改成如下内容了
 
-````css
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600");
-@import url("https://fonts.googleapis.com/css?family=Noto%20Color%20Emoji&display=swap");
-@import "animation";
-````
+```css
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Noto%20Color%20Emoji&display=swap');
+@import 'animation';
+```
 
 当然结果还是失败的
 
@@ -44,26 +47,25 @@ link 方式行不通，咱就去主题文件夹里翻翻找找了
 
 先准备好 Noto Color Emoji 的 ttf 文件并放在主题文件夹下的 /source/fonts 文件夹里（文件自己找，这里懒得给了）
 
-~~当然你想用 woff2 格式的文件也可以，记得下面那修改一下，要不然 404 了就没效果了x~~
+~~当然你想用 woff2 格式的文件也可以，记得下面那修改一下，要不然 404 了就没效果了 x~~
 
 在 style.scss 文件开头插入下面的内容
 
-````css
+```css
 @font-face {
   font-family: 'Noto Color Emoji';
   src: url('/fonts/NotoColorEmoji.ttf');
 }
-````
+```
 
 然后再修改 `$fontList` 和 `$titleFontList` ，就像这样
 
-````css
-$fontList: "Source Sans Pro", "Roboto", "Helvetica", "Helvetica Neue",
-  "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK",
-  "PingFang TC", "Noto Color Emoji", sans-serif !default;
-$titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
-  "Source Han Serif TC", "Noto Color Emoji", serif !default;
-````
+```css
+$fontList: 'Source Sans Pro', 'Roboto', 'Helvetica', 'Helvetica Neue', 'Source Han Sans SC',
+  'Source Han Sans TC', 'PingFang SC', 'PingFang HK', 'PingFang TC', 'Noto Color Emoji', sans-serif !default;
+$titleFontList: 'HiraMinProN-W6', 'Source Han Serif CN', 'Source Han Serif SC',
+  'Source Han Serif TC', 'Noto Color Emoji', serif !default;
+```
 
 这样就能算是完美的使用了谷歌家的 Noto Color Emoji 了
 
@@ -83,20 +85,19 @@ $titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
 
 在 head.jade 中加入以下代码
 
-````jade
+```jade
 link(rel="preconnect" href="https://fonts.googleapis.com")
 link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
 link(href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet")
-````
+```
 
 随后在 style.scss 中修改 `$fontList` 和 `$titleFontList` ，还是像下面这样
 
 ```css
-$fontList: "Source Sans Pro", "Roboto", "Helvetica", "Helvetica Neue",
-  "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK",
-  "PingFang TC", "Noto Color Emoji", sans-serif !default;
-$titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
-  "Source Han Serif TC", "Noto Color Emoji", serif !default;
+$fontList: 'Source Sans Pro', 'Roboto', 'Helvetica', 'Helvetica Neue', 'Source Han Sans SC',
+  'Source Han Sans TC', 'PingFang SC', 'PingFang HK', 'PingFang TC', 'Noto Color Emoji', sans-serif !default;
+$titleFontList: 'HiraMinProN-W6', 'Source Han Serif CN', 'Source Han Serif SC',
+  'Source Han Serif TC', 'Noto Color Emoji', serif !default;
 ```
 
 随后保存生成，搞定

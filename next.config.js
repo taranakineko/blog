@@ -4,22 +4,22 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
-  default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app umami.nekoq.eu.org cdn.jsdelivr.net data:;
-  style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net;
+  default-src 'self' fonts.googleapis.com;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app umami.nekoq.eu.org;
+  style-src 'self' 'unsafe-inline' fonts.googleapis.com;
   img-src * blob: data:;
   media-src 'none';
   connect-src *;
-  font-src 'self' fonts.gstatic.com cdn.jsdelivr.net;
-  frame-src giscus.app
+  font-src 'self' fonts.gstatic.com;
+  frame-src giscus.app onedrive.live.com
 `
 
 const securityHeaders = [
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-  {
-    key: 'Content-Security-Policy',
-    value: ContentSecurityPolicy.replace(/\n/g, ''),
-  },
+  //{
+  //  key: 'Content-Security-Policy',
+  //  value: ContentSecurityPolicy.replace(/\n/g, ''),
+  //},
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
   {
     key: 'Referrer-Policy',
@@ -43,7 +43,7 @@ const securityHeaders = [
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
   {
     key: 'Strict-Transport-Security',
-    value: 'max-age=31536000; includeSubDomains; preload',
+    value: 'max-age=31536000; includeSubDomains',
   },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy
   {
@@ -52,12 +52,9 @@ const securityHeaders = [
   },
 ]
 
-/**
- * @type {import('next/dist/next-server/server/config').NextConfig}
- **/
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
-  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
   },
@@ -70,19 +67,6 @@ module.exports = withBundleAnalyzer({
     ]
   },
   webpack: (config, { dev, isServer }) => {
-    config.module.rules.push({
-      test: /\.(png|jpe?g|gif|mp4)$/i,
-      use: [
-        {
-          loader: 'file-loader',
-          options: {
-            publicPath: '/_next',
-            name: 'static/media/[name].[hash].[ext]',
-          },
-        },
-      ],
-    })
-
     config.module.rules.push({
       test: /\.svg$/,
       use: ['@svgr/webpack'],

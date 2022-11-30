@@ -1,12 +1,17 @@
-// @ts-check
-/* eslint-disable @typescript-eslint/no-var-requires */
-
 const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
-/* @type {import("tailwindcss/tailwind-config").TailwindConfig } */
 module.exports = {
-  content: ['./pages/**/*.tsx', './components/**/*.tsx', './layouts/**/*.tsx', './lib/**/*.ts'],
+  experimental: {
+    optimizeUniversalDefaults: true,
+  },
+  content: [
+    './pages/**/*.js',
+    './components/**/*.js',
+    './layouts/**/*.js',
+    './lib/**/*.js',
+    './data/**/*.mdx',
+  ],
   darkMode: 'class',
   theme: {
     extend: {
@@ -20,7 +25,6 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        // @ts-ignore
         sans: [
           'InterVariable',
           'ui-sans-serif',
@@ -39,8 +43,7 @@ module.exports = {
       },
       colors: {
         primary: colors.blue,
-        //@ts-ignore
-        gray: colors.neutral, // TODO: Remove ts-ignore after tw types gets updated to v3
+        gray: colors.neutral,
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -49,7 +52,7 @@ module.exports = {
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
-                color: theme('colors.primary.600'),
+                color: `${theme('colors.primary.600')} !important`,
               },
               code: { color: theme('colors.primary.400') },
             },
@@ -69,9 +72,6 @@ module.exports = {
             },
             'h4,h5,h6': {
               color: theme('colors.gray.900'),
-            },
-            p: {
-              fontSize: '18px',
             },
             pre: {
               backgroundColor: theme('colors.gray.800'),
@@ -120,7 +120,7 @@ module.exports = {
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
-                color: theme('colors.primary.400'),
+                color: `${theme('colors.primary.400')} !important`,
               },
               code: { color: theme('colors.primary.400') },
             },

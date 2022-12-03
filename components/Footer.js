@@ -19,16 +19,15 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
+        <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
+          <Link href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Use CC BY-NC-SA 4.0</Link>
+          <div>{` • `}</div>
+          <a href="privacy-policy">隐私政策</a>
+        </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
           <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            Tailwind Nextjs Theme
+            使用 Tailwind Nextjs Theme
           </Link>
-          {` • `}
-          <Link href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-            Use CC BY-NC-SA 4.0.
-          </Link>
-          {` • `}
-          <Link href="privacy-policy">隐私政策</Link>
         </div>
       </div>
     </footer>

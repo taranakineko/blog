@@ -1,7 +1,7 @@
 import PageTitle from '@/components/PageTitle'
 import siteMetadata from '@/data/siteMetadata'
 /* import SectionContainer from '@/components/SectionContainer' */
-import { PageSEO } from '@/components/SEO'
+import { BlogSEO } from '@/components/SEO'
 import ScrollTop from '@/components/ScrollTop'
 
 export default function IndexLayout({ frontMatter, authorDetails, next, prev, children }) {
@@ -9,12 +9,12 @@ export default function IndexLayout({ frontMatter, authorDetails, next, prev, ch
 
   return (
     <>
-      <PageSEO title={title + ` - ` + siteMetadata.author} description={siteMetadata.description} />
+      <BlogSEO authorDetails={authorDetails} {...frontMatter} />
       <ScrollTop />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            <PageTitle>{title}</PageTitle>
+            {title}
           </h1>
         </div>
         <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">

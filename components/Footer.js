@@ -27,6 +27,8 @@ export default function Footer() {
           <Link href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
             Use CC BY-NC-SA 4.0.
           </Link>
+          {` • `}
+          <Link href="privacy-policy">隐私政策</Link>
         </div>
       </div>
     </footer>

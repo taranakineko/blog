@@ -1,7 +1,7 @@
 ---
 name: Taranakineko
 avatar: /static/images/avatar.png
-occupation:
+occupation: "A cat want to do something..."
 company:
 email:
 twitter: https://twitter.com/taranakineko

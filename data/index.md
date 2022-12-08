@@ -10,8 +10,4 @@ summary: 'Hi?'
 
 ---
 
-![License][license]
-
 若非另外声明，本站内容均采用 [CC BY-NC-SA 4.0 协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)，转载请注明出处
-
-[license]: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg

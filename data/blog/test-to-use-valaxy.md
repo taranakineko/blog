@@ -8,6 +8,7 @@ images: ['/static/blog/test-to-use-valaxy/cover.png']
 layout: PostLayout
 canonicalUrl: test-to-use-valaxy
 authors: ['default']
+draft: true
 ---
 
 ![封面图](/static/blog/test-to-use-valaxy/cover.png)

@@ -70,7 +70,7 @@ _mdx_bundler_entry_point-69f21335-281c-44cc-b042-69486d439282.mdx:45:1: error: [
 
 ### 文章内 \<style> 失效问题
 
-在[Twitter 与 Mastodon 之间的比较](twitter-and-mastodon/index)中，咱引用了 iframe 来展示表格列表
+在[Twitter 与 Mastodon 之间的比较](twitter-and-mastodon)中，咱引用了 iframe 来展示表格列表
 
 但是默认插入后只有很小一片，于是就在网络上找到了一段适应代码并抄进去，像下面这样
 

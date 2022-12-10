@@ -50,6 +50,8 @@ authors: ['default']
 npm init valaxy
 ````
 
+按照文档里所说，更推荐使用 `pnpm create valaxy`，可使用 `npm i -g pnpm` 安装 pnpm
+
 然后按照引导操作即可
 
 ~~有一说一，不用新建文件夹再进行初始化操作，这样就避免了文件夹套娃的问题（）~~
@@ -134,6 +136,7 @@ npm init valaxy
 
 ````sh
 npm run dev
+# pnpm run dev
 ````
 
 然后去喝杯水~~，或者眺望远方休息一下眼睛~~，基本上就好了（

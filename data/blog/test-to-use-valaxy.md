@@ -2,7 +2,7 @@
 title: 尝试以 valaxy 框架搭建一个博客
 date: '2022-12-10'
 tags: []
-draft: true
+draft: false
 summary: 或许以后会用得上？但现在不知道为什么会报错呢...？（水文章）
 images: ['/static/blog/test-to-use-valaxy/cover.png']
 layout: PostLayout
@@ -178,6 +178,8 @@ npm run dev
 ![主页](/static/blog/test-to-use-valaxy/run-dev-yes-index.png)
 
 ![文章](/static/blog/test-to-use-valaxy/run-dev-posts.png)
+
+最后...还是因为评论没法弄就 give up 了 qwq
 
 ---
 

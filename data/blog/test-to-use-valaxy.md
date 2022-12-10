@@ -173,6 +173,12 @@ npm run dev
 
 尝试使用 `pnpm run dev` 后就没有报错问题了...淦
 
+然后就...
+
+![主页](/static/blog/test-to-use-valaxy/run-dev-yes-index.png)
+
+![文章](/static/blog/test-to-use-valaxy/run-dev-posts.png)
+
 ---
 
 ## 最后

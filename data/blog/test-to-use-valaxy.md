@@ -3,7 +3,7 @@ title: 尝试以 valaxy 框架搭建一个博客...？（好吧是水文章）
 date: '2022-12-10'
 tags: []
 draft: false
-summary: 或许以后会用得上？但现在不知道为什么会报错呢...？（水文章）
+summary: 或许以后会用得上？但现在不知道为什么会报错呢...？
 images: ['/static/blog/test-to-use-valaxy/cover.png']
 layout: PostLayout
 canonicalUrl: test-to-use-valaxy

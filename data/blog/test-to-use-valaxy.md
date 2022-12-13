@@ -1,5 +1,5 @@
 ---
-title: 尝试以 valaxy 框架搭建一个博客
+title: 尝试以 valaxy 框架搭建一个博客...？（好吧是水文章）
 date: '2022-12-10'
 tags: []
 draft: false
@@ -139,7 +139,7 @@ npm run dev
 # pnpm run dev
 ````
 
-然后去喝杯水~~，或者眺望远方休息一下眼睛~~，基本上就好了（
+然后去喝杯水 ~~，或者眺望远方休息一下眼睛~~ ，基本上就好了（
 
 终端会输出本地预览地址，一般来说都是 `http://localhost:4859/`
 
@@ -169,6 +169,8 @@ npm run dev
 
 好吧，看来今天不适合测试.webp
 
+不知道是不是因为把之前的文章复制进去的问题...
+
 **13:27更新**
 
 尝试使用 `pnpm run dev` 后就没有报错问题了...淦
@@ -179,7 +181,7 @@ npm run dev
 
 ![文章](/static/blog/test-to-use-valaxy/run-dev-posts.png)
 
-最后...还是因为评论没法弄就 give up 了 qwq
+最后...还是因为评论（不想迁移.webp）没法弄就 give up 了 qwq
 
 ---
 

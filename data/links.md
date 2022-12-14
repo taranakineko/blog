@@ -31,5 +31,6 @@ summary: '施工中啊施工中'
 - [梦墨's Blog](https://blog.dreamo.ink/) : _这个人很懒，但 ta 似乎留下了什么？_
 - [akearer’s blog](https://akearer.eu.org/) : _一起努力吧_
 - [老陈の咸鱼日常](https://www.fantanstic.top/) : _Life is fantanstic._
+- [伊緻幻の主页](https://www.chwin.asia) : *Take my hands.*
 
 {/* 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) */}

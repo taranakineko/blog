@@ -2,7 +2,7 @@ const siteMetadata = {
   title: '湛蓝的调色板',
   author: 'Taranakineko',
   headerTitle: '湛蓝的调色板',
-  description: '青く滲む 青く滲む 綺麗に',
+  description: '青く滲む 青く滲む 綺麗に、会いに行く　会いに行こう　今すぐ',
   language: 'zh-CN',
   theme: 'system', // system, dark or light
   siteUrl: 'https://nekoq.eu.org',

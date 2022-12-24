@@ -30,7 +30,7 @@ summary: '施工中啊施工中'
 - [Fika's blog](https://fika.ink/) : _Debug the World_
 - [高科技大脑指挥部](https://hightechbrain.ml/)
 - [梦墨's Blog](https://blog.dreamo.ink/) : _这个人很懒，但 ta 似乎留下了什么？_
-- [akearer’s blog](https://akearer.eu.org/) : _一起努力吧_
+- [akearer’s blog](https://akearer.top/) : _一起努力吧_
 - [老陈の咸鱼日常](https://www.fantanstic.top/) : _Life is fantanstic._
 - [伊緻幻の主页](https://www.chwin.asia) : *Take my hands.*
 - [Isoheptane](https://blog.cascade.moe): *工程师猫娘*

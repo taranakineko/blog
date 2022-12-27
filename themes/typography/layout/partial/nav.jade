@@ -1,0 +1,37 @@
+div#site-nav.site-title-links
+    ul
+        li
+            if is_home()
+                a.current(href=config.root)= __('Home')
+            else
+                a(href=config.root)= __('Home')
+        include ../mixins
+        +make_page_links()
+        li.soc
+            if theme.github
+                a(href="https://github.com/" + theme.github, target="_blank", rel="noopener noreferrer", aria-label="Github")
+                    i.fa.fa-github &nbsp;
+            if theme.twitter
+                a(href="https://twitter.com/" + theme.twitter, target="_blank", rel="noopener noreferrer", aria-label="Twitter")
+                    i.fa.fa-twitter &nbsp;
+            if theme.instagram
+                a(href="https://www.instagram.com/" + theme.instagram, target="_blank", rel="noopener noreferrer", aria-label="Instagram")
+                    i.fa.fa-instagram &nbsp;
+            if theme.weibo
+                a(href="http://weibo.com/u/" + theme.weibo, target="_blank", rel="noopener noreferrer", aria-label="Sina Weibo")
+                    i.fa.fa-weibo &nbsp;
+            if theme.telegram
+                a(href="https://t.me/" + theme.telegram, target="_blank", rel="noopener noreferrer", aria-label="Telegram")
+                    i.fa.fa-telegram &nbsp;
+            if theme.mastodon
+                a(href=theme.mastodon, target="_blank", rel="noopener noreferrer", aria-label="Mastodon")
+                    i.fa.fa-globe &nbsp;
+            if theme.mail
+                a(href="mailto:" + theme.mail, target="_blank", rel="noopener noreferrer", aria-label="Mail")
+                    i.fa.fa-envelope &nbsp;
+            if theme.rss
+                a(href=config.url + "/" + theme.rss, target="_blank", rel="noopener noreferrer", aria-label="RSS")
+                    i.fa.fa-rss &nbsp;
+    div.visible-lg.visible-md.visible-sm.site-nav-footer
+        br.site-nav-footer-br
+        include footer

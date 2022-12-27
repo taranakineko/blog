@@ -26,11 +26,8 @@ canonicalUrl: 'twitter-and-mastodon'
 
 好啦，最后，Enojy it.
 
-<div style="paddingTop: '56.25%', position: 'relative'">
-  <iframe
-    src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2"
-    style="position: 'absolute', height: '100%', width: '100%', top: '0', left: '0'"
-  ></iframe>
+<div class="iframe-container">
+  <iframe src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2"></iframe>
 </div>
 
 [推特与 Mastodon 比较.xlsx](static/blog/推特与Mastodon比较.xlsx)

@@ -1,9 +1,0 @@
-[[redirects]]
-  from = "/to-do"
-  to = "https://github.com/users/taranakineko/projects/1/views/1"
-  force = true
-
-[[redirects]]
-  from = "/bookmark"
-  to = "https://taranakineko.notion.site/4fb811a3549746cf956571ad713426ad"
-  force = true

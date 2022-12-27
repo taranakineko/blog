@@ -1251,7 +1251,17 @@
     "escape-string-regexp" "^1.0.5"
     "graceful-fs" "^4.1.4"
 
-"hexo-fs@^3.0.1", "hexo-fs@^3.1.0":
+"hexo-fs@^3.0.1":
+  "integrity" "sha512-SfoDH7zlU9Iop+bAfEONXezbNIkpVX1QqjNCBYpapilZR+xVOCfTEdlNixanrKBbLGPb2fXqrdDBFgrKuiVGQQ=="
+  "resolved" "https://registry.npmjs.org/hexo-fs/-/hexo-fs-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "bluebird" "^3.5.1"
+    "chokidar" "^3.0.0"
+    "graceful-fs" "^4.1.11"
+    "hexo-util" "^2.0.0"
+
+"hexo-fs@^3.1.0":
   "integrity" "sha512-SfoDH7zlU9Iop+bAfEONXezbNIkpVX1QqjNCBYpapilZR+xVOCfTEdlNixanrKBbLGPb2fXqrdDBFgrKuiVGQQ=="
   "resolved" "https://registry.npmjs.org/hexo-fs/-/hexo-fs-3.1.0.tgz"
   "version" "3.1.0"
@@ -2845,7 +2855,7 @@
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
   "version" "0.5.7"
 
-"source-map@^0.6.1", "source-map@~0.6.0", "source-map@~0.6.1":
+"source-map@^0.6.1":
   "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
   "version" "0.6.1"
@@ -2866,6 +2876,16 @@
   "integrity" "sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ=="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
   "version" "0.5.7"
+
+"source-map@~0.6.0":
+  "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
+  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+  "version" "0.6.1"
+
+"source-map@~0.6.1":
+  "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
+  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+  "version" "0.6.1"
 
 "source-map@0.4.x":
   "integrity" "sha512-Y8nIfcb1s/7DcobUz1yOO1GSp7gyL+D9zLHDehT7iRESqGSxjJ448Sg7rvfgsRJCnKLdSl11uGf0s9X80cH0/A=="
@@ -3093,7 +3113,17 @@
   "resolved" "https://registry.npmjs.org/uc.micro/-/uc.micro-1.0.6.tgz"
   "version" "1.0.6"
 
-"uglify-js@^2.4.19", "uglify-js@^2.6.1":
+"uglify-js@^2.4.19":
+  "integrity" "sha512-qLq/4y2pjcU3vhlhseXGGJ7VbFO4pBANu0kwl8VCa9KEI0V8VfZIx2Fy3w01iSTA/pGwKZSmu/+I4etLNDdt5w=="
+  "resolved" "https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz"
+  "version" "2.8.29"
+  dependencies:
+    "source-map" "~0.5.1"
+    "yargs" "~3.10.0"
+  optionalDependencies:
+    "uglify-to-browserify" "~1.0.0"
+
+"uglify-js@^2.6.1":
   "integrity" "sha512-qLq/4y2pjcU3vhlhseXGGJ7VbFO4pBANu0kwl8VCa9KEI0V8VfZIx2Fy3w01iSTA/pGwKZSmu/+I4etLNDdt5w=="
   "resolved" "https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz"
   "version" "2.8.29"

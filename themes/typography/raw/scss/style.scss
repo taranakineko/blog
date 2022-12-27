@@ -751,19 +751,3 @@ figure {
     display: block !important;
   }
 }
-
-.iframe-container {
-  /* 
-  padding-top 为高/宽的值
-  16:9 为 9/16=56.25%
-  */
-  padding-top: 56.25%;
-  position: relative;
-}
-.iframe-container iframe {
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   top: 0;
-   left: 0;
-}

@@ -18,7 +18,7 @@ summary: "A cat want to do something... But it can't do anything..."
 
 ---
 
-是猫猫 ~~？但或许又不是？谁知道呢（思考）~~
+~~应该是猫猫吧 ？但或许又不是？谁知道呢（思考）~~
 
 目前定居在 !7?_K#-! ，是 !As3DBm!，!~G:u!
 

@@ -14,6 +14,8 @@ summary: "A cat want to do something... But it can't do anything..."
 
 *（后面的 neko 中的 n 视情况是否决定大小写，一般都是不大写的）*
 
+中文名的话，千畔 / 千帆 都可
+
 或者喜欢怎么称呼就好，只要咱能接受的话
 
 ---

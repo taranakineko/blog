@@ -1,15 +1,25 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/inter-ui@3.19.3/inter.min.css">
+    </head>
     <body>
         <style>
+            :root{
+                font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* 笑死，老自动填充了 */
+                font-feature-settings: "case","cpsp","ss04","cv01","cv02","cv03","cv04","cv06","cv11";
+            }
             body {
                 background-color: rgba(222, 42, 42, 0.749);
             }
             .ie{
 	            text-align: center; /*让div内部文字居中*/
+                line-height: 155%;
 	            background-color: rgba(255, 255, 255, 0.749);
 	            border-radius: 20px;
-	            width: 340px;
-	            height: 190px;
+	            width: 360px;
+	            height: 240px;
 	            margin: auto;
 	            position: absolute;
 	            top: 0;
@@ -20,7 +30,7 @@
         </style>
         <div class="ie">
             <br>
-            <b>您还在使用Internet Explorer？</b>
+            <b>您还在使用 Internet Explorer ?</b>
             <p>拥抱新事物吧！不要使用 IE 了</p>
             <p>Embrace new things! Don't use IE browser</p>
             <p>您可以使用 <a href="https://www.google.com/chrome/">Chrome</a> / <a href="https://www.mozilla.org/zh-CN/firefox/new/">FireFox</a> / <a href="https://www.microsoft.com/zh-cn/edge/">Edge</a></p>

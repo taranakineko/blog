@@ -1,13 +1,10 @@
 $backgroundColor: #ffffff !default;
 $foregroundColor: #2e405b !default;
-$fontList: "Source Sans Pro", "Roboto", "Helvetica", "Helvetica Neue",
-  "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK",
-  "PingFang TC", "Noto Color Emoji", sans-serif !default;
-$titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
-  "Source Han Serif TC", "Noto Color Emoji", serif !default;
+$fontList: 'Inter var', 'Noto Sans SC', "Noto Color Emoji", sans-serif !default;
+$titleFontList: 'Inter var', 'Noto Sans TC', sans-serif !default;
 $verticalPrimaryPaddingTopPatch: 0;
 $verticalSecondaryPaddingTopPatch: 1px;
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap");
 @import "animation";
 
 html,
@@ -22,6 +19,7 @@ h5,
 h6 {
   font-family: $fontList;
   color: $foregroundColor;
+  font-feature-settings: "case","cpsp","ss04","cv01","cv02","cv03","cv04","cv06","cv11";
 }
 
 html {

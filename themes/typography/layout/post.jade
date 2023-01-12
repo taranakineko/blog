@@ -20,12 +20,12 @@ block content
                 if prev
                     span.pre.pagbuttons
                         a(role="navigation",href=url_for(prev), title=page.prev.title)
-                            i.fa.fa-angle-double-left
+                            |«
                             |&nbsp;
                             != __('prev_post')+': ' + page.prev.title
                 else
                     span.pre.pagbuttons
-                        i.fa.fa-angle-double-left
+                        |«
                         |&nbsp;
                         != __('prev_post')+': ' + '没有文章了~'
             p.clearfix
@@ -35,5 +35,5 @@ block content
                         a(role="navigation",href=url_for(next), title=page.next.title, align=right)
                             !=__('next_post')+': ' + page.next.title
                             |&nbsp;
-                            i.fa.fa-angle-double-right
+                            |»
         include partial/comments

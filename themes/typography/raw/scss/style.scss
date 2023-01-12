@@ -202,6 +202,7 @@ body {
 .site-title-small {
   font-size: 30px;
   padding-top: $verticalSecondaryPaddingTopPatch;
+  font-weight: 400;
 }
 
 .site-title-links {
@@ -304,7 +305,7 @@ a {
 
 .soc {
   margin: 0 5px 0 0;
-  font-size: 18px !important;
+  font-size: 22px !important;
 
   a {
     border-bottom: solid transparent 2px;
@@ -581,7 +582,7 @@ figure {
   }
 
   li.soc {
-    margin-top: 5px !important;
+    margin-top: 10px !important;
   }
 }
 

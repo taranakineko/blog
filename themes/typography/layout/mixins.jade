@@ -26,7 +26,7 @@ mixin make_post(item, is_detail)
                 if item.tags
                     if item.tags.length > 0
                         span.meta-item
-                            i.fa.fa-tag
+                            i.ri-price-tag-3-fill
                             span &nbsp;
                             - item.tags.sort('posts').each(function(item) {
                             a.a-tag(href=config.root + item.path, title= item.name)= item.name
@@ -43,7 +43,7 @@ mixin make_post(item, is_detail)
 mixin make_page_links()
     if site.pages
         - site.pages.each(function (page) {
-            unless page.title.includes("header")
+            unless (page.title=="header" | page.title=="nav")
                 li
                     if is_current(page.path)
                         a.current(href=config.root+page.path)= page.title
@@ -64,7 +64,7 @@ mixin make_pager()
             p
                 if page.prev
                 span.pre.pagbuttons
-                    i.fa.fa-angle-double-left
+                    |«
                     | &nbsp;
                     a(role="navigation",href=url_for(prev),aria-label= __('prev'))= __('prev')
 
@@ -73,7 +73,7 @@ mixin make_pager()
                 span.next.pagbuttons
                     a(role="navigation",href=url_for(next),aria-label=__('next'))= __('next')
                     | &nbsp;
-                    i.fa.fa-angle-double-right
+                    |»
 
 mixin postList()
     - var year = 0;

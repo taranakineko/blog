@@ -1,5 +1,5 @@
 title_primary: "湛蓝的调色板" # the bigger text
-title_secondary: # the smaller text
+title_secondary: "Kiite"# the smaller text
 keywords:
 
 twitter: taranakineko
@@ -7,7 +7,7 @@ rss: atom.xml
 weibo: #username/id
 instagram: #username
 github: taranakineko
-telegram:
+telegram: taranaki_neko
 mastodon: https://mstdn.social/@TaranakiNeko
 mail: #test
 

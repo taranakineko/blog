@@ -1,10 +1,10 @@
-$backgroundColor: #ffffff !default;
-$foregroundColor: #2e405b !default;
+$backgroundColor: #f8f9fa !default;
+$foregroundColor: #373C38 !default;
 $fontList: 'Inter var', 'Noto Sans SC', "Noto Color Emoji", sans-serif !default;
-$titleFontList: 'Inter var', 'Noto Sans TC', sans-serif !default;
+$titleFontList: 'Inter var', 'Noto Sans SC', sans-serif !default;
 $verticalPrimaryPaddingTopPatch: 0;
 $verticalSecondaryPaddingTopPatch: 1px;
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap"); */
 @import "animation";
 
 html,
@@ -20,6 +20,7 @@ h6 {
   font-family: $fontList;
   color: $foregroundColor;
   font-feature-settings: "case","cpsp","ss04","cv01","cv02","cv03","cv04","cv06","cv11";
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 html {

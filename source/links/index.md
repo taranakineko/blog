@@ -34,5 +34,6 @@ summary: '施工中啊施工中'
 - [老陈の咸鱼日常](https://www.fantanstic.top/) : _Life is fantanstic._
 - [伊緻幻の主页](https://www.chwin.asia) : *Take my hands.*
 - [Isoheptane](https://blog.cascade.moe): *工程师猫娘*
+- [哔哔哔哔](https://bebebe.be): *Steven Lynn的个人博客*
 
 {/* 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) */}

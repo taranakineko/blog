@@ -44,7 +44,7 @@ canonicalUrl: 'twitter-and-mastodon'
 }
 </style>
 <div class="iframe-container">
-  <iframe src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2"></iframe>
+  <iframe src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2" loading="lazy"></iframe>
 </div>
 
 [推特与 Mastodon 比较.xlsx](static/blog/推特与Mastodon比较.xlsx)

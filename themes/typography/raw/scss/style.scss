@@ -307,6 +307,10 @@ a {
   margin: 0 5px 0 0;
   font-size: 22px !important;
 
+  @media screen and (orientation:portrait) {
+    margin: 0 5px 0 0;
+    font-size: 28px !important;
+  }
   a {
     border-bottom: solid transparent 2px;
 

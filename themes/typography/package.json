@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'No tests' && exit",
-    "build": "node-sass raw/scss -o source/css --output-style compressed && postcss source/css -u autoprefixer -r",
+    "build": "node-sass raw/scss -o source/css --output-style compressed && postcss source/css -u autoprefixer -r --no-map",
     "scss-compile": "npm run build",
     "watch": "node-sass -w raw/scss -o source/css"
   },

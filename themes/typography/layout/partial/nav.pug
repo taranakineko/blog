@@ -18,7 +18,7 @@ div#site-nav.site-title-links
                 a(href="https://t.me/" + theme.telegram, target="_blank", rel="noopener noreferrer", aria-label="Telegram")
                     i.ri-telegram-fill &nbsp;
             if theme.mastodon
-                a(rel="me" href=theme.mastodon, target="_blank", rel="noopener noreferrer", aria-label="Mastodon")
+                a(rel="me" href=theme.mastodon, target="_blank", aria-label="Mastodon")
                     i.ri-mastodon-fill &nbsp;
             if theme.rss
                 a(href=config.url + "/" + theme.rss, target="_blank", rel="noopener noreferrer", aria-label="RSS")

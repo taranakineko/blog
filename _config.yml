@@ -152,3 +152,6 @@ lazyload:
   enable: false
   onlypost: false # optional
   loadingImg: "https://nekoq.eu.org/images/favicon.png" # optional eg ./images/loading.gif
+
+sitemap:
+  path: sitemap.xml

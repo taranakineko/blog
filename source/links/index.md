@@ -35,7 +35,7 @@ summary: '施工中啊施工中'
 - [伊緻幻の主页](https://www.chwin.asia) : *Take my hands.*
 - [Isoheptane](https://blog.cascade.moe): *工程师猫娘*
 - [哔哔哔哔](https://bebebe.be): *Steven Lynn的个人博客*
-- [Pivot of Winslow](https://insloweric.com/)
+- [Pivot of Winslow](https://winsloweric.com/)
 - [SheepChef Blog](https://shef.cc/)
 
 {/* 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) */}

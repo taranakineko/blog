@@ -18,29 +18,35 @@ summary: '施工中啊施工中'
 
 ---
 
-- [Moe23333](https://moe23333.vercel.app/) : _We shall meet in the place where there is no darkness._
-- [Tony Ding's Blog](https://blog.tonyding.net/) : _World Peace._
-- [Ny3a](https://ny3a.github.io/)
-- [Lily Ellenvia](https://lilynet.work/) : _Lily Network_
-- [ShinoMoe 笔记本](https://shinomoe.xyz/) : _ShinoMoe 进行一个笔记的写_
-- [Jackie 的猫窝](https://jackiecat.top/) : _一只猫猫的猫窝_
-- [Moeri 落落格](https://blog.bakalu.cyou/) : _看一只自稱貓娘的日常_
-- [Lenger 的后花园](https://spookerv5.github.io/) : _如果是你的话，一定没问题_
-- [UMR's Blog](https://www.umr.wiki/)
-- [Fika's blog](https://fika.ink/) : _Debug the World_
-- [高科技大脑指挥部](https://hightechbrain.ml/)
-- [梦墨's Blog](https://blog.dreamo.ink/) : _这个人很懒，但 ta 似乎留下了什么？_
-- [akearer’s blog](https://akearer.top/) : _一起努力吧_
-- [老陈の咸鱼日常](https://www.fantanstic.top/) : _Life is fantanstic._
-- [伊緻幻の主页](https://www.chwin.asia) : *Take my hands.*
-- [Isoheptane](https://blog.cascade.moe): *工程师猫娘*
-- [哔哔哔哔](https://bebebe.be): *Steven Lynn的个人博客*
-- [Pivot of Winslow](https://winsloweric.com/)
-- [SheepChef Blog](https://shef.cc/)
-- [Sunyz's Blog](https://blog.sunyz.net/): *下一次相遇可能在任何地方，但我们始终灿烂如星海*
-- [Longtianmu's Infinity Blog](https://ltm.ink/): *一个什么都可能有的box。*
-- [Cynosura](https://cynosura.one/)
-- [MlgmXyysd's Cat Nest](https://www.neko.ink/)
+<div style="line-height: 1.9em;"> 
+   <ul>
+    <li><a href="https://moe23333.vercel.app/">Moe23333</a> : <em>We shall meet in the place where there is no darkness.</em></li>
+    <li><a href="https://blog.tonyding.net/">Tony Ding's Blog</a> : <em>World Peace.</em></li>
+    <li><a href="https://ny3a.github.io/">Ny3a</a></li>
+    <li><a href="https://lilynet.work/">Lily Ellenvia</a> : <em>Lily Network</em></li>
+    <li><a href="https://shinomoe.xyz/">ShinoMoe 笔记本</a> : <em>ShinoMoe 进行一个笔记的写</em></li>
+    <li><a href="https://jackiecat.top/">Jackie 的猫窝</a> : <em>一只猫猫的猫窝</em></li>
+    <li><a href="https://blog.bakalu.cyou/">Moeri 落落格</a> : <em>看一只自稱貓娘的日常</em></li>
+    <li><a href="https://spookerv5.github.io/">Lenger 的后花园</a> : <em>如果是你的话，一定没问题</em></li>
+    <li><a href="https://www.umr.wiki/">UMR's Blog</a></li>
+    <li><a href="https://fika.ink/">Fika's blog</a> : <em>Debug the World</em></li>
+    <li><a href="https://hightechbrain.ml/">高科技大脑指挥部</a></li>
+    <li><a href="https://blog.dreamo.ink/">梦墨's Blog</a> : <em>这个人很懒，但 ta 似乎留下了什么？</em></li>
+    <li><a href="https://akearer.top/">akearer’s blog</a> : <em>一起努力吧</em></li>
+    <li><a href="https://www.fantanstic.top/">老陈の咸鱼日常</a> : <em>Life is fantanstic.</em></li>
+    <li><a href="https://www.chwin.asia">伊緻幻の主页</a> : <em>Take my hands.</em></li>
+    <li><a href="https://blog.cascade.moe">Isoheptane</a>: <em>工程师猫娘</em></li>
+    <li><a href="https://bebebe.be">哔哔哔哔</a>: <em>Steven Lynn的个人博客</em></li>
+    <li><a href="https://winsloweric.com/">Pivot of Winslow</a></li>
+    <li><a href="https://shef.cc/">SheepChef Blog</a></li>
+    <li><a href="https://blog.sunyz.net/">Sunyz's Blog</a>: <em>下一次相遇可能在任何地方，但我们始终灿烂如星海</em></li>
+    <li><a href="https://ltm.ink/">Longtianmu's Infinity Blog</a>: <em>一个什么都可能有的box。</em></li>
+    <li><a href="https://cynosura.one/">Cynosura</a></li>
+    <li><a href="https://www.neko.ink/">MlgmXyysd's Cat Nest</a></li>
+   </ul> 
+</div>
+
+---
 
 {/* 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) */}
 

@@ -39,6 +39,8 @@ summary: '施工中啊施工中'
 - [SheepChef Blog](https://shef.cc/)
 - [Sunyz's Blog](https://blog.sunyz.net/): *下一次相遇可能在任何地方，但我们始终灿烂如星海*
 - [Longtianmu's Infinity Blog](https://ltm.ink/): *一个什么都可能有的box。*
+- [Cynosura](https://cynosura.one/)
+- [MlgmXyysd's Cat Nest](https://www.neko.ink/)
 
 {/* 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) */}
 

@@ -37,6 +37,8 @@ summary: '施工中啊施工中'
 - [哔哔哔哔](https://bebebe.be): *Steven Lynn的个人博客*
 - [Pivot of Winslow](https://winsloweric.com/)
 - [SheepChef Blog](https://shef.cc/)
+- [Sunyz's Blog](https://blog.sunyz.net/): *下一次相遇可能在任何地方，但我们始终灿烂如星海*
+- [Longtianmu's Infinity Blog](https://ltm.ink/): *一个什么都可能有的box。*
 
 {/* 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) */}
 

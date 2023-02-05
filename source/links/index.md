@@ -43,7 +43,8 @@ summary: '施工中啊施工中'
     <li><a href="https://ltm.ink/">Longtianmu's Infinity Blog</a>: <em>一个什么都可能有的box。</em></li>
     <li><a href="https://cynosura.one/">Cynosura</a></li>
     <li><a href="https://www.neko.ink/">MlgmXyysd's Cat Nest</a></li>
-   </ul> 
+    <li><a href="https://umrpowered.codeberg.page/">U.M.R Powered Blog</a></li>
+   </ul>
 </div>
 
 ---

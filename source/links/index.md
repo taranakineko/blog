@@ -44,6 +44,7 @@ summary: '施工中啊施工中'
     <li><a href="https://cynosura.one/">Cynosura</a></li>
     <li><a href="https://www.neko.ink/">MlgmXyysd's Cat Nest</a></li>
     <li><a href="https://umrpowered.codeberg.page/">U.M.R Powered Blog</a></li>
+    <li><a href="https://moe.tips/">萌 (//∇//) 贴士</a></li>
    </ul>
 </div>
 

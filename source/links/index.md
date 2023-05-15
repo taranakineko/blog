@@ -45,6 +45,7 @@ summary: '施工中啊施工中'
     <li><a href="https://www.neko.ink/">MlgmXyysd's Cat Nest</a></li>
     <li><a href="https://umrpowered.codeberg.page/">U.M.R Powered Blog</a></li>
     <li><a href="https://moe.tips/">萌 (//∇//) 贴士</a></li>
+   <li><a href="https://www.qy.al">一叶知秋</a>：<em>二分之一少女，乘着比特流环游世界</em></li>
    </ul>
 </div>
 

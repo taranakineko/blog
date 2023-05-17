@@ -1,7 +1,7 @@
 ---
 title: 友链(施工中)
 date: 2022-11-05 23:43:58
-summary: '施工中啊施工中'
+summary: 施工中啊施工中
 ---
 
 前面的区域，以后再来探索吧
@@ -45,7 +45,8 @@ summary: '施工中啊施工中'
     <li><a href="https://www.neko.ink/">MlgmXyysd's Cat Nest</a></li>
     <li><a href="https://umrpowered.codeberg.page/">U.M.R Powered Blog</a></li>
     <li><a href="https://moe.tips/">萌 (//∇//) 贴士</a></li>
-   <li><a href="https://www.qy.al">一叶知秋</a>：<em>二分之一少女，乘着比特流环游世界</em></li>
+    <li><a href="https://www.qy.al/">一叶知秋</a>：<em>二分之一少女，乘着比特流环游世界</em></li>
+     <li><a href="https://blog.sakurakooi.cyou/">SakuraKooi</a>：<em>梦是幽蓝色彩 灵魂如雪纯白</em>
    </ul>
 </div>
 
@@ -53,4 +54,6 @@ summary: '施工中啊施工中'
 
 {/* 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) */}
 
-~~虽说部分在主页已经添加过的友链会再在这里加一次）~~
+~~部分在主页已经添加过的友链会再在这里加一次）~~
+
+找个时间给这里重新写一个新的页面啦 (x

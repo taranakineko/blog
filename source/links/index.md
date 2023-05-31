@@ -36,7 +36,7 @@ summary: 施工中啊施工中
     <li><a href="https://www.fantanstic.top/">老陈の咸鱼日常</a> : <em>Life is fantanstic.</em></li>
     <li><a href="https://www.chwin.asia">伊緻幻の主页</a> : <em>Take my hands.</em></li>
     <li><a href="https://blog.cascade.moe">Isoheptane</a>: <em>工程师猫娘</em></li>
-    <li><a href="https://bebebe.be">哔哔哔哔</a>: <em>Steven Lynn的个人博客</em></li>
+    <li><a href="https://blog.stv.lol">Steven Lynn's Blog</a>: <em>Steven Lynn的个人博客</em></li>
     <li><a href="https://winsloweric.com/">Pivot of Winslow</a></li>
     <li><a href="https://shef.cc/">SheepChef Blog</a></li>
     <li><a href="https://blog.sunyz.net/">Sunyz's Blog</a>: <em>下一次相遇可能在任何地方，但我们始终灿烂如星海</em></li>

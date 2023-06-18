@@ -149,9 +149,9 @@ prism_plugin:
   line_number: true 
 
 lazyload:
-  enable: false
-  onlypost: false # optional
-  loadingImg: "https://nekoq.eu.org/images/favicon.png" # optional eg ./images/loading.gif
+  enable: true
+  onlypost: true # optional
+  loadingImg: # optional eg ./images/loading.gif
 
 sitemap:
   path: sitemap.xml

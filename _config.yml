@@ -149,7 +149,7 @@ prism_plugin:
   line_number: true 
 
 lazyload:
-  enable: true
+  enable: false
   onlypost: true # optional
   loadingImg: # optional eg ./images/loading.gif
 

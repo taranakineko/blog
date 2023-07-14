@@ -1,1 +1,4 @@
 
+[submodule "themes/stellaris"]
+	path = themes/stellaris
+	url = https://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@github.com/taranakineko/stellaris

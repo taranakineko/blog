@@ -1,6 +1,7 @@
 ---
 title: 关于从 Hexo 迁移到 Next.js 以及不算连环踩坑的这件事(?)
 date: 2022.11.29 03:24:00
+updated: 2023-07-14 10:42:00
 description: '迁移迁到咱原地爆炸！——写在第二次迁移之路时'
 tags: ['Hexo', 'Next.js']
 cover: /static/blog/hexo-to-nextjs.png
@@ -9,7 +10,7 @@ draft: false
 
 ![文章封面图，虽说是自己糊的](/static/blog/hexo-to-nextjs.png)
 
-## 前言
+### 前言
 
 好久不见，甚是想念（什
 
@@ -45,30 +46,7 @@ draft: false
 
 这里记录的是迁移过程中遇到的奇奇怪怪的问题以及部分探索出来的解决方案，希望对你来说有用
 
-### Html 注释渲染报错
-
-当咱把文章拷贝进去并按照要求修改好 Front-matter 内容后，本以为就完了
-
-But，点进去文章一看，Error
-
-查看控制台，输出如下
-
-```shell
- > _mdx_bundler_entry_point-69f21335-281c-44cc-b042-69486d439282.mdx:45:1: error: [plugin: esbuild-xdm] Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
-    45 │ <!-- 自适应代码来源：https://ray233.pages.dev/webpage-embed-auto-size-iframe-video/
-       ╵  ^
-
-wait  - compiling /_error (client and server)...
-event - compiled client and server successfully in 177 ms (420 modules)
-error - Error: Build failed with 1 error:
-_mdx_bundler_entry_point-69f21335-281c-44cc-b042-69486d439282.mdx:45:1: error: [plugin: esbuild-xdm] Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
-```
-
-当然，解决方案也非常简单，就是使用 `{/* 注释内容 */}` 代替 `<!-- 注释内容 -->` 即可
-
-~~就是 Ctrl+H 的事~~
-
-### 文章内 \<style> 失效问题
+### 文章内 style 标签失效问题
 
 在[Twitter 与 Mastodon 之间的比较](twitter-and-mastodon)中，咱引用了 iframe 来展示表格列表
 
@@ -130,7 +108,7 @@ _mdx_bundler_entry_point-ad4ebb27-776b-4ec8-9b87-2f5741a7cd6e.mdx:29:91: error: 
 </div>
 ```
 
-## 引用的 imframe 白屏不加载问题
+### 引用的 imframe 白屏不加载问题
 
 ~~这个说实话，现在还没来得及解决，后面再补充吧呜呜呜~~
 

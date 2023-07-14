@@ -11,7 +11,7 @@
     "test": "hexo clean && hexo g && hexo s"
   },
   "hexo": {
-    "version": "7.0.0-rc1"
+    "version": "6.3.0"
   },
   "dependencies": {
     "@ada87/hexo-prism-plugin": "^2.3.0",

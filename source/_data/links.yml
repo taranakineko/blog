@@ -99,7 +99,11 @@ my_friends:
       url: https://blog.sakurakooi.cyou/
       avatar: https://blog.sakurakooi.cyou/images/logo@2x.png
       description: "梦是幽蓝色彩 灵魂如雪纯白"
-    - title: "dpkg123的小站"
+    - title: "dpkg123 的小站"
       url: https://dpkg123.site/
       avatar: https://dpkg123.github.io/img/author/author.jpg
       description: "路漫漫其修远兮，吾将上下而求索。"
+    - title: "一刀斩の小窝"
+      url: https://yidaozhan.top/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640
+      description: "浩繁星空下的一场稚嫩的梦"

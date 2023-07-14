@@ -164,7 +164,7 @@ const Scripts = props => {
             <script type="text/javascript" dangerouslySetInnerHTML={{__html: generateStellarScript(props)}}/>
             <ImportJS {...props}/>
             <script type="text/javascript" src="/js/check_outdated_browser.js" data-no-instant="true"/>
-            <script async="" defer="" data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/script.js" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org"></script>
+            <script async defer data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/script.js" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org"></script>
             <CommentsScript {...props}/>
         </div>
     )

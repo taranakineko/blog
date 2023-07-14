@@ -1,9 +1,9 @@
 ---
 title: 关于从 Hexo 迁移到 Next.js 以及不算连环踩坑的这件事(?)
 date: 2022.11.29 03:24:00
-desc: '迁移迁到咱原地爆炸！——写在第二次迁移之路时'
+description: '迁移迁到咱原地爆炸！——写在第二次迁移之路时'
 tags: ['Hexo', 'Next.js']
-images: /static/blog/hexo-to-nextjs.png
+cover: /static/blog/hexo-to-nextjs.png
 draft: false
 ---
 

@@ -1,13 +1,9 @@
 ---
-title: 尝试以 valaxy 框架搭建一个博客...？（好吧是水文章）
+title: 尝试以 valaxy 框架搭建一个博客
 date: '2022-12-10'
-tags: []
-draft: false
-desc: 或许以后会用得上？但现在不知道为什么会报错呢...？
-images: /static/blog/test-to-use-valaxy/cover.png
-layout: PostLayout
+description: 或许以后会用得上？但现在不知道为什么会报错呢...？
+cover: /static/blog/test-to-use-valaxy/cover.png
 canonicalUrl: test-to-use-valaxy
-authors: ['default']
 ---
 
 ![封面图](/static/blog/test-to-use-valaxy/cover.png)

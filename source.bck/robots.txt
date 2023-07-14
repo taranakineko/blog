@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /archives
+Disallow: /categories
+Disallow: /friends
+Disallow: /images
+Disallow: /tags

@@ -2,9 +2,9 @@
 title: Twitter 与 Mastodon 之间的比较
 date: 2022-11-04 18:05:23
 tags: []
-desc: 就只是单纯的将 Twitter 与 Mastodon 比较比较一下啦 awa
+description: 就只是单纯的将 Twitter 与 Mastodon 比较比较一下啦 awa
 twitter: big
-images: /static/blog/twitter-and-mastodon/head.png
+cover: /static/blog/twitter-and-mastodon/head.png
 canonicalUrl: 'twitter-and-mastodon'
 ---
 

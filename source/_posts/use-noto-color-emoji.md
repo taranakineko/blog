@@ -2,7 +2,7 @@
 title: '在 Typography 主题尝试使用 Noto Color Emoji'
 date: 2022-10-04 19:03:44
 tags: ['Hexo']
-desc: '有一说一，比微软家的自带的 Emoji 好看一些'
+description: '有一说一，比微软家的自带的 Emoji 好看一些'
 emoji: true
 ---
 

@@ -1,12 +1,10 @@
 ---
-title: 【废尾存稿】关于使用了快半年了的 Evergo 的...使用体验?
+title: '【废尾存稿】关于使用了快半年了的 Evergo 的使用体验'
 date: '2023-04-06'
 Firstdate: '2022-12-18'
-tags: ['废尾稿']
-draft: true
-desc: "不知如何评价 Evergo 这部机器是好..."
-images:
-layout: PostLayout
+tags: 
+  - 废尾稿
+description: 不知如何评价 Evergo 这部机器是好...
 canonicalUrl: use-evergo
 ---
 

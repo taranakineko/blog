@@ -1,0 +1,191 @@
+### hexo-theme-stellaris
+
+######## head tags ########
+open_graph:
+  enable: true
+  twitter_id: taranakineko # for open_graph meta
+
+
+sidebar:
+  logo:
+    avatar: '[https://nekoq.eu.org/static/images/avatar.png](/about)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+    title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+  menu:
+    post: '[最新](/)'
+    archive: '[文章](/archives/)'
+    links: '[友链](/links/)'
+    #about: # '[关于](/about/)'
+
+  widgets:
+    #### 自动生成的页面 ####
+    # 主页
+    home: search_blog, recent, tagcloud # for home
+    # 博客索引页
+    blog_index: search_blog, recent # for categories/tags/archives
+    # 其它（404）
+    others: search, welcome, recent # for 404 and ...
+    #### 手动创建的页面 ####
+    # 文章内页
+    post: toc, ghrepo, search, ghissues # for pages using 'layout:post'
+    # 其它 layout:page 的页面
+    page: welcome, toc, search # for custom pages using 'layout:page'
+
+
+
+######## Main ########
+breadcrumb:
+  home: home # config.title / config.author / home or custom content
+
+
+######## Article ########
+article:
+  # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要？
+  auto_excerpt: 150
+  # 分类颜色
+  category_color:
+    'Hexo': '#0e83cd'
+  # 文章许可协议
+  license: '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
+  # 分享
+  # 相关文章，需要安装插件 (for layout: post)
+  # npm i hexo-related-popular-posts
+  related_posts:
+    enable: false
+    max_count: 3
+    auto_cover: false
+
+
+######## Comments ########
+comments:
+  service: waline
+  waline:
+    js: https://unpkg.com/@waline/client@v2/dist/waline.js
+    css: https://unpkg.com/@waline/client@v2/dist/waline.css
+    # Waline server address url, you should set this to your own link
+    serverURL: https://waline.nekoq.cyou/.netlify/functions/comment # waline 地址
+    # If false, comment count will only be displayed in post page, not in home page
+    commentCount: true
+    # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`.
+    pageview: false
+    login: false
+
+    # Custom locales
+    locale:
+      placeholder: 23333 # 输入框内提示文字
+
+    # Custom emoji
+    emoji: 
+      - https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs
+
+
+######## Footer ########
+footer:
+  social:
+     - icon: '<img src="/images/mastodon.svg"/>'
+       url: 'https://alive.bar/@TaranakiNeko'
+     - icon: '<img src="/images/telegram.svg"/>'
+       url: 'https://t.me/taranaki_neko'
+     - icon: '<img src="/images/github.svg"/>'
+       url: 'https://github.com/taranakineko'
+  license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
+  source: '[GitHub](https://github.com/YidaozhanYa/blog)'
+
+
+######## Tag Plugins ########
+tag_plugins:
+  # {% note text %}
+  note:
+    default_color: '' # light, dark, red, orange, yellow, green, cyan, blue, purple
+  # {% checkbox %}
+  checkbox:
+    interactive: false # enable interactive for user
+  emoji:
+    default: /cdn/emoji/qq/%s.gif
+    twemoji: https://twemoji.maxcdn.com/%s.svg
+    qq: /cdn/emoji/qq/%s.gif
+    tieba: /cdn/emoji/tieba/%s.png
+  # {% image %}
+  image:
+    fancybox: true
+
+######## JS Plugins ########
+plugins:
+  ## required plugins ##
+  # jquery
+  jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
+
+  ## lazyload plugins ##
+  # fancybox
+  fancybox:
+    enable: true
+    js: /cdn/js/fancybox.umd.js
+    css: /cdn/css/fancybox.css
+    #selector: .swiper-slide img,.vcontent img:not(.vemoji),article.content :not(div.article-footer) img # 多个选择器用英文逗号隔开
+    selector: .swiper-slide img, .vcontent img:not(.vemoji) # 多个选择器用英文逗号隔开
+  # swiper
+  swiper:
+    enable: true
+    css: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css
+    js: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js
+
+  # issues api
+  sitesjs: /js/plugins/sites.js
+  friendsjs: /js/plugins/friends.js
+
+  ## optional plugins ##
+  # preload
+  instant_click:
+    js: https://cdn.bootcdn.net/ajax/libs/instantclick/3.1.0/instantclick.min.js
+
+  # image lazyload
+  # https://www.npmjs.com/package/vanilla-lazyload
+  lazyload:
+    enable: true # [hexo clean && hexo s] is required after changing this value.
+    js: https://cdn.bootcdn.net/ajax/libs/vanilla-lazyload/17.3.1/lazyload.min.js
+    transition: blur # blur, fade
+
+  # https://scrollrevealjs.org/api/reveal.html
+  scrollreveal:
+    enable: true
+    js: https://cdn.bootcdn.net/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js
+    distance: 20px
+    duration: 350 # ms
+    interval: 100 # ms
+    scale: 1 # 0.1~1
+
+style:
+  darkmode: auto # auto / always / false
+  theme:
+    light: '#f8f8f8'
+    dark: '#313438'
+  animated_avatar:
+    animate: auto # auto, always
+    background: https://imgsrc.baidu.com/forum/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
+  codeblock:
+    scrollbar: 4px
+    highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css
+
+default:
+  avatar: /images/avatar.svg
+  link: /images/link.svg
+  cover: /images/cover.svg
+  image: /images/image.svg
+
+search:
+  service: local_search # local_search, todo...
+  local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
+    path: /search.json # 搜索文件存放位置
+    content: true # 是否搜索内容
+    codeblock: true # 是否搜索代码块（需要content: true)
+
+
+api_host:
+  ghapi: https://r.ydz1.gq/https://api.github.com
+  ghraw: https://www.githubs.cn/raw-githubusercontent
+  gist: https://r.ydz1.gq/https://gist.github.com
+
+inject:
+  head:
+    - <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    - <script async="" defer="" data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/script.js" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org" type="text/javascript"></script>
+  script:

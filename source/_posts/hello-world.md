@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2022-09-24 21:10:39
-desc: '再一次的，Hello World'
+description: '再一次的，Hello World'
 tags: ['Hexo']
 ---
 

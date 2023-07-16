@@ -1,7 +1,7 @@
 ---
 title: 关于
 date: 2022-12-27 09:54:29
-summary: "A cat want to do something... But it can't do anything..."
+description: "A cat want to do something... But it can't do anything..."
 ---
 
 *有些东西还没完成，还请稍等...*

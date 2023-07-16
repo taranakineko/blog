@@ -97,7 +97,7 @@ tag_plugins:
     default_color: '' # light, dark, red, orange, yellow, green, cyan, blue, purple
   # {% checkbox %}
   checkbox:
-    interactive: false # enable interactive for user
+    interactive: true # enable interactive for user
   emoji:
     default: /cdn/emoji/qq/%s.gif
     twemoji: https://twemoji.maxcdn.com/%s.svg
@@ -182,9 +182,3 @@ api_host:
   ghapi: https://r.ydz1.gq/https://api.github.com
   ghraw: https://www.githubs.cn/raw-githubusercontent
   gist: https://r.ydz1.gq/https://gist.github.com
-
-inject:
-  head:
-    - <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
-    - <script async="" defer="" data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/script.js" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org" type="text/javascript"></script>
-  script:

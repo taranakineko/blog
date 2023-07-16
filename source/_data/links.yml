@@ -3,107 +3,134 @@ my_friends:
       url: https://moe23333.vercel.app/
       avatar: https://moe23333.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.1eed70b8.png&w=2048&q=75
       description: "We shall meet in the place where there is no darkness."
+      screenshot: /static/friends/moe.png
     - title: "Tony Ding's Blog"
       url: https://blog.tonyding.net/
       avatar: https://pic.imgdb.cn/item/6389956716f2c2beb1a678fc.jpg
       description: "World Peace."
+      screenshot: /static/friends/tongding.png
     - title: "Ny3a"
       url: https://ny3a.github.io/
       avatar: https://ny3a.github.io/images/avatar.webp
       description: ""
+      screenshot: /static/friends/ny3a.png
     - title: "Lily Ellenvia"
       url: https://lilynet.work/
       avatar: https://objs.iasoc.cn/file/iasocs/DN42-LILYNETWORK/LILY_NETWORK_ICON.svg
       description: "Lily Network"
+      screenshot: /static/friends/lily.png
     - title: "Jackie 的猫窝"
       url: https://jackiecat.top/
       avatar: https://106.55.183.72/lsky/1/avatar.jpg
       description: "一只猫猫的猫窝"
+      screenshot: /static/friends/jackie.png
     - title: "Moeri 落落格"
       url: https://blog.bakalu.cyou/
       avatar: https://pic.imgdb.cn/item/6380558816f2c2beb15cccb1.png
       description: "看一只自稱貓娘的日常"
+      screenshot: /static/friends/moeri.png
     - title: "Lenger 的后花园"
       url: https://spookerv5.github.io/
       avatar: https://raw.githubusercontent.com/SpookerV5/gitdemo/main/waifu.png
       description: "如果是你的话，一定没问题"
+      screenshot: /static/friends/lenger.png
     - title: "UMR's Blog"
       url: https://www.umr.wiki/
       avatar: https://umr.wiki/usr/uploads/2022/11/3038633460.jpg
       description: ""
+      screenshot: /static/friends/umr.png
     - title: "Fika's blog"
       url: https://fika.ink/
       avatar: https://pic.imgdb.cn/item/637c14ee16f2c2beb161a26e.jpg
       description: "遇到困难睡大觉"
+      screenshot: /static/friends/fika.png
     - title: "高科技大脑指挥部"
       url: https://hightechbrain.ml/
       avatar: https://hightechbrain.ml/img/avatar.png
       description: ""
+      screenshot: /static/friends/hight.png
     - title: "梦墨's Blog"
       url: https://blog.dreamo.ink/
       avatar: https://dreamo.ink/images/avatar.png
       description: "这个人很懒，但 ta 似乎留下了什么？"
+      screenshot: /static/friends/dreamo.png
     - title: "akearer's blog"
       url: https://akearer.top/
       avatar: https://akearer.top/img/favicon.png
       description: "一起努力吧"
+      screenshot: /static/friends/akear.png
     - title: "老陈の咸鱼日常"
       url: https://www.fantanstic.top/
       avatar: https://pic.lijiakaijun.cyou/friends/laochen.webp
       description: "Life is fantanstic."
+      screenshot: /static/friends/laochen.png
     - title: "伊緻幻の主页"
       url: https://www.chwin.asia
       avatar: https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F187c8b47-9f8f-4cb0-b668-8d6e1e73e564%2Ffavicon.ico?table=block&id=937b1181-9126-413f-96fb-a94a0f7d92ed&cache=v2
       description: "Take my hands."
+      screenshot: /static/friends/chwin.png
     - title: "Isoheptane"
       url: https://blog.cascade.moe/
       avatar: https://blog.cascade.moe/images/avatar.webp
       description: "工程师猫娘"
+      screenshot: /static/friends/iso.png
     - title: "Steven Lynn's Blog"
       url: https://blog.stv.lol
       avatar: https://s2.loli.net/2023/05/29/NXUKtpGBlZoij4T.png
       description: "Steven Lynn 的个人博客"
+      screenshot: /static/friends/stv.png
     - title: "Pivot of Winslow"
       url: https://winsloweric.com/
       avatar: https://winsloweric.com/assets/logo256t.4b80bfe0.png
       description: ""
+      screenshot: /static/friends/winslow.png
     - title: "SheepChef Blog"
       url: https://shef.cc/
       avatar: https://shef.cc/wp-content/uploads/SheepChef-%E5%90%89%E7%A5%A5%E7%89%A9-%E5%A4%B4%E5%83%8F2-e1683031048446.png.webp
       description: ""
+      screenshot: /static/friends/sheep.png
     - title: "Sunyz's Blog"
       url: https://blog.sunyz.net/
       avatar: data:image/gif;base64,R0lGODlhAQABAPcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAP8ALAAAAAABAAEAAAgEAP8FBAA7
       description: "下一次相遇可能在任何地方，但我们始终灿烂如星海"
+      screenshot: /static/friends/7.png
     - title: "ltm 的百宝箱"
       url: https://ltm.ink/
       avatar: https://q1.qlogo.cn/g?b=qq&k=zBPJrHJ0aWt1wnJiatibsQkg&kti=Y9dzOgAAAAI&s=640
       description: "一个什么都可能有的 box。"
+      screenshot: /static/friends/ltm.png
     - title: "Cynosura"
       url: https://cynosura.one/
       avatar: https://cynosura.one/img/avatar.webp
       description: ""
+      screenshot: /static/friends/cyno.png
     - title: "U.M.R Powered Blog"
       url: https://umrpowered.codeberg.page/
       avatar: https://umrpowered.codeberg.page/assets/avatars/ai-generated-maid.webp
       description: "U.M.R 想要被检索。"
+      screenshot: /static/friends/U.M.R.png
     - title: "萌 (//∇//) 贴士"
       url: https://moe.tips/
       avatar: https://img.cdn.18g.me/2022/02/19/d8d559274a2f6.jpg
       description: "愿你把酒执剑，归来仍是少年"
+      screenshot: /static/friends/moetips.png
     - title: "一叶知秋"
       url: https://www.qy.al/
       avatar: https://www.qy.al/img/qyl.png
       description: "二分之一少女，乘着比特流环游世界"
+      screenshot: /static/friends/yiyr.png
     - title: "SakuraKooi"
       url: https://blog.sakurakooi.cyou/
       avatar: https://blog.sakurakooi.cyou/images/logo@2x.png
       description: "梦是幽蓝色彩 灵魂如雪纯白"
+      screenshot: /static/friends/saku.png
     - title: "dpkg123 的小站"
       url: https://dpkg123.site/
       avatar: https://dpkg123.github.io/img/author/author.jpg
       description: "路漫漫其修远兮，吾将上下而求索。"
+      screenshot: /static/friends/dpkg.png
     - title: "一刀斩の小窝"
       url: https://yidaozhan.top/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640
       description: "浩繁星空下的一场稚嫩的梦"
+      screenshot: /static/friends/yidaozhan.png

@@ -10,7 +10,7 @@ draft: false
 
 ![文章封面图，虽说是自己糊的](/static/blog/hexo-to-nextjs.png)
 
-## 前言
+### 前言
 
 好久不见，甚是想念（什
 
@@ -46,7 +46,7 @@ draft: false
 
 这里记录的是迁移过程中遇到的奇奇怪怪的问题以及部分探索出来的解决方案，希望对你来说有用
 
-#### 文章内 style 标签失效问题
+### 文章内 style 标签失效问题
 
 在[Twitter 与 Mastodon 之间的比较](twitter-and-mastodon)中，咱引用了 iframe 来展示表格列表
 
@@ -108,7 +108,7 @@ _mdx_bundler_entry_point-ad4ebb27-776b-4ec8-9b87-2f5741a7cd6e.mdx:29:91: error: 
 </div>
 ```
 
-#### 引用的 imframe 白屏不加载问题
+### 引用的 imframe 白屏不加载问题
 
 ~~这个说实话，现在还没来得及解决，后面再补充吧呜呜呜~~
 
@@ -131,7 +131,7 @@ const ContentSecurityPolicy = `
 `
 ```
 
-#### 自定义页不生成
+### 自定义页不生成
 
 这个倒是咱在迁移 Links 页时最头疼的问题了，死活不生成
 
@@ -170,7 +170,7 @@ export default function links({ authorDetails }) {
 }
 ```
 
-#### RSS 不输出文章内容
+### RSS 不输出文章内容
 
 说真，这个实在想不出来怎么修复
 
@@ -178,7 +178,7 @@ export default function links({ authorDetails }) {
 
 孩子已经整疯了啊啊啊啊啊啊啊啊啊，没技术力啊啊啊啊啊啊啊啊
 
-#### 添加其他社交链接
+### 添加其他社交链接
 
 咱使用的默认只有 email github twitter 等几个常见的，虽说可以手动添加
 

@@ -12,8 +12,8 @@ sidebar:
     title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
     post: '[最新](/)'
-    archive: '[文章](/archives/)'
-    links: '[友链](/links/)'
+    archive: '[文章](/archives)'
+    links: '[友链](/links)'
     #about: # '[关于](/about/)'
 
   widgets:

@@ -129,6 +129,11 @@ my_friends:
       avatar: https://dpkg123.github.io/img/author/author.jpg
       description: "路漫漫其修远兮，吾将上下而求索。"
       screenshot: /static/friends/dpkg.png
+    - title: "Py's blog"
+      url: https://py233.net/
+      avatar: https://py233.net/favicon.ico
+      description: "Py's blog"
+      screenshot: /static/friends/py.png
     - title: "一刀斩の小窝"
       url: https://yidaozhan.top/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640

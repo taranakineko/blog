@@ -45,8 +45,8 @@ my_friends:
       description: "遇到困难睡大觉"
       screenshot: /static/friends/fika.png
     - title: "高科技大脑指挥部"
-      url: https://hightechbrain.ml/
-      avatar: https://hightechbrain.ml/img/avatar.png
+      url: https://blog.hightechbrain.net/
+      avatar: https://blog.hightechbrain.net/img/avatar.png
       description: ""
       screenshot: /static/friends/hight.png
     - title: "梦墨's Blog"

@@ -13,8 +13,6 @@ hexo-theme-stellaris 分叉自 [hexo-theme-stellar](https://github.com/xaoxuu/he
 
 ### 安装
 
-个人不是很喜欢 Node 生态系统，并且本主题也不是原创主题，所以不会上架 npm，所以请使用 git 子模块的方式安装。
-
 - 环境需求
     ```
     Hexo: 5.4.0 ~ 6.3.0
@@ -22,6 +20,8 @@ hexo-theme-stellaris 分叉自 [hexo-theme-stellar](https://github.com/xaoxuu/he
     node.js: 14.17.3 ~ 18.12.0
     npm: 6.14.13 ~ 8.19.2
     ```
+
+#### 使用 Git 安装
 
 - 安装依赖
     ```bash
@@ -38,15 +38,26 @@ hexo-theme-stellaris 分叉自 [hexo-theme-stellar](https://github.com/xaoxuu/he
     ```bash
     git submodule add https://github.com/YidaozhanYa/hexo-theme-stellaris.git themes/stellaris
     ```
-    
-- 在 `config.yml` 中添加 `theme: stellaris`。
+
+#### 使用 npm 安装
+
+```bash
+npm install hexo-theme-stellaris --save
+```
+
+
+安装好后，在 `config.yml` 中添加 `theme: stellaris`。
 
 ### 更新
 
-- 更新主题
-    ```bash
-    git submodule update --remote --merge
-    ```
+#### 使用 Git
+```bash
+git submodule update --remote --merge
+```
+#### 使用 npm
+```bash
+npm update hexo-theme-stellaris
+```
 
 ### 文档
 
@@ -90,3 +101,9 @@ hexo-theme-stellaris 分叉自 [hexo-theme-stellar](https://github.com/xaoxuu/he
   ```
 
   效果见[博客 about 页面](https://blog.yidaozhan.top/about#%E6%9F%A5%E6%88%90%E5%88%86)。
+
+#### Telegram Instant View
+
+本主题编写了模板以适配 Telegram Instant View。
+
+你可以在此[获取模板](https://blog.yidaozhan.top/2023/07/15/stellaris-instant-view-template/)，并且查阅[官方文档](https://instantview.telegram.org/)以了解如何在你的博客中使用。

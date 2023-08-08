@@ -6,6 +6,7 @@ description: 就只是单纯的将 Twitter 与 Mastodon 比较比较一下啦 aw
 twitter: big
 cover: /static/blog/twitter-and-mastodon/head.png
 canonicalUrl: 'twitter-and-mastodon'
+categories: 其他
 ---
 
 咱就只是单纯的将 Twitter 与 Mastodon 比较比较以下，感谢 Moe 陪着一起归纳整理比较两者之间的差别

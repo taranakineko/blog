@@ -5,6 +5,7 @@ updated: 2023-05-03 12:14:00
 tags:
 description: 既然都寄过信了，那不得写写文章总结一下顺带水一下（
 emoji: true
+categories: 其他
 ---
 
 既然都寄过信了，还是第一次寄挂号信

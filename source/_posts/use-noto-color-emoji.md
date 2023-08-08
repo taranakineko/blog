@@ -4,6 +4,7 @@ date: 2022-10-04 19:03:44
 tags: ['Hexo']
 description: '有一说一，比微软家的自带的 Emoji 好看一些'
 emoji: true
+categories: 建站
 ---
 
 麻烦，不想写开头了，直接进入主题得了

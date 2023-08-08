@@ -4,8 +4,10 @@ date: '2023-04-06'
 Firstdate: '2022-12-18'
 tags: 
   - 废尾稿
+  - 手机
 description: 不知如何评价 Evergo 这部机器是好...
 canonicalUrl: use-evergo
+categories: 杂谈
 ---
 
 （咳嗽）因为昨天突然发烧，今天好很多了，但喉咙依然有点疼

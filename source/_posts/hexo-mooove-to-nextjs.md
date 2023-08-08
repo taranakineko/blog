@@ -6,6 +6,7 @@ description: '迁移迁到咱原地爆炸！——写在第二次迁移之路时
 tags: ['Hexo', 'Next.js']
 cover: /static/blog/hexo-to-nextjs.png
 draft: false
+categories: 建站
 ---
 
 ![文章封面图，虽说是自己糊的](/static/blog/hexo-to-nextjs.png)

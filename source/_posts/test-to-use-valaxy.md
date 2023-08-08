@@ -4,6 +4,7 @@ date: '2022-12-10'
 description: 或许以后会用得上？但现在不知道为什么会报错呢...？
 cover: /static/blog/test-to-use-valaxy/cover.png
 canonicalUrl: test-to-use-valaxy
+categories: 建站
 ---
 
 ![封面图](/static/blog/test-to-use-valaxy/cover.png)

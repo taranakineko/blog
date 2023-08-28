@@ -1,7 +1,7 @@
 ---
 title: 通过 UUP 手动制作 msu 更新包并更新 Windows
 date: 2023-08-28 15:43:23
-updated: 2023-08-28 15:43:23
+updated: 2023-08-29 03:16:56
 tags: Windows
 categories: 记录
 description: 我知道你很急，但你先别急着冲最新最热 Beta
@@ -15,9 +15,9 @@ but 无论怎么检查更新，它就是不吐新版本，这给千畔急的啊
 
 于是就想到了用 UUP 来生成个 iso 并且手动升级，但似乎不知道哪个步骤出错了，就...
 
-{% image https://cdn1.telegram-cdn.org/file/hVP96bFlwRuwTKL7Xrss6XThgh07vuh7I9h5-ZLRJ0OI7vksBzKMK0PFH0KUPBcTgdVERFJtKc7h_1BqD9SutS_8t4lqw0IRL-7FEdCphky-7VhLER4aTVcOmvt_k0Kvu7uF8l83Xwg_YBrZgpiVF6zWtMOiJ4rixAiONenkdw_QiOqW5Sp9TgeETPZuYRQSqEnyXokMeG4cM_d5XkGSRBP2L2ISa4EDJgQIe_BeiJDEKXDFTdTy_gv7-OUu137UDlWuLoEnAB4NMmInTVfcnXvckxnAgl407NDs0qCuhl9cThWOYzojpDL6QNztBN9T8cBrfPW0WKYCDXq-0g9IoQ.jpg 完了，好像倒着升到正式版了 fancybox:true width:350px %}
+{% image /static/blog/use-uup-update-beta-system/photo_2023-08-27_23-52-42.jpg 完了，好像倒着升到正式版了 fancybox:true width:350px %}
 
-当然后面有个热心群友提供了更新包（是 [msu](https://support.microsoft.com/zh-cn/topic/windows-%E4%B8%ADwindows-%E6%9B%B4%E6%96%B0%E7%8B%AC%E7%AB%8B%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%AF%B4%E6%98%8E-799ba3df-ec7e-b05e-ee13-1cdae8f23b19)，但只能通过 [DISM](https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/what-is-dism?view=windows-11) 安装），就好奇这东西是怎么制作出来的
+当然后面有个热心群友提供了他自己打包的更新包（是 [msu](https://support.microsoft.com/zh-cn/topic/windows-%E4%B8%ADwindows-%E6%9B%B4%E6%96%B0%E7%8B%AC%E7%AB%8B%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%AF%B4%E6%98%8E-799ba3df-ec7e-b05e-ee13-1cdae8f23b19)，但只能通过 [DISM](https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/what-is-dism?view=windows-11) 安装），就好奇这东西是怎么制作出来的
 
 当然经过摸索，大概知道了流程是这样的
 
@@ -29,7 +29,7 @@ but 无论怎么检查更新，它就是不吐新版本，这给千畔急的啊
 
 ~~说人话就是 UUP 下载脚本~~
 
-~~当然至于为什么没列举其他有可能的 UUP 下载站，那是因为我就找到了这两个（~~
+~~当然至于为什么没列举其他有可能的 UUP 下载站，那是因为咱就找到了这两个（~~
 
 ~~至于怎么下载不用咱说了吧（~~
 
@@ -59,7 +59,7 @@ but 无论怎么检查更新，它就是不吐新版本，这给千畔急的啊
 PSFX2MSU.cmd D:\22631.2262_amd64_cab_zh-cn_a71a9e8a_\cabs
 ```
 
-~~当然其实你可以直接把 bat 文件复制一份到那下载好的 UUP 所在文件夹~~
+~~当然其实你可以直接把 bat 文件复制一份到那下载好的 UUP 所在文件夹，然后双击打开~~
 
 回车后，坐和放宽，不过半小时就制作出来了，此时制作出来的文件名应该是以 `msu` 为结尾，例如 `Windows11.0-KB5029339-x64.msu`
 

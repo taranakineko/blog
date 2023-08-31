@@ -3,4 +3,5 @@ Allow: /
 Disallow: /nsemuhelper.txt
 Disallow: /shorten.html
 Disallow: /cdn/
-Sitemap: https://blog.yidaozhan.top/sitemap.xml
+Disallow: /secret/
+Disallow: /secret/b50/

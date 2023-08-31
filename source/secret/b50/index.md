@@ -26,7 +26,7 @@ sidebar:
 <!-- node 2023.08.13 -->
 {% image /secret/b50/img/20230813.jpg width:300px %}
 <!-- node 2023.08.?? -->
-{% image /secret/b50/img/2023080?.jpg width:300px %}
+{% image /secret/b50/img/2023080X.jpg width:300px %}
 <!-- node 2023.08.05 -->
 {% image /secret/b50/img/20230805.jpg width:300px %}
 <!-- node 2023.07.26 -->

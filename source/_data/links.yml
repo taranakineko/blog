@@ -139,3 +139,8 @@ my_friends:
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640
       description: "浩繁星空下的一场稚嫩的梦"
       screenshot: /static/friends/yidaozhan.webp
+    - title: "krau's blog"
+      url: https://krau.top
+      avatar: https://krau.top/photo/avatar/avatar.jpg
+      description: "年轻，就要折腾"
+      screenshot: /static/friends/krau.png

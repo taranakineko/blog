@@ -6,12 +6,10 @@ sidebar:
   - layout: markdown
     content: |
       不要大力拍打或滑动哟
-
-      请选择模式！
 ---
-此处记录了千畔游玩舞萌 DX 时的 b50 成绩图，由新到旧排序
+此处记录了千畔游玩舞萌 DX 时的 b50 成绩图，生成时间由新到旧排序
 
-使用 [@AkihaBot](https://t.me/AkihaBot) 生成
+成绩图使用 [@AkihaBot](https://t.me/AkihaBot) 生成
 
 {% timeline %}
 <!-- node 2023.08.29 -->

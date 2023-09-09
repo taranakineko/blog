@@ -114,7 +114,7 @@ const ImportCSS = (props) => {
     if (theme.stellar.cdn_css) {
         return <link rel="stylesheet" href={theme.stellar.cdn_css}/>;
     } else {
-        return <link rel="stylesheet" href="/css/main.css"/>;
+        return <link rel="stylesheet" href="/css/main.css?verison=114514"/>;
     }
 }
 

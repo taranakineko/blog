@@ -166,8 +166,8 @@ style:
       theme: '#ff8c00' #主体颜色
       background: '#f3f3f3 radial-gradient(#f9f7ef 75%, #f3f3f3 100%) no-repeat fixed' # 背景颜色
       mix: '#f9f7ef' # '#eff4f9' # 浅色背景颜色
-      block: '#EEF0F2' # 块背景颜色
-      card: '#fafbfd' # 卡片背景颜色
+      block: '#f3f3f3' # 块背景颜色
+      card: '#f9f7ef' # 卡片背景颜色
       title: '#000' # 标题文本颜色
       text: '#1a1a1a' # 正文文本颜色
       code: 'black' # 行内代码颜色

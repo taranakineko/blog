@@ -174,7 +174,8 @@ module.exports = function Head(props) {
             <meta name="HandheldFriendly" content="true"/>
             <meta name="apple-mobile-web-app-capable" content="yes"/>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-            <meta name="theme-color" content="#f8f8f8"/>
+            <meta name="theme-color" content="#f3f3f3"/>
+            <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#202020" />
 
             <Title {...props}/>
             <OpenGraph {...props}/>

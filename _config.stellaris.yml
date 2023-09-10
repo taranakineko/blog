@@ -164,8 +164,8 @@ style:
       hover: '#ff8c00' # 按钮高亮颜色
     light:
       theme: '#ff8c00' #主体颜色
-      background: '#f3f3f3 radial-gradient(#f9f7ef 75%, #f3f3f3 100%) no-repeat fixed' # 背景颜色
-      mix: '#f9f7ef' # '#eff4f9' # 浅色背景颜色
+      background: '#f3f3f3 radial-gradient(#f9f6ef 75%, #f3f3f3 100%) no-repeat fixed' # 背景颜色
+      mix: '#f9f6ef' # '#eff4f9' # 浅色背景颜色
       block: '#f3f3f3' # 块背景颜色
       card: '#fbfbfd' # 卡片背景颜色
       title: '#000' # 标题文本颜色

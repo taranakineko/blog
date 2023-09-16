@@ -144,3 +144,8 @@ my_friends:
       avatar: https://krau.top/photo/avatar/avatar.jpg
       description: "年轻，就要折腾"
       screenshot: /static/friends/krau.webp
+    - title: "huige233's blog"
+      url: https://www.huige233.com
+      avatar: https://avatars.githubusercontent.com/u/61108540
+      description: "Everyone can be the light in the darkness."
+      screenshot: /static/friends/huige.webp

@@ -1,5 +1,6 @@
 ---
 menu_id: links
+description: "看完了？那就去其他地方看看吧"
 ---
 
 # 友情链接

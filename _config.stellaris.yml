@@ -70,11 +70,13 @@ comments:
     commentCount: true
     # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`.
     pageview: false
-    login: false
+    login: disable
+    imageUploader: false
+    search: false
 
     # Custom locales
     locale:
-      placeholder: 23333 # 输入框内提示文字
+      placeholder: '言って。' # 输入框内提示文字
 
     # Custom emoji
     emoji: 

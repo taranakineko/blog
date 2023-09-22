@@ -32,14 +32,14 @@ $dark-code = convert(hexo-config('style.color.dark.code'))
 // 移动端深色背景（OLED调成纯黑可以省电）
 $dark-background-mobile = convert(hexo-config('style.color.dark.background-mobile'))
 
-@import ('https://fastly.jsdelivr.net/npm/inter-ui@3.19.3/inter.min.css')
 // 字体
+@import ('https://fastly.jsdelivr.net/npm/inter-ui@3.19.3/inter.min.css')
 $font-css = hexo-config('style.font.css')
 $font-face = convert(hexo-config('style.font.name'))
 @import($font-css)
 
 $ff-body = 'Inter var', 'Noto Color Emoji', $font-face, sans-serif, sans
-$ff-code = Consolas, monospace
+$ff-code = monospace
 
 $ff-logo = $ff-body
 
@@ -65,7 +65,6 @@ $border-image = 6px
 
 // 可以动态变化的属性
 :root
-  font-feature-settings: "case","cpsp","ss04","cv01","cv02","cv03","cv04","cv06","cv11";
   --width-left: 288px
   --width-main: 720px
   --gap-l: 16px

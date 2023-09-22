@@ -114,7 +114,7 @@ const ImportCSS = (props) => {
     if (theme.stellar.cdn_css) {
         return <link rel="stylesheet" href={theme.stellar.cdn_css}/>;
     } else {
-        return <link rel="stylesheet" href="/css/main.css?verison=114514"/>;
+        return <link rel="stylesheet" href="/css/main.css"/>;
     }
 }
 
@@ -175,7 +175,7 @@ module.exports = function Head(props) {
             <meta name="apple-mobile-web-app-capable" content="yes"/>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
             <meta name="theme-color" content="#f3f3f3"/>
-            <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#202020" />
+            <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#202020"/>
 
             <Title {...props}/>
             <OpenGraph {...props}/>

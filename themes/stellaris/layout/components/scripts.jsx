@@ -1,4 +1,5 @@
 const CommentsScript = require('./plugins/comments/script.jsx');
+const MathJaxScripts = require('./plugins/mathjax/script.jsx');
 const generateStellarScript = props => {
     const {theme, __, url_for} = props;
     return `
@@ -153,7 +154,7 @@ const ImportJS = props => {
     }
 }
 const Scripts = props => {
-    const {theme} = props;
+    const {theme, page} = props;
     const {partial} = props;
     return (
         <div className="scripts">
@@ -166,6 +167,9 @@ const Scripts = props => {
             <script type="text/javascript" src="/js/check_outdated_browser.js" data-no-instant="true"/>
             <script async defer data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/script.js" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org"></script>
             <CommentsScript {...props}/>
+            {(() => {
+                 if (theme.plugins.mathjax.per_page === true || page.mathjax === true) return (<MathJaxScripts {...props}/>)
+             })()}
         </div>
     )
 }

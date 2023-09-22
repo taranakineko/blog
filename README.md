@@ -21,6 +21,31 @@ npm run test
 ```
 
 ---
+
+## 修改地方记录
+
+主题 / source / css / _custom.styl
+
+```styl
+@import ('https://fastly.jsdelivr.net/npm/inter-ui@3.19.3/inter.min.css')
+
+$ff-body = 'Inter var', 'Noto Color Emoji', $font-face, sans-serif, sans
+```
+
+主题 / layout / components / head.jsx
+
+```jsx
+<meta name="theme-color" content="#f3f3f3"/>
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#202020" />
+```
+
+主题 / layout / components / scripts.jsx
+
+```jsx
+<script async defer data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/script.js" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org"></script>
+```
+
+---
 ## blog 主题色
 
 默认（蓝色调）

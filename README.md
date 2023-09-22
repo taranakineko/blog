@@ -54,7 +54,6 @@ $ff-body = 'Inter var', 'Noto Color Emoji', $font-face, sans-serif, sans
 style:
   color:
     common:
-      #theme: '#0078d4' # 主题色
       accent: '#ff5722' # 强调色
       button: '#0078d4' # 按钮颜色
       hover: '#0078d4' # 按钮高亮颜色
@@ -62,17 +61,32 @@ style:
       mix: '#eff4f9' # 浅色背景颜色
       block: '#EEF0F2' # 块背景颜色
       card: '#fafbfd' # 卡片背景颜色
-      title: '#000' # 标题文本颜色
-      text: '#1a1a1a' # 正文文本颜色
-      code: 'black' # 行内代码颜色
     dark:
       mix: '#313438' # 深色背景颜色
-      background-mobile: black # 移动端深色背景（OLED调成纯黑可以省电）
-      block: '#2B2F33' # 块背景颜色
       card: '#282a39' # 卡片背景颜色
-      title: '#fff' # 标题文本颜色
-      text: '#eee' # 正文文本颜色
-      code: '#eee' # 行内代码颜色
+```
+
+春天（绿色调）
+
+```yaml
+style:
+  color:
+    common:
+      accent: '#00cc6a' # 强调色
+      button: '#00cc6a' # 按钮颜色
+      hover: '#00cc6a' # 按钮高亮颜色
+    light:
+      theme: '#00cc6a' #主体颜色
+      background: '#f3f3f3 radial-gradient(#F5FFF8 75%, #f3f3f3 100%) no-repeat fixed' # 背景颜色
+      mix: '#F5FFF8' # 浅色背景颜色
+    dark:
+      theme: '#00cc6a'
+      mix: '#1a3526' #'#313438' # 深色背景颜色
+      background: '#202020 radial-gradient(#1a3526 25%, #202020 100%) no-repeat fixed' # 背景颜色
+      card: '#30453c' # 卡片背景颜色
+
+
+
 ```
 
 秋天（橙色调）
@@ -88,19 +102,31 @@ style:
       theme: '#ff8c00' # 主体颜色
       background: '#f3f3f3 radial-gradient(#f9f6ef 75%, #f3f3f3 100%) no-repeat fixed' # 网页背景颜色
       mix: '#f9f6ef' # 浅色背景颜色
-      block: '#f3f3f3' # 块背景颜色
-      card: '#fbfbfd' # 卡片背景颜色
-      title: '#000' # 标题文本颜色
-      text: '#1a1a1a' # 正文文本颜色
-      code: 'black' # 行内代码颜色
     dark:
       theme: '#ff8c00' # 主体颜色
       mix: '#35341a' #'#313438' # 深色背景颜色
       background: '#202020 radial-gradient(#35341a 25%, #202020 100%) no-repeat fixed' # 网页背景颜色
-      background-mobile: black # 移动端深色背景（OLED调成纯黑可以省电）
-      block: '#2B2F33' # 块背景颜色
       card: '#454330' # 卡片背景颜色
-      title: '#fff' # 标题文本颜色
-      text: '#eee' # 正文文本颜色
-      code: '#eee' # 行内代码颜色
+```
+
+冬天（灰色调）
+
+```yaml
+style:
+  darkmode: auto # auto / always / false
+  color:
+    common:
+      accent: '#AEC9D0' # 强调色
+      button: '#AEC9D0' # 按钮颜色
+      hover: '#AEC9D0' # 按钮高亮颜色
+    light:
+      theme: '#AEC9D0' #主体颜色
+      background: '#f3f3f3 radial-gradient(#eff4f9 75%, #f3f3f3 100%) no-repeat fixed' # 背景颜色
+      mix: '#eff4f9' # 浅色背景颜色
+      card: '#fbfbfd' # 卡片背景颜色
+    dark:
+      theme: '#AEC9D0'
+      mix: '#262830' # 深色背景颜色
+      background: '#202020 radial-gradient(#262830 25%, #202020 100%) no-repeat fixed' # 背景颜色
+      card: '#353535' # 卡片背景颜色
 ```

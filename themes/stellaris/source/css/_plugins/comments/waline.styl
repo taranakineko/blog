@@ -5,11 +5,11 @@
   --waline-light-grey: #999;
   --waline-dark-grey: #666;
   /* 主题色 */
-  --waline-theme-color: convert(hexo-config('style.color.common.button'))
-  --waline-active-color: convert(hexo-config('style.color.common.button'))
+  --waline-theme-color: $color-button
+  --waline-active-color: $color-button
   /* 布局颜色 */
   --waline-color: #444;
-  --waline-bgcolor: #ffffffb2;
+  --waline-bgcolor: #fff;
   --waline-bgcolor-light: #f8f8f8;
   --waline-bgcolor-hover: #f0f0f0;
   --waline-border-color: #ddd;
@@ -22,7 +22,7 @@
   --waline-avatar-size: 3.25rem;
   --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
   /* 徽章 */
-  --waline-badge-color: #3498db;
+  --waline-badge-color: $color-accent;
   --waline-badge-font-size: 0.725em;
   /* 信息 */
   --waline-info-bgcolor: #f8f8f8;

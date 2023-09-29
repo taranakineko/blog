@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 繪圖2.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="8.26772in" height="11.6929in" viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st6">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:Noto Sans SC;font-size:1.5em}
+		.st3 {fill:#ffffff;stroke:#000000;stroke-width:0.25}
+		.st4 {marker-end:url(#mrkr4-18);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st5 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-18" class="st5" refX="-7.04" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>頁-1</title>
+		<g id="shape1-1" transform="translate(81.4207,-606.294)">
+			<title>開始/結束</title>
+			<desc>开始</desc>
+			<path d="M27.52 841.89 L409.8 841.89 A27.5172 27.5172 -180 0 0 409.8 786.86 L27.52 786.86 A27.5172 27.5172 -180 1 0 27.52
+						 841.89 Z" class="st1"/>
+			<text x="200.66" y="819.77" class="st2">开始</text>		</g>
+		<g id="shape2-4" transform="translate(81.4207,-476.824)">
+			<title>程序</title>
+			<desc>敲击鼓面进入机位选择界面</desc>
+			<rect x="0" y="759.338" width="437.319" height="82.5516" class="st3"/>
+			<text x="110.66" y="806.01" class="st2">敲击鼓面进入机位选择界面</text>		</g>
+		<g id="shape5-7" transform="translate(81.4207,-239.286)">
+			<title>程序.5</title>
+			<desc>按照提示确认机位或取消登录</desc>
+			<rect x="0" y="759.338" width="437.319" height="82.5516" class="st3"/>
+			<text x="101.66" y="806.01" class="st2">按照提示确认机位或取消登录</text>		</g>
+		<g id="shape7-10" transform="translate(81.4207,-141.732)">
+			<title>開始/結束.7</title>
+			<desc>结束</desc>
+			<path d="M27.52 841.89 L409.8 841.89 A27.5172 27.5172 -180 0 0 409.8 786.86 L27.52 786.86 A27.5172 27.5172 -180 1 0 27.52
+						 841.89 Z" class="st1"/>
+			<text x="200.66" y="819.77" class="st2">结束</text>		</g>
+		<g id="shape8-13" transform="translate(292.994,-476.824)">
+			<title>動態連接器</title>
+			<path d="M7.09 841.89 L7.09 877.37" class="st4"/>
+		</g>
+		<g id="shape12-19" transform="translate(292.994,-239.286)">
+			<title>動態連接器.12</title>
+			<path d="M7.09 841.89 L7.09 877.37" class="st4"/>
+		</g>
+		<g id="shape17-24" transform="translate(292.994,-606.294)">
+			<title>動態連接器.17</title>
+			<path d="M7.09 841.89 L7.09 881.77" class="st4"/>
+		</g>
+		<g id="shape21-29" transform="translate(292.994,-239.286)">
+			<title>動態連接器.21</title>
+			<path d="M7.09 841.89 L7.09 877.37" class="st4"/>
+		</g>
+		<g id="shape23-34" transform="translate(81.4207,-364.358)">
+			<title>程序.23</title>
+			<desc>扫描获取的二维码进行登录</desc>
+			<rect x="0" y="771.943" width="437.319" height="69.9466" class="st3"/>
+			<text x="110.66" y="812.32" class="st2">扫描获取的二维码进行登录</text>		</g>
+		<g id="shape27-37" transform="translate(292.994,-364.358)">
+			<title>動態連接器.27</title>
+			<path d="M7.09 841.89 L7.09 877.37" class="st4"/>
+		</g>
+	</g>
+</svg>

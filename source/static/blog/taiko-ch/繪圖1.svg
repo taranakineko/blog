@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 產生 繪圖1.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="8.26772in" height="11.6929in" viewBox="0 0 595.276 841.89" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st7">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:Noto Sans SC;font-size:1.5em}
+		.st3 {fill:#ffffff;stroke:#000000;stroke-width:0.25}
+		.st4 {font-size:1em}
+		.st5 {marker-end:url(#mrkr4-22);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st6 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-22" class="st6" refX="-7.04" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>頁-1</title>
+		<g id="shape1-1" transform="translate(81.4207,-707.987)">
+			<title>開始/結束</title>
+			<desc>开始</desc>
+			<path d="M27.52 841.89 L409.8 841.89 A27.5172 27.5172 -180 0 0 409.8 786.86 L27.52 786.86 A27.5172 27.5172 -180 1 0 27.52
+						 841.89 Z" class="st1"/>
+			<text x="200.66" y="819.77" class="st2">开始</text>		</g>
+		<g id="shape2-4" transform="translate(81.4207,-578.517)">
+			<title>程序</title>
+			<desc>敲击鼓面进入机位选择界面</desc>
+			<rect x="0" y="759.338" width="437.319" height="82.5516" class="st3"/>
+			<text x="110.66" y="806.01" class="st2">敲击鼓面进入机位选择界面</text>		</g>
+		<g id="shape3-7" transform="translate(81.4207,-449.103)">
+			<title>程序.3</title>
+			<desc>敲击对应机位鼓面确定加入游戏</desc>
+			<rect x="0" y="759.338" width="437.319" height="82.5516" class="st3"/>
+			<text x="92.66" y="806.01" class="st2">敲击对应机位鼓面确定加入游戏</text>		</g>
+		<g id="shape5-10" transform="translate(81.4207,-195.847)">
+			<title>程序.5</title>
+			<desc>按照提示确认机位或取消登录</desc>
+			<rect x="0" y="759.338" width="437.319" height="82.5516" class="st3"/>
+			<text x="101.66" y="806.01" class="st2">按照提示确认机位或取消登录</text>		</g>
+		<g id="shape7-13" transform="translate(81.4207,-94.842)">
+			<title>開始/結束.7</title>
+			<desc>结束 进入分区选择</desc>
+			<path d="M27.52 841.89 L409.8 841.89 A27.5172 27.5172 -180 0 0 409.8 786.86 L27.52 786.86 A27.5172 27.5172 -180 1 0 27.52
+						 841.89 Z" class="st1"/>
+			<text x="200.66" y="808.97" class="st2">结束 <tspan x="164.66" dy="1.2em" class="st4">进入分区选择</tspan></text>		</g>
+		<g id="shape8-17" transform="translate(292.994,-578.517)">
+			<title>動態連接器</title>
+			<path d="M7.09 841.89 L7.09 881.71" class="st5"/>
+		</g>
+		<g id="shape12-23" transform="translate(292.994,-195.847)">
+			<title>動態連接器.12</title>
+			<path d="M7.09 841.89 L7.09 880.82" class="st5"/>
+		</g>
+		<g id="shape17-28" transform="translate(292.994,-707.987)">
+			<title>動態連接器.17</title>
+			<path d="M7.09 841.89 L7.09 881.77" class="st5"/>
+		</g>
+		<g id="shape21-33" transform="translate(292.994,-195.847)">
+			<title>動態連接器.21</title>
+			<path d="M7.09 841.89 L7.09 880.82" class="st5"/>
+		</g>
+		<g id="shape23-38" transform="translate(81.4207,-324.369)">
+			<title>程序.23</title>
+			<desc>扫描获取的二维码进行登录</desc>
+			<rect x="0" y="771.943" width="437.319" height="69.9466" class="st3"/>
+			<text x="110.66" y="812.32" class="st2">扫描获取的二维码进行登录</text>		</g>
+		<g id="shape26-41" transform="translate(292.994,-449.103)">
+			<title>動態連接器.26</title>
+			<path d="M7.09 841.89 L7.09 889.64" class="st5"/>
+		</g>
+		<g id="shape27-46" transform="translate(292.994,-324.369)">
+			<title>動態連接器.27</title>
+			<path d="M7.09 841.89 L7.09 880.82" class="st5"/>
+		</g>
+	</g>
+</svg>

@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Allow: /blog/*
+Allow: /atom.xml
 Disallow: /nsemuhelper.txt
 Disallow: /shorten.html
 Disallow: /cdn/

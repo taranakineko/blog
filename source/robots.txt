@@ -7,3 +7,4 @@ Disallow: /shorten.html
 Disallow: /cdn/
 Disallow: /secret/
 Disallow: /secret/b50/
+Sitemap: https://nekoq.eu.org/sitemap.xml

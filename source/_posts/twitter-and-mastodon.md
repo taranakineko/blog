@@ -7,6 +7,7 @@ twitter: big
 cover: /static/blog/twitter-and-mastodon/head.png
 canonicalUrl: 'twitter-and-mastodon'
 categories: 其他
+outdate_month: 1
 ---
 
 咱就只是单纯的将 Twitter 与 Mastodon 比较比较以下，感谢 Moe 陪着一起归纳整理比较两者之间的差别
@@ -47,6 +48,7 @@ categories: 其他
 <div class="iframe-container">
   <iframe src="https://onedrive.live.com/embed?cid=4A8148EC7FFBF4D4&resid=4A8148EC7FFBF4D4%215734&authkey=AMfo7VhuO2qliQ0&em=2" loading="lazy"></iframe>
 </div>
+
 
 [推特与 Mastodon 比较.xlsx](static/blog/推特与Mastodon比较.xlsx)
 

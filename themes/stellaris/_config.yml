@@ -1,6 +1,6 @@
 ######## Stellar info ########
 stellar:
-  version: '1.0.0'
+  version: '1.4.3'
   homepage: 'https://blog.yidaozhan.top/'
   repo: 'https://github.com/YidaozhanYa/hexo-theme-stellaris'
   cdn_css: # Use cdn links instead of /css/main.css
@@ -73,9 +73,8 @@ article:
 search:
   service: local_search # local_search, todo...
   local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
+    js: /js/search/local_search.js
     path: /search.json # 搜索文件存放位置
-    content: true # 是否搜索内容
-    codeblock: true # 是否搜索代码块（需要content: true)
 
 ######## Comments ########
 comments:
@@ -258,9 +257,14 @@ tag_plugins:
     max-height: 80vh
   # {% mark %}
   mark:
-    default_color: dark # light, dark, red, orange, yellow, green, cyan, blue, purple, warning, error # {% tag %}
+    default_color: dark # light, dark, red, orange, yellow, green, cyan, blue, purple, warning, error
+  # {% tag %}
   tag:
     default_color: yellow # red, orange, yellow, green, cyan, blue, purple
+  # {% bilicard %}
+  bilicard:
+    enable: true
+    image_proxy: "https://images.weserv.nl/?url="
 
 ######## JS Plugins ########
 plugins:

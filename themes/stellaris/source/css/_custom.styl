@@ -33,10 +33,10 @@ $dark-code = convert(hexo-config('style.color.dark.code'))
 $dark-background-mobile = convert(hexo-config('style.color.dark.background-mobile'))
 
 // 字体
-@import ('https://fastly.jsdelivr.net/npm/inter-ui@3.19.3/inter.min.css')
 $font-css = hexo-config('style.font.css')
 $font-face = convert(hexo-config('style.font.name'))
 @import($font-css)
+@import ('https://fastly.jsdelivr.net/npm/inter-ui@3.19.3/inter.min.css')
 
 $ff-body = 'Inter var', 'Noto Color Emoji', $font-face, sans-serif, sans
 $ff-code = monospace

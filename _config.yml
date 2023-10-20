@@ -38,6 +38,7 @@ skip_render:
   - "favicon.ico"
   - "static/**"
   - "cdn/**"
+  - "vercel.json"
 
 # Writing
 new_post_name: ":year-:month-:day :title.md" # File name of new posts
@@ -161,7 +162,10 @@ lazyload:
   loadingImg: # optional eg ./images/loading.gif
 
 sitemap:
-  path: sitemap.xml
+  path: 
+    - sitemap.xml
+  template: ./scaffolds/sitemap_template.xml
+  rel: false
 
 memorial_day:
   # Better to close it when it is not used

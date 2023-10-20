@@ -164,8 +164,11 @@ lazyload:
 sitemap:
   path: 
     - sitemap.xml
+    - sitemap.txt
   template: ./scaffolds/sitemap_template.xml
   rel: false
+  categories: false
+  tags: false
 
 memorial_day:
   # Better to close it when it is not used

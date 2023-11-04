@@ -40,7 +40,9 @@ breadcrumb:
 
 ######## Article ########
 article:
-  outdate_month: 24
+  outdated_check:
+    enabled: true
+    month: 24
   # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要？
   auto_excerpt: 150
   # 分类颜色

@@ -39,6 +39,7 @@ skip_render:
   - "static/**"
   - "cdn/**"
   - "vercel.json"
+  - "css/**"
 
 # Writing
 new_post_name: ":year-:month-:day :title.md" # File name of new posts

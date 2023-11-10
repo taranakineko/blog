@@ -2,14 +2,14 @@
 
 hexo-theme-stellaris 分叉自 [hexo-theme-stellar](https://github.com/xaoxuu/hexo-theme-stellar)，基于[hexo-renderer-jsx](https://github.com/hexojs/hexo-renderer-jsx)，支持丰富的标签和动态数据组件。
 
-**本主题为[一刀斩の小窝](https://blog.yidaozhan.top)专门开发，原主题的有些功能我没有用到（比如 Waline、Utterances 评论区等），不保证完全可用。**
+**本主题为[一刀斩の小窝](https://blog.yidaozhan.top)专门开发，原主题的有些功能我没有用到（比如 Utterances、时间线、issues API 等），不保证完全可用。**
 
 ### 与原主题的区别
 
-- 样式: 使用 Fluent Design 设计规范重新设计样式。
-- 代码: 使用 React 重写所有模板。
+- 样式: 使用 Fluent Design 设计风格重新设计样式。
+- 代码: 使用 JSX 重写所有模板。
 - 性能优化: 使用 InstantClick 进行页面加载优化。
-- 功能: 增加了文章过期提示等实用功能。
+- 功能: 增加了文章过期提示、哔哩哔哩视频卡片等实用功能和组件。
 
 ### 安装
 
@@ -25,7 +25,7 @@ hexo-theme-stellaris 分叉自 [hexo-theme-stellar](https://github.com/xaoxuu/he
 
 - 安装依赖
     ```bash
-    npm install hexo-renderer-jsx --save
+    npm install react react-dom hexo-renderer-jsx html-react-parser --save
     ```
     
     ```bash

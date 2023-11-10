@@ -1,3 +1,4 @@
+const {Fragment} = require('react')
 const CommentsScript = require('./plugins/comments/script.jsx');
 const MathJaxScripts = require('./plugins/mathjax/script.jsx');
 const generateStellarScript = props => {
@@ -134,16 +135,16 @@ const generateStellarScript = props => {
     
       stellar.plugins.marked = Object.assign(${JSON.stringify(theme.plugins.marked)});
       // optional plugins
-      if ('${theme.plugins.lazyload.enable}' == 'true') {
+      if ('${theme.plugins.lazyload.enabled}' == 'true') {
         stellar.plugins.lazyload = Object.assign(${JSON.stringify(theme.plugins.lazyload)});
       }
-      if ('${theme.plugins.swiper.enable}' == 'true') {
+      if ('${theme.plugins.swiper.enabled}' == 'true') {
         stellar.plugins.swiper = Object.assign(${JSON.stringify(theme.plugins.swiper)});
       }
-      if ('${theme.plugins.scrollreveal.enable}' == 'true') {
+      if ('${theme.plugins.scrollreveal.enabled}' == 'true') {
         stellar.plugins.scrollreveal = Object.assign(${JSON.stringify(theme.plugins.scrollreveal)});
       }
-      if ('${theme.plugins.fancybox.enable}' == 'true') {
+      if ('${theme.plugins.fancybox.enabled}' == 'true') {
         stellar.plugins.fancybox = Object.assign(${JSON.stringify(theme.plugins.fancybox)});
       }
       stellar.plugins.instant_click = Object.assign(${JSON.stringify(theme.plugins.instant_click)});
@@ -152,19 +153,36 @@ const generateStellarScript = props => {
       };
     `;
 }
+
 const ImportJS = props => {
-    const {join} = require("path")
     const {theme, url_for} = props
+    let stellarJsUrl
     if (theme.stellar.cdn_js) {
-        return (
-            <script src={theme.stellar.cdn_js} type="text/javascript" async={true} data-no-instant="true"/>
-        )
+        stellarJsUrl = theme.stellar.cdn_js
     } else {
-        return (
-            <script src={join(url_for(), '/js/main.js')} type="text/javascript" async={true} data-no-instant="true"/>
-        )
+        stellarJsUrl = require("path").join(url_for(), '/js/main.js')
     }
+    return <script src={stellarJsUrl} type="text/javascript" async={true} data-no-instant="true"/>
 }
+
+const InjectScripts = props => {
+    let scripts = []
+    const {theme} = props
+    if (theme.inject && theme.inject.script && theme.inject.script.length > 0) {
+        const parse = require('html-react-parser').default
+        let i = 0
+        for (const script of theme.inject.script) {
+            scripts.push(
+                <Fragment key={String(i)}>{parse(script)}</Fragment>
+            )
+            i++
+        }
+    }
+    return <>
+        {scripts}
+    </>
+}
+
 const Scripts = props => {
     const {join} = require("path")
     const {theme, page, url_for} = props
@@ -177,11 +195,12 @@ const Scripts = props => {
             <script type="text/javascript" dangerouslySetInnerHTML={{__html: generateStellarScript(props)}}/>
             <ImportJS {...props}/>
             <script type="text/javascript" src={join(url_for(), "/js/check_outdated_browser.js")} data-no-instant="true"/>
-            <script async defer data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/script.js" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org"></script>
             <CommentsScript {...props}/>
             {(() => {
                  if (theme.plugins.mathjax.per_page === true || page.mathjax === true) return (<MathJaxScripts {...props}/>)
-             })()}
+            })()}
+
+            <InjectScripts {...props} />
         </div>
     )
 }

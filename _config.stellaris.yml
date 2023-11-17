@@ -189,7 +189,7 @@ style:
       background-mobile: black # 移动端深色背景（OLED调成纯黑可以省电）
   animated_avatar:
     animate: auto # auto, always
-    background: https://imgsrc.baidu.com/forum/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
+    background: https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp
   codeblock:
     scrollbar: 4px
     highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css

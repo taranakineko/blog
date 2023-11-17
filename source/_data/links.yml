@@ -25,7 +25,7 @@ my_friends:
       description: "一只猫猫的猫窝"
       screenshot: /static/friends/jackie.webp
     - title: "Moeri 落落格"
-      url: https://blog.bakalu.cyou/
+      url: https://blog.bakalu.site/
       avatar: https://pic.imgdb.cn/item/6380558816f2c2beb15cccb1.webp
       description: "看一只自稱貓娘的日常"
       screenshot: /static/friends/moeri.webp

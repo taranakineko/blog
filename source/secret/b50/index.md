@@ -9,9 +9,13 @@ sidebar:
 ---
 此处记录了千畔游玩舞萌 DX 时的 b50 成绩图，生成时间由新到旧排序
 
-成绩图使用 [@AkihaBot](https://t.me/AkihaBot) 生成
+2023.10 前的成绩图使用 [@AkihaBot](https://t.me/AkihaBot) 生成，之后的由 [Lucy | HafuKo](https://t.me/Lucy_HiMoYoBot) 生成
 
 {% timeline %}
+<!-- node 2023.10.21 -->
+{% image /secret/b50/img/20231021.jpg width:300px %}
+<!-- node 2023.10.?? -->
+{% image /secret/b50/img/2023100X.jpg width:300px %}
 <!-- node 2023.08.29 -->
 {% image /secret/b50/img/20230829.jpg width:300px %}
 <!-- node 2023.08.23 -->
@@ -20,6 +24,7 @@ sidebar:
 {% image /secret/b50/img/20230820.jpg width:300px %}
 <!-- node 2023.08.14 -->
 有一首歌 FC
+
 {% image /secret/b50/img/20230814.jpg width:300px %}
 <!-- node 2023.08.13 -->
 {% image /secret/b50/img/20230813.jpg width:300px %}

@@ -1,7 +1,1 @@
 
-[submodule "themes/stellaris"]
-	path = themes/stellaris
-	url = https://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@github.com/taranakineko/stellaris
-[submodule "themes/stellaris-sub"]
-	path = themes/stellaris-sub
-	url = https://github.com/YidaozhanYa/hexo-theme-stellaris.git

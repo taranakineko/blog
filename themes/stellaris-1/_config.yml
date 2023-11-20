@@ -1,0 +1,473 @@
+######## hexo-theme-stellaris ########
+stellar:
+  version: '1.5.3'
+  homepage: 'https://blog.yidaozhan.top/'
+  repo: 'https://github.com/YidaozhanYa/hexo-theme-stellaris'
+  cdn_css:  # 如果你使用 CDN，可以上传 /css/main.css 并在此输入对应的链接
+  cdn_js:  # 如果你使用 CDN，可以上传 /js/main.js 并在此输入对应的链接
+
+
+######## 网页头部信息 ########
+head:
+  open_graph:
+    # 启用 Open Graph 以在 Twitter 和 Telegram 等平台中获得更好的链接预览体验
+    enabled: true
+  twitter_id:
+
+######## 侧边栏 ########
+sidebar:
+  logo:
+    # 请在 Hexo 的 _config.yml 中设置头像链接
+    # 或使用 Markdown 语法自定义（如 '[https://xxx.png](/about/)'）
+    avatar: '[config.avatar](/about/)'
+
+    # 可以使用 Markdown 语法自定义，支持 HTML 标签
+    #（如 '[<img no-lazy height="32px" src="xxx"/>](/)'）
+    title: '[config.title](/)'
+  menu:
+    # 侧边栏顶部的链接按钮
+    # post: '[btn.blog](/)'
+    # wiki: '[btn.wiki](/wiki/)'
+    # friends: '[友链](/friends/)'
+    # about: '[关于](/about/)'
+  widgets:
+    # 各个页面对应的侧边栏挂件
+    # 挂件可在 source/_data/widgets.yml 中配置
+    # 可参考 https://github.com/YidaozhanYa/hexo-theme-stellaris/blob/main/_data/widgets.yml
+
+    ### 博客自动生成的导航页面和系统页面
+    # 主页
+    home: search, welcome, recent
+    # 博客索引页
+    blog_index: search_blog, recent  # categories/tags/archives
+    # 文档索引页
+    wiki_index: search_docs, recent  # wiki
+    # 其它（404 等）
+    others: search, welcome, recent  # 404 等系统页面
+
+    ### 手动创建的页面
+    # 使用 'layout: post' 的页面，如博客文章内页
+    post: toc, ghrepo, search, ghissues
+    # 使用 'layout: wiki' 的页面，如 wiki 文档内页
+    wiki: search, ghrepo, toc, ghissues, related
+    # 使用 'layout: page' 的自定义页面
+    page: welcome, toc, search
+
+
+######## 全局 ########
+breadcrumb:
+  # 面包屑导航栏中最左侧内容
+  home: home  # config.title / config.author / home 或自定义内容
+
+
+######## 博客文章 ########
+article:
+  # 如果没有指定封面，是否根据 tags 作为关键词搜索封面图片？
+  auto_cover: false  # 从 https://source.unsplash.com/ 中自动搜索封面
+  # 如果没有指定横幅，是否根据 tags 作为关键词搜索横幅图片？
+  auto_banner: false  # 从 https://source.unsplash.com/ 中自动搜索封面
+  # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要？
+  auto_excerpt: 200
+  # 分类颜色
+  category_color:
+    # 分类名: 分类颜色色号
+    '新闻稿': '#DA0F47'
+  # 文章许可协议
+  license: '本文采用[署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/)许可协议，转载请注明出处。'
+  # 分享
+  share: # [wechat, weibo, telegram, email, link]
+  related_posts:
+    # 相关文章，需要安装插件 (仅对博客文章 (layout: post) 可用)
+    # pnpm i hexo-related-popular-posts
+    enabled: false
+    max_count: 5
+  outdated_check:
+    # 文章过期检查，在文章发布后多少个月提示文章可能过期
+    enabled: true
+    month: 2
+
+
+######## 文章搜索 ########
+search:
+  # service 设置为 local_search 以启用文章搜索
+  # 在文章 front-matter 中设置 'indexing: false' 来避免被搜索索引
+  service: local_search
+  local_search:
+    # 如果你使用 CDN，可以上传 /js/search/local_search.js 并在此输入对应的链接
+    js: /js/search/local_search.js
+    path: /search.json  # 搜索索引文件存放位置
+
+
+######## 评论 ########
+comments:
+  # 支持 beaudar, utterances, valine (不推荐), waline 和 twikoo
+  # Stellaris 的维护者只使用过 Valine 和 Waline
+  # 故未对其它评论系统进行较好的适配
+  # 如果你在使用其它评论系统时遇到功能或样式 bug，而该评论系统在原 Stellar 主题中正常工作
+  # 请提交 issue 反馈
+  service: # beaudar, utterances, valine, twikoo, waline
+
+  ### beaudar
+  # https://beaudar.lipk.org/
+  beaudar:
+    repo: xxx/xxx
+    issue-term: pathname
+    issue-number:
+    theme: preferred-color-scheme
+    label:
+    input-position: top # top/bottom 评论框位置
+    comment-order: desc # desc 排序
+    keep-theme: # true/false
+    loading: false
+    branch: main
+
+  ### utterances
+  # https://utteranc.es/
+  utterances:
+    repo: xxx/xxx
+    issue-term: pathname
+    issue-number:
+    theme: preferred-color-scheme
+    label:
+
+  ### giscus
+  # https://giscus.app/zh-CN
+  giscus:
+    data-repo: xxx/xxx # [在此输入仓库]
+    data-repo-id: # [在此输入仓库 ID]
+    data-category: # [在此输入分类名]
+    data-category-id:
+    data-mapping: pathname
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: preferred_color_scheme
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
+
+  ### Valine
+  # https://valine.js.org
+  ### Valine 因存在 **安全问题**，不推荐使用。
+  valine:
+    js: https://fastly.jsdelivr.net/gh/XuxuGood/simple-blog-cdn@main/js/Valine.min.js
+    appId: # your appId
+    appKey: # your appKey
+    placeholder:
+    requiredFields: [ nick, mail ]
+    enableQQ: true # Unstable avatar link
+    recordIP: false # Record commenter IP
+    avatar: robohash # gravatar style https://valine.js.org/avatar
+    pageSize: 10 # comment list page size
+    lang: zh-cn
+    highlight: true
+    mathJax: false
+    tagMeta: [ 博主, 小伙伴, 访客 ] # 标签要显示的文字,默认'博主,小伙伴,访客'
+    metaPlaceholder:
+      nick: "昵称/QQ号(必填)"
+      mail: "邮箱（必填，完全保密）"
+      link: "网址(https://)"
+
+  # Twikoo
+  # https://twikoo.js.org/
+  twikoo:
+    js: https://fastly.jsdelivr.net/npm/twikoo@1.4.0/dist/twikoo.all.min.js # 建议锁定版本
+    envId: https://xxx # vercel函数
+
+  # Waline
+  # https://waline.js.org/
+  waline:
+    js: https://unpkg.com/@waline/client@v2/dist/waline.js
+    css: https://unpkg.com/@waline/client@v2/dist/waline.css
+    # Waline 服务器地址
+    serverURL:
+
+    ### 以下配置可能 **已经过时**。请参考 Waline 官方文档。
+
+    # If false, comment count will only be displayed in post page, not in home page
+    commentCount: true
+
+    # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`.
+    pageview: false
+
+    # Custom locales
+    # locale:
+    #   placeholder: Welcome to comment # Comment box placeholder
+
+    # Custom emoji
+    # emoji:
+    #   - https://unpkg.com/@waline/emojis@1.0.1/weibo
+    #   - https://unpkg.com/@waline/emojis@1.0.1/alus
+    #   - https://unpkg.com/@waline/emojis@1.0.1/bilibili
+    #   - https://unpkg.com/@waline/emojis@1.0.1/qq
+    #   - https://unpkg.com/@waline/emojis@1.0.1/tieba
+    #   - https://unpkg.com/@waline/emojis@1.0.1/tw-emoji
+
+    # Comment infomation, valid meta are nick, mail and link
+    # meta:
+    #   - nick
+    #   - mail
+    #   - link
+
+    # Set required meta field, e.g.: [nick] | [nick, mail]
+    # requiredMeta:
+    #   - nick
+
+    # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
+    # lang: zh-CN
+
+    # Word limit, no limit when setting to 0
+    # wordLimit: 0
+
+    # Whether enable login, can choose from 'enable', 'disable' and 'force'
+    # login: enable
+
+    # comment per page
+    # pageSize: 10
+
+
+######## 页脚 ########
+footer:
+  social:
+    ### 社交平台链接按钮（使用 HTML 语法）
+    # github:
+    #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/>'
+    #   url: /
+    # music:
+    #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
+    #   url: /
+    # unsplash:
+    #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/>'
+    #   url: /
+    # comments:
+    #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
+    #   url: /about/#comments
+  sitemap:
+    ### 页脚网站地图按钮（使用 Markdown 语法）
+    # '博客':
+    #   - '[近期](/)'
+    #   - '[分类](/)'
+    #   - '[标签](/)'
+    #   - '[归档](/)'
+    # '项目':
+    #   - '[开源库](/)'
+    # '社交':
+    #   - '[友链](/)'
+    #   - '[留言板](/)'
+    # '更多':
+    #   - '[关于本站](/)'
+    #   - '[GitHub](/)'
+  license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
+  # source: https://github.com/YidaozhanYa/blog  # 博客源码信息
+  # icp:  # ICP 备案信息
+  # 主题用户越多，开发者维护和更新的积极性就越高，如果您喜欢本主题，请在适当的位置显示主题信息和仓库链接以表支持。
+
+
+######## 标签插件 ########
+tag_plugins:
+  # {% note text %}
+  note:
+    default_color: ''  # light, dark, red, orange, yellow, green, cyan, blue, purple, warning, error
+
+  # {% checkbox %}
+  checkbox:
+    interactive: false  # 用户是否可切换勾选
+
+  # {% quot %}
+  quot:
+    default: # 可以自行配置多种图标方案
+      prefix: https://s2.loli.net/2022/01/04/vsTB5pGrIHfPxSj.png
+      suffix: https://s2.loli.net/2022/01/04/NORdtjlAhifZSns.png
+    hashtag:
+      prefix: https://s2.loli.net/2022/01/04/UvHcsa73jQPnobq.png
+
+  # {% emoji %}
+  emoji:
+    default: https://fastly.jsdelivr.net/gh/cdn-x/emoji/qq/%s.gif
+    twemoji: https://fastly.jsdelivr.net/gh/twitter/twemoji/assets/svg/%s.svg
+    qq: https://fastly.jsdelivr.net/gh/cdn-x/emoji/qq/%s.gif
+    aru: https://fastly.jsdelivr.net/gh/cdn-x/emoji/aru-l/%s.gif
+    tieba: https://fastly.jsdelivr.net/gh/cdn-x/emoji/tieba/%s.png
+
+  # {% image %}
+  image:
+    fancybox: false # true, false
+    parse_markdown: true # 把 markdown 格式的图片解析成图片标签
+
+  # {% timeline %}
+  timeline:
+    max-height: 80vh
+
+  # {% mark %}
+  mark:
+    default_color: dark # light, dark, red, orange, yellow, green, cyan, blue, purple, warning, error
+
+  # {% tag %}
+  tag:
+    default_color: yellow # red, orange, yellow, green, cyan, blue, purple
+
+  # {% bilicard %}
+  bilicard:
+    enabled: true
+    image_proxy: "https://images.weserv.nl/?url="
+
+
+######## JS 插件 ########
+plugins:
+  ### 在头部信息中写入 dns-prefetch 和 preconnect 以加快加载
+  prefetch_and_preconnect: [ "https://fastly.jsdelivr.net", "https://cdn.bootcdn.net" ]
+
+  ### 必须加载的核心 JS
+  jquery: https://fastly.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js
+  marked: https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js
+  instant_click:
+    js: https://cdn.bootcdn.net/ajax/libs/instantclick/3.1.0/instantclick.min.js
+
+  ### 主题动态布局插件
+  stellar:
+    sites: /js/plugins/sites.js
+    friends: /js/plugins/friends.js
+    ghinfo: /js/plugins/ghinfo.js
+    # Stellaris 维护者并不使用 timeline 插件
+    # 如在使用过程中遇到问题，请提出 issue 汇报。
+    timeline: /js/plugins/timeline.js
+    linkcard: /js/plugins/linkcard.js
+    fcircle: /js/plugins/fcircle.js
+
+  ### 可选插件
+
+  # 图片懒加载
+  # https://www.npmjs.com/package/vanilla-lazyload
+  lazyload:
+    enabled: true  # [hexo clean && hexo s] is required after changing this value.
+    js: https://fastly.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js
+    transition: blur # blur, fade
+
+  # 页面滚动动画
+  # https://scrollrevealjs.org/api/reveal.html
+  scrollreveal:
+    enabled: true
+    js: https://fastly.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js
+    distance: 8px
+    duration: 500  # ms
+    interval: 100  # ms
+    scale: 1  # 0.1~1
+
+  # 使用 Fancybox 提供 **{% image %} 图片标签插件** 的点击放大视图
+  # 注：**可能并不支持原生 Markdown 图片语法！**
+  # https://fancyapps.com/docs/ui/fancybox/
+  fancybox:
+    enabled: true
+    js: https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js
+    css: https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css
+    # 可以处理评论区的图片（不支持 iframe 类评论系统）例如：
+    # 使用 valine 评论可以写: .vcontent img:not(.vemoji)
+    # 使用 twikoo 评论可以写: .tk-content img:not([class*="emo"])
+    # 使用 waline 评论可以写: #waline_container .vcontent img
+    selector: .swiper-slide img # 多个选择器用英文逗号隔开
+
+
+  # swiper
+  # https://swiperjs.com/
+  swiper:
+    enabled: true
+    css: https://unpkg.com/swiper@11/swiper-bundle.min.css
+    js: https://unpkg.com/swiper@11/swiper-bundle.min.js
+
+
+  ### 数学公式插件（可二选一）
+
+  # 使用 MathJax 提供数学公式支持
+  # 需在 Markdown 文件开头加入 mathjax: true
+  # 推荐使用 Pandoc: npm uninstall hexo-renderer-marked --save & npm install hexo-renderer-pandoc --save
+  mathjax:
+    enabled: false
+    per_page: false # 启用后无需在文章开头加 mathjax: true 即可启用
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+  # 使用 Katex 提供数学公式支持
+  # https://katex.org/docs/autorender.html
+  # https://github.com/KaTeX/KaTeX
+  # 使用 hexo-renderer-markdown-it-plus 作为公式渲染器：npm uninstall hexo-renderer-marked --save npm install hexo-renderer-markdown-it-plus --save
+  katex:
+    enabled: false
+    # 使用 HTML 语法
+    min_css: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+    min_js: <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+    auto_render_min_js: <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"onload="renderMathInElement(document.body);"></script>
+
+
+######## 样式 ########
+style:
+  darkmode: auto # auto / always / false
+  smooth_scroll: true # true / false
+  font-size: 16px
+  text-align: left
+  color:
+    common:
+      accent: '#ff5722' # 强调色
+      button: '#0078d4' # 按钮颜色
+      hover: '#0078d4' # 按钮高亮颜色
+    light:
+      theme: '#0078d4' # 主题色
+      mix: '#eff4f9' # 浅色背景颜色
+      block: '#EEF0F2' # 块背景颜色
+      card: '#fafbfd' # 卡片背景颜色
+      title: '#000' # 标题文本颜色
+      text: '#1a1a1a' # 正文文本颜色
+      code: 'black' # 行内代码颜色
+      background: '#f3f3f3 radial-gradient(#eff4f9 75%, #f3f3f3 100%) no-repeat fixed' # 网站背景颜色
+    dark:
+      theme: '#4cc2ff' # 主题色
+      mix: '#313438' # 深色背景颜色
+      background-mobile: black # 移动端深色背景（OLED调成纯黑可以省电）
+      block: '#2B2F33' # 块背景颜色
+      card: '#282a39' # 卡片背景颜色
+      title: '#fff' # 标题文本颜色
+      text: '#eee' # 正文文本颜色
+      code: '#eee' # 行内代码颜色
+      background: '#202020 radial-gradient(#1a1f35 25%, #202020 100%) no-repeat fixed' # 网站背景颜色
+  animated_avatar:
+    animate: auto # auto, always
+    background: https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.2/avatar/round/rainbow64@3x.webp
+  codeblock:
+    scrollbar: 4px
+    highlightjs_theme: https://fastly.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/styles/atom-one-dark.min.css
+  font_face: "HarmonyOS_Regular"
+  custom_font_css:
+    # 自定义字体
+    enabled: true
+    css: "https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css"
+
+
+######## 缺省资源文件 ########
+default:
+  avatar: https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/avatar/round/3442075.svg
+  link: https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/link/8f277b4ee0ecd.svg
+  cover: https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/cover/76b86c0226ffd.svg
+  image: https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg
+
+
+######## API ########
+api_host:
+  ghapi: https://api.github.com
+  ghraw: https://www.githubs.cn/raw-githubusercontent
+  gist: https://gist.github.com
+
+
+######## 自定义插件 ########
+inject:
+  # script:
+  #   # 使用 HTML 语法
+  #   - '<script src="https://example.com/my_script.js" data-no-instant="true"></script>'
+  #   # data-no-instant 为 InstantClick 属性，决定某脚本在页面切换时是否重新加载
+  #   # 如果此脚本只需要加载一次（比如添加全局对象），那么为 true
+  #   # 如果此脚本每页都需要重复加载（比如编辑页面元素或需要使用 window.onload），那么为 false
+  # head:
+  #   # 使用 HTML 语法
+  #   - '<meta name="key" content="value"></meta>'
+  #   - '<link rel="stylesheet" href="/css/1.css"></link>'
+  # 由于 Stylus 的特性，暂不支持 inject CSS
+  # 如果要使用自定义 CSS，请在 _source/css 下创建 css 文件
+  # 之后使用上文的 head 来引入

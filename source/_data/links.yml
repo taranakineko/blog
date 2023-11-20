@@ -134,11 +134,10 @@ my_friends:
       avatar: https://py233.net/favicon.ico
       description: "Py's blog"
       screenshot: /static/friends/py.webp
-    - title: "一刀斩の小窝"
-      url: https://yidaozhan.top/
+    - title: "千雪的咖啡厅"
+      url: https://chyk.ink/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640
       description: "浩繁星空下的一场稚嫩的梦"
-      screenshot: /static/friends/yidaozhan.webp
     - title: "krau's blog"
       url: https://krau.top
       avatar: https://krau.top/photo/avatar/avatar.jpg

@@ -153,3 +153,7 @@ my_friends:
       avatar: https://cdn.nofated.win/avatar/256
       description: "Forever you will be in my heart."
       screenshot: /static/friends/nof.png
+    - title: "绒绒洛"
+      url: https://qwq.dog/
+      avatar: https://qwq.dog/pic/avatar.png
+      description: "俯いたまま大人になって"

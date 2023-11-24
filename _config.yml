@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://nekoq.eu.org
+url: https://blog.nekoq.top
 permalink: blog/:title.html
 permalink_defaults:
 pretty_urls:

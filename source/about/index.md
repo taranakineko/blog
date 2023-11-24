@@ -28,6 +28,6 @@ sidebar:
 
 *Some things are not finished yet, please wait a moment...*
 
-或许你可以尝试回到 [nekoq.cyou](https://nekoq.cyou/) 看看？
+或许你可以尝试回到 [nekoq.top](https://nekoq.top/) 看看？
 
 以后会继续完善的

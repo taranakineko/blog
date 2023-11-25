@@ -58,7 +58,7 @@ marked:
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -150,7 +150,6 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
 
-# For syntax highlighting
 # For syntax highlighting
 prism_plugin:
   mode: 'preprocess'

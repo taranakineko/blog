@@ -14,8 +14,8 @@
     "version": "6.3.0"
   },
   "dependencies": {
-    "@ada87/hexo-prism-plugin": "^2.3.0",
     "hexo": "^6.3.0",
+    "hexo-fs": "^4.1.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category-enhance": "^0.1.6",
     "hexo-generator-feed": "^3.0.0",

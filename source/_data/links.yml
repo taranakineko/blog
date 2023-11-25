@@ -138,6 +138,7 @@ my_friends:
       url: https://chyk.ink/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640
       description: "浩繁星空下的一场稚嫩的梦"
+      screenshot: /static/friends/qianxue.webp
     - title: "krau's blog"
       url: https://krau.top
       avatar: https://krau.top/photo/avatar/avatar.jpg
@@ -152,8 +153,9 @@ my_friends:
       url: https://blog.nofated.win
       avatar: https://cdn.nofated.win/avatar/256
       description: "Forever you will be in my heart."
-      screenshot: /static/friends/nof.png
+      screenshot: /static/friends/nof.webp
     - title: "绒绒洛"
       url: https://qwq.dog/
       avatar: https://qwq.dog/pic/avatar.png
       description: "俯いたまま大人になって"
+      screenshot: /static/friends/nelo.webp

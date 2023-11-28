@@ -229,7 +229,7 @@ inject:
     - '<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#202020"></meta>'
     - '<link rel="stylesheet" href="/css/inter.css"></link>'
   script:
-    - '<script async defer data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/cat/nya" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org,blog.nekoq.top"></script>'
+    - '<script async defer data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/nya" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org,blog.nekoq.top"></script>'
   # script:
   #   # 使用 HTML 语法
   #   - '<script src="https://example.com/my_script.js" data-no-instant="true"></script>'

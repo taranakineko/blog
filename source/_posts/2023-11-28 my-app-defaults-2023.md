@@ -81,6 +81,10 @@ description: well...似乎又是一篇水稿，但起码知道了千畔在用什
 
 - Google Contacts
 
+## 📰 News
+
+- Telegram
+
 ## 🎵 Music
 
 - 哔哩哔哩（离线缓存）

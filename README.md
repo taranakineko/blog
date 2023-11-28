@@ -14,7 +14,7 @@ A new blog, yet?
 npm install
 ```
 
-一键本地调试（）
+一键本地调试（生成运行一条龙）
 
 ```
 npm run test

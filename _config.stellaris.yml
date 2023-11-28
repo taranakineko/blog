@@ -66,10 +66,10 @@ article:
 comments:
   service: waline
   waline:
-    js: https://unpkg.com/@waline/client@v2/dist/waline.js
-    css: https://unpkg.com/@waline/client@v2/dist/waline.css
+    js: https://fastly.jsdelivr.net/npm/@waline/client@2.15.8/dist/waline.min.js
+    css: https://fastly.jsdelivr.net/npm/@waline/client@2.15.8/dist/dist/waline.min.css
     # Waline server address url, you should set this to your own link
-    serverURL: https://waline.nekoq.top/.netlify/functions/comment # waline 地址
+    serverURL: https://waline.nekoq.top/ # waline 地址
     # If false, comment count will only be displayed in post page, not in home page
     commentCount: true
     # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`.
@@ -84,7 +84,7 @@ comments:
 
     # Custom emoji
     emoji: 
-      - https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs
+      - https://fastly.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs
 
 
 ######## Footer ########
@@ -118,6 +118,7 @@ tag_plugins:
 
 ######## JS Plugins ########
 plugins:
+  prefetch_and_preconnect: [ "https://fastly.jsdelivr.net", "https://cdn.bootcdn.net", "https://umami.nekoq.eu.org" ]
   ## required plugins ##
   # jquery
   jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
@@ -228,7 +229,7 @@ inject:
     - '<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#202020"></meta>'
     - '<link rel="stylesheet" href="/css/inter.css"></link>'
   script:
-    - '<script async defer data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/script.js" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org,blog.nekoq.top"></script>'
+    - '<script async defer data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/cat/nya" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org,blog.nekoq.top"></script>'
   # script:
   #   # 使用 HTML 语法
   #   - '<script src="https://example.com/my_script.js" data-no-instant="true"></script>'

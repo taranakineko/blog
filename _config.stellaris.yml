@@ -193,7 +193,11 @@ style:
   codeblock:
     scrollbar: 4px
     highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css
-  font_face: "'Inter var', 'Noto Color Emoji'"
+  font-family:
+    logo: "'Inter var', HarmonyOS_Regular, system-ui, -apple-system, sans-serif"
+    body: "'Inter var', 'Noto Color Emoji', HarmonyOS_Regular, system-ui, -apple-system, sans-serif"
+    code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+    codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   custom_font_css:
     # 自定义字体
     enabled: true

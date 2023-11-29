@@ -67,7 +67,7 @@ comments:
   service: waline
   waline:
     js: https://fastly.jsdelivr.net/npm/@waline/client@2.15.8/dist/waline.min.js
-    css: https://fastly.jsdelivr.net/npm/@waline/client@2.15.8/dist/dist/waline.min.css
+    css: https://fastly.jsdelivr.net/npm/@waline/client@2.15.8/dist/waline.min.css
     # Waline server address url, you should set this to your own link
     serverURL: https://waline.nekoq.top/ # waline 地址
     # If false, comment count will only be displayed in post page, not in home page

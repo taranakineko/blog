@@ -56,7 +56,7 @@ my_friends:
       screenshot: /static/friends/dreamo.webp
     - title: "akearer's blog"
       url: https://akearer.top/
-      avatar: https://akearer.top/img/favicon.webp
+      avatar: https://akearer.top/favicon.ico
       description: "一起努力吧"
       screenshot: /static/friends/akear.webp
     - title: "老陈の咸鱼日常"
@@ -91,9 +91,14 @@ my_friends:
       screenshot: /static/friends/sheep.webp
     - title: "Sunyz's Blog"
       url: https://blog.sunyz.net/
-      avatar: data:image/gif;base64,R0lGODlhAQABAPcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAP8ALAAAAAABAAEAAAgEAP8FBAA7
+      avatar: https://cdn.sunyz.net/avatar@128x128.webp
       description: "下一次相遇可能在任何地方，但我们始终灿烂如星海"
       screenshot: /static/friends/7.webp
+    - title: "Nofated's Blog"
+      url: https://blog.nofated.win
+      avatar: https://cdn.nofated.win/avatar/256
+      description: "Forever you will be in my heart."
+      screenshot: /static/friends/nof.webp
     - title: "ltm 的百宝箱"
       url: https://ltm.ink/
       avatar: https://q1.qlogo.cn/g?b=qq&k=zBPJrHJ0aWt1wnJiatibsQkg&kti=Y9dzOgAAAAI&s=640
@@ -149,13 +154,18 @@ my_friends:
       avatar: https://avatars.githubusercontent.com/u/61108540
       description: "Everyone can be the light in the darkness."
       screenshot: /static/friends/huige.webp
-    - title: "Nofated's Blog"
-      url: https://blog.nofated.win
-      avatar: https://cdn.nofated.win/avatar/256
-      description: "Forever you will be in my heart."
-      screenshot: /static/friends/nof.webp
     - title: "绒绒洛"
       url: https://qwq.dog/
       avatar: https://qwq.dog/pic/avatar.png
       description: "俯いたまま大人になって"
       screenshot: /static/friends/nelo.webp
+    - title: "Unknown blog"
+      url: https://blog.tdiant.net
+      avatar: https://nyan.best/avatar.jpg
+      description: "imaging what i cannot do..."
+      screenshot: /static/friends/tidant.webp
+    - title: "Izumi Chino's Blog"
+      url: https://www.izumichino.tk
+      avatar: https://s2.loli.net/2023/02/28/PFMGNbWVJcC3p4t.png
+      description: "写代码，二次元，妹控，MtF🏳️‍⚧️，无线电，德国骨科，数学高联什么的太棒了~"
+      screenshot: /static/friends/lzumi.webp

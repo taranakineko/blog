@@ -97,6 +97,7 @@ footer:
      - icon: '<img src="/images/github.svg"/>'
        url: 'https://github.com/taranakineko'
   license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
+  source: '[GitHub](https://github.com/taranakineko/blog)'
 
 
 ######## Tag Plugins ########

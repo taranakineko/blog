@@ -122,7 +122,7 @@ plugins:
   prefetch_and_preconnect: [ "https://fastly.jsdelivr.net", "https://cdn.bootcdn.net", "https://umami.nekoq.eu.org" ]
   ## required plugins ##
   # jquery
-  jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
+  jquery: https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
 
   ## lazyload plugins ##
   # fancybox
@@ -145,19 +145,19 @@ plugins:
   ## optional plugins ##
   # preload
   instant_click:
-    js: https://cdn.bootcdn.net/ajax/libs/instantclick/3.1.0/instantclick.min.js
+    js: https://fastly.jsdelivr.net/npm/instantclick@3.1.0-2/dist/instantclick.min.js
 
   # image lazyload
   # https://www.npmjs.com/package/vanilla-lazyload
   lazyload:
     enable: true # [hexo clean && hexo s] is required after changing this value.
-    js: https://cdn.bootcdn.net/ajax/libs/vanilla-lazyload/17.3.1/lazyload.min.js
+    js: https://fastly.jsdelivr.net/npm/vanilla-lazyload@17.8.5/dist/lazyload.min.js
     transition: blur # blur, fade
 
   # https://scrollrevealjs.org/api/reveal.html
   scrollreveal:
     enable: true
-    js: https://cdn.bootcdn.net/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js
+    js: https://fastly.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js
     distance: 20px
     duration: 350 # ms
     interval: 100 # ms

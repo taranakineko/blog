@@ -37,7 +37,7 @@ skip_render:
   - "404.html"
   - "favicon.ico"
   - "static/**"
-  - "cdn/**"
+  - "js/**"
   - "vercel.json"
   - "css/**"
 

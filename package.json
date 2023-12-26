@@ -32,7 +32,6 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3",
     "html-react-parser": "^5.0.6",
-    "node-fetch": "^2.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

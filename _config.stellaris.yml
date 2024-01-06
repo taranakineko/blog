@@ -145,7 +145,7 @@ plugins:
   ## optional plugins ##
   # preload
   instant_click:
-    js: https://fastly.jsdelivr.net/npm/instantclick@3.1.0-2/dist/instantclick.min.js
+    js: /js/instantclick.min.js
 
   # image lazyload
   # https://www.npmjs.com/package/vanilla-lazyload

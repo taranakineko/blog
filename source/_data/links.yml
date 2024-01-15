@@ -164,3 +164,8 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://ivansnow02.github.io/img/avatar.png&w=200&h=200&output=webp
       description: "Code Blog"
       screenshot: /static/friends/Snow.webp
+    - title: "柠檬苏打夹心"
+      url: https://lemonkoi.one
+      avatar: https://wsrv.nl/?url=https://cravatar.cn/avatar/6fd22617894ee4de431dc28927bcd1bb&w=200&h=200&output=webp
+      description: "是夹子！"
+      screenshot: /static/friends/mango.webp

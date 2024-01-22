@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: input
-    id: post_url
+    id: archive_url
     attributes:
       label: 存档链接
       description: 请填写你在 [IA](https://web.archive.org/save) 或 [AT](https://archive.today) 上的存档链接

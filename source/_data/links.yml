@@ -169,3 +169,8 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://cravatar.cn/avatar/6fd22617894ee4de431dc28927bcd1bb&w=200&h=200&output=webp
       description: "是夹子！"
       screenshot: /static/friends/mango.webp
+    - title: "Mare_Infinitus"
+      url: https://lab.imgb.space/
+      avatar: https://lab.imgb.space/img/avatar_huf1b4a994853c6237c44a844673bf4be9_19957_288x288_fill_box_center_3.png #似乎链接不固定
+      description: "77569号奇点观察员的观察日志"
+      screenshot: /static/friends/grasslab.webp

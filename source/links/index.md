@@ -40,6 +40,10 @@ sidebar:
 
 ---
 
+**博主有权无理由拒绝友链申请，特此说明**
+
+---
+
 {/* 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) */}
 
 ~~部分在主页已经添加过的友链会再在这里加一次）~~

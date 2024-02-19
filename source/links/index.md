@@ -38,9 +38,15 @@ sidebar:
 
 需要添加的自行在下方评论或在[此处](https://github.com/taranakineko/blog/blob/main/source/links/index.md) PR 个（
 
----
+{% border 申请前须知⚠️ color:warning %}
+<p style="font-size: x-large;">
+博主有权无理由拒绝友链申请
+</p>
+并针对已拒绝申请的评论做出包括但不限于 修改内容 / 删除评论 等操作
 
-**博主有权无理由拒绝友链申请，特此说明**
+特此说明
+
+{% endborder %}
 
 ---
 

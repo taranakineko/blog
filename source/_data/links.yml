@@ -131,7 +131,7 @@ my_friends:
       screenshot: /static/friends/py.webp
     - title: "千雪的咖啡厅"
       url: https://chyk.ink/
-      avatar: https://wsrv.nl/?url=https://blog.nekoq.top/static/friends/g.jpg&w=200&h=200&output=webp
+      avatar: https://blog.nekoq.top/static/friends/g.jpg
       description: "浩繁星空下的一场稚嫩的梦"
       screenshot: /static/friends/qianxue.webp
     - title: "krau's blog"
@@ -166,7 +166,7 @@ my_friends:
       screenshot: /static/friends/Snow.webp
     - title: "柠檬苏打夹心"
       url: https://lemonkoi.one
-      avatar: https://wsrv.nl/?url=https://cravatar.cn/avatar/6fd22617894ee4de431dc28927bcd1bb&w=200&h=200&output=webp
+      avatar: https://cdn.sep.cc/avatar/6fd22617894ee4de431dc28927bcd1bb?s=200
       description: "是夹子！"
       screenshot: /static/friends/mango.webp
     - title: "Mare_Infinitus"

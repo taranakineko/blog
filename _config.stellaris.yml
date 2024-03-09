@@ -167,23 +167,23 @@ style:
   darkmode: auto # auto / always / false
   color:
     common:
-      accent: '#AEC9D0' # 强调色
-      button: '#AEC9D0' # 按钮颜色
-      hover: '#AEC9D0' # 按钮高亮颜色
+      accent: '#00cc6a' # 强调色
+      button: '#00cc6a' # 按钮颜色
+      hover: '#00cc6a' # 按钮高亮颜色
     light:
-      theme: '#AEC9D0' # 主体颜色
-      background: '#f3f3f3 radial-gradient(#eff4f9 75%, #f3f3f3 100%) no-repeat fixed' # 网页背景颜色
-      mix: '#eff4f9' # 浅色背景颜色
+      theme: '#00cc6a' # 主体颜色
+      background: '#f3f3f3 radial-gradient(#F5FFF8 75%, #f3f3f3 100%) no-repeat fixed' # 网页背景颜色
+      mix: '#F5FFF8' # 浅色背景颜色
       block: '#EEF0F2' # 块背景颜色
       card: '#fbfbfd' # 卡片背景颜色
       title: '#000' # 标题文本颜色
       text: '#1a1a1a' # 正文文本颜色
       code: 'black' # 行内代码颜色
     dark:
-      theme: '#AEC9D0' # 主体颜色
-      mix: '#262830' #'#313438' # 深色背景颜色
-      background: '#202020 radial-gradient(#262830 25%, #202020 100%) no-repeat fixed' # 网页背景颜色
-      card: '#353535' # 卡片背景颜色
+      theme: '#00cc6a' # 主体颜色
+      mix: '#1a3526' #'#313438' # 深色背景颜色
+      background: '#202020 radial-gradient(#1a3526 25%, #202020 100%) no-repeat fixed' # 网页背景颜色
+      card: '#30453c' # 卡片背景颜色
       block: '#2B2F33' # 块背景颜色
       title: '#fff' # 标题文本颜色
       text: '#eee' # 正文文本颜色

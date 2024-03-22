@@ -29,24 +29,20 @@ sidebar:
 
 {% folding 网站信息 child:tabs color:blue%}
   - 名称：湛蓝的调色板
-
-  - 描述：青く滲む 青く滲む 綺麗に <font color="#CCC"> / 浅渗湛蓝 纵使青涩 难掩绮丽</font> 
-    或者 *A cat lying on the keyboard.* 也不是不行
-
+  - 描述：有三种描述，取决于你想选择哪个，分别是
+      - *青く滲む 青く滲む 綺麗に*
+      - *浅渗湛蓝 纵使青涩 难掩绮丽*
+      - *A cat lying on the keyboard.*
   - 头像：https://nekoq.eu.org/static/images/avatar.png
 {% endfolding %}
 
-需要添加的自行在下方评论或在[此处](https://github.com/taranakineko/blog/blob/main/source/links/index.md) PR 个（
+需要添加的自行在下方评论或在[此处](https://github.com/taranakineko/blog/blob/main/source/links/index.md)自己 PR 个（
 
-{% border 申请前须知⚠️ color:warning %}
-<p style="font-size: x-large;">
-博主有权无理由拒绝友链申请
-</p>
-并针对已拒绝申请的评论做出包括但不限于 修改内容 / 删除评论 等操作
+---
 
-特此说明
-
-{% endborder %}
+{% folding 一些还没动静的链接？ child:tabs color:gray%}
+{% sites unupdate %}
+{% endfolding %}
 
 ---
 

@@ -19,11 +19,6 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://objs.iasoc.cn/file/iasocs/DN42-LILYNETWORK/LILY_NETWORK_ICON.svg&w=200&h=200&output=webp
       description: "Lily Network"
       screenshot: /static/friends/lily.webp
-    - title: "Jackie 的猫窝"
-      url: https://jackiecat.top/
-      avatar: https://106.55.183.72/lsky/1/avatar.jpg
-      description: "一只猫猫的猫窝"
-      screenshot: /static/friends/jackie.webp
     - title: "Moeri 落落格"
       url: https://blog.bakalu.site/
       avatar: https://pic.imgdb.cn/item/6380558816f2c2beb15cccb1.webp
@@ -44,11 +39,6 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://blog.hightechbrain.net/img/avatar.png&w=200&h=200&output=webp
       description: ""
       screenshot: /static/friends/hight.webp
-    - title: "梦墨's Blog"
-      url: https://blog.dreamo.ink/
-      avatar: https://wsrv.nl/?url=https://dreamo.ink/images/avatar.png&w=200&h=200&output=webp
-      description: "这个人很懒，但 ta 似乎留下了什么？"
-      screenshot: /static/friends/dreamo.webp
     - title: "akearer's blog"
       url: https://akearer.top/
       avatar: https://akearer.top/favicon.ico
@@ -56,7 +46,7 @@ my_friends:
       screenshot: /static/friends/akear.webp
     - title: "老陈の咸鱼日常"
       url: https://www.fantanstic.top/
-      avatar: https://pic.lijiakaijun.cyou/friends/laochen.webp
+      avatar: https://wsrv.nl/?url=https://web.archive.org/web/20221231074958if_/https://pic.lijiakaijun.cyou/friends/laochen.webp&w=200&h=200&output=webp
       description: "Life is fantanstic."
       screenshot: /static/friends/laochen.webp
     - title: "伊緻幻の主页"
@@ -85,8 +75,8 @@ my_friends:
       description: ""
       screenshot: /static/friends/sheep.webp
     - title: "Sunyz's Blog"
-      url: https://blog.sunyz.net/
-      avatar: https://cdn.sunyz.net/avatar@128x128.webp
+      url: https://sunyz.net/
+      avatar: https://cdn.sunyz.net/avatar@512x512.png
       description: "下一次相遇可能在任何地方，但我们始终灿烂如星海"
       screenshot: /static/friends/7.webp
     - title: "Nofated's Blog"
@@ -111,7 +101,7 @@ my_friends:
       screenshot: /static/friends/moetips.webp
     - title: "一叶知秋"
       url: https://www.qy.al/
-      avatar: https://wsrv.nl/?url=https://www.qy.al/img/qyl.png&w=200&h=200&output=webp
+      avatar: https://i0.wp.com/blog.rain.cx/wp-content/uploads/2022/09/cropped-qyl2.png?fit=192%2C192&ssl=1
       description: "二分之一少女，乘着比特流环游世界"
       screenshot: /static/friends/yiyr.webp
     - title: "SakuraKooi"
@@ -137,13 +127,8 @@ my_friends:
     - title: "krau's blog"
       url: https://krau.top
       avatar: https://krau.top/photo/avatar/avatar.jpg
-      description: "年轻，就要折腾"
+      description: "子供の时の梦は言えますか"
       screenshot: /static/friends/krau.webp
-    - title: "huige233's blog"
-      url: https://www.huige233.com
-      avatar: https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/61108540&w=200&h=200&output=webp
-      description: "Everyone can be the light in the darkness."
-      screenshot: /static/friends/huige.webp
     - title: "绒绒洛"
       url: https://qwq.dog/
       avatar: https://wsrv.nl/?url=https://qwq.dog/pic/avatar.png&w=200&h=200&output=webp
@@ -154,11 +139,6 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://nyan.best/avatar.jpg&w=200&h=200&output=webp
       description: "imaging what i cannot do..."
       screenshot: /static/friends/tidant.webp
-    - title: "Izumi Chino's Blog"
-      url: https://www.izumichino.tk
-      avatar: https://wsrv.nl/?url=https://s2.loli.net/2023/02/28/PFMGNbWVJcC3p4t.png&w=200&h=200&output=webp
-      description: "写代码，二次元，妹控，MtF🏳️‍⚧️，无线电，德国骨科，数学高联什么的太棒了~"
-      screenshot: /static/friends/lzumi.webp
     - title: "Snow's Blog"
       url: https://ivansnow02.github.io
       avatar: https://wsrv.nl/?url=https://ivansnow02.github.io/img/avatar.png&w=200&h=200&output=webp
@@ -171,6 +151,32 @@ my_friends:
       screenshot: /static/friends/mango.webp
     - title: "Mare_Infinitus"
       url: https://lab.imgb.space/
-      avatar: https://lab.imgb.space/img/avatar_huf1b4a994853c6237c44a844673bf4be9_19957_288x288_fill_box_center_3.png #似乎链接不固定
+      avatar: https://wsrv.nl/?url=https://lab.imgb.space/img/avatar_huf1b4a994853c6237c44a844673bf4be9_19957_288x288_fill_box_center_3.png&w=200&h=200&output=webp #似乎链接不固定
       description: "77569号奇点观察员的观察日志"
       screenshot: /static/friends/grasslab.webp
+    - title: "Anillc's Blog"
+      url: https://anillc.cn/
+      avatar: https://wsrv.nl/?url=https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c&w=200&h=200&output=webp #似乎链接不固定
+      description: "Anillc dayo~"
+      screenshot: /static/friends/anillc.webp
+unupdate:
+    - title: "Jackie 的猫窝"
+      url: https://jackiecat.top/
+      avatar: https://106.55.183.72/lsky/1/avatar.jpg
+      description: "一只猫猫的猫窝"
+      screenshot: /static/friends/jackie.webp
+    - title: "梦墨's Blog"
+      url: https://dreamo.ink/
+      avatar: https://wsrv.nl/?url=https://dreamo.ink/images/avatar.png&w=200&h=200&output=webp
+      description: "这个人很懒，但 ta 似乎留下了什么？"
+      screenshot: /static/friends/dreamo.webp
+    - title: "Izumi Chino's Blog"
+      url: https://www.izumichino.tk
+      avatar: https://wsrv.nl/?url=https://s2.loli.net/2023/02/28/PFMGNbWVJcC3p4t.png&w=200&h=200&output=webp
+      description: "写代码，二次元，妹控，MtF🏳️‍⚧️，无线电，德国骨科，数学高联什么的太棒了~"
+      screenshot: /static/friends/lzumi.webp
+    - title: "huige233's blog"
+      url: https://www.huige233.com
+      avatar: https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/61108540&w=200&h=200&output=webp
+      description: "Everyone can be the light in the darkness."
+      screenshot: /static/friends/huige.webp

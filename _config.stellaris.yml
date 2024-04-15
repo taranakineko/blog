@@ -90,8 +90,8 @@ comments:
 ######## Footer ########
 footer:
   social:
-     - icon: '<img src="/images/mastodon.svg"/>'
-       url: 'https://alive.bar/@TaranakiNeko'
+     - icon: '<img src="https://simpleicons.org/icons/firefish.svg"/>'
+       url: 'https://firefish.nekoq.top/@taranakineko'
      - icon: '<img src="/images/telegram.svg"/>'
        url: 'https://t.me/taranaki_neko'
      - icon: '<img src="/images/github.svg"/>'
@@ -229,7 +229,7 @@ inject:
   head:
     - '<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#202020"></meta>'
     - '<link rel="stylesheet" href="/css/inter.css">'
-    - '<link rel="me" href="https://alive.bar/@TaranakiNeko">'
+    - '<link rel="me" href="https://firefish.nekoq.top/@taranakineko">'
   script:
     - '<script async defer data-website-id="80e637e6-9cdd-4675-a19d-519785bdb3a8" src="https://umami.nekoq.eu.org/nya" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org,blog.nekoq.top"></script>'
   # script:

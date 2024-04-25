@@ -90,7 +90,7 @@ comments:
 ######## Footer ########
 footer:
   social:
-     - icon: '<img src="https://simpleicons.org/icons/firefish.svg"/>'
+     - icon: '<img src="/images/firefish.svg"/>'
        url: 'https://firefish.nekoq.top/@taranakineko'
      - icon: '<img src="/images/telegram.svg"/>'
        url: 'https://t.me/taranaki_neko'

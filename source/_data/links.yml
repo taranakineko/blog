@@ -159,6 +159,11 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c&w=200&h=200&output=webp #似乎链接不固定
       description: "Anillc dayo~"
       screenshot: /static/friends/anillc.webp
+    - title: "Souiken’s Homepage"
+      url: https://souiken.moe/
+      avatar: https://wsrv.nl/?url=https://souiken.moe/img/avatar.webp&w=200&h=200&output=webp
+      description: "愿我们度过这个漫漫长夜之后，依旧能看到那旭日东升。"
+      screenshot: /static/friends/Souiken.webp
 unupdate:
     - title: "Jackie 的猫窝"
       url: https://jackiecat.top/

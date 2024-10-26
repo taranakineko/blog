@@ -90,12 +90,12 @@ comments:
 ######## Footer ########
 footer:
   social:
-     - icon: '<img src="/images/firefish.svg"/>'
-       url: 'https://firefish.nekoq.top/@taranakineko'
-     - icon: '<img src="/images/telegram.svg"/>'
-       url: 'https://t.me/taranaki_neko'
-     - icon: '<img src="/images/github.svg"/>'
-       url: 'https://github.com/taranakineko'
+    # - icon: '<img src="/images/firefish.svg"/>'
+    #   url: 'https://firefish.nekoq.top/@taranakineko'
+    # - icon: '<img src="/images/telegram.svg"/>'
+    #   url: 'https://t.me/taranaki_neko'
+    # - icon: '<img src="/images/github.svg"/>'
+    #   url: 'https://github.com/taranakineko'
   license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
   source: '[GitHub](https://github.com/taranakineko/blog)'
 
@@ -119,7 +119,7 @@ tag_plugins:
 
 ######## JS Plugins ########
 plugins:
-  prefetch_and_preconnect: [ "https://fastly.jsdelivr.net", "https://cdn.bootcdn.net", "https://umami.nekoq.eu.org" ]
+  prefetch_and_preconnect: [ "https://fastly.jsdelivr.net", "https://umami.nekoq.eu.org" ]
   ## required plugins ##
   # jquery
   jquery: https://fastly.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
@@ -135,8 +135,8 @@ plugins:
   # swiper
   swiper:
     enable: true
-    css: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css
-    js: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js
+    css: https://fastly.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.css
+    js: https://fastly.jsdelivr.net/npm/swiper@6.8.4/swiper-bundle.min.js
 
   # issues api
   sitesjs: /js/plugins/sites.js
@@ -194,7 +194,7 @@ style:
     background: https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp
   codeblock:
     scrollbar: 4px
-    highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css
+    highlightjs_theme: https://fastly.jsdelivr.net/npm/highlight.js@11.6.0/styles/atom-one-light.min.css
   font-family:
     logo: "'Inter var', HarmonyOS_Regular, system-ui, -apple-system, sans-serif"
     body: "'Inter var', 'Noto Color Emoji', HarmonyOS_Regular, system-ui, -apple-system, sans-serif"

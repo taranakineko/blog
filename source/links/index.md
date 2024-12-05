@@ -46,6 +46,6 @@ sidebar:
 
 ---
 
-{/* 正在播放 [【Meyer】The Federations Theme）](https://music.163.com/song?id=1436226764) */}
+{/* 正在播放 [琥珀の身体](https://music.163.com/#/song?id=1432169641) */}
 
 ~~部分在主页已经添加过的友链会再在这里加一次）~~

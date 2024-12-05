@@ -1,9 +1,4 @@
 my_friends:
-    - title: "Moe23333"
-      url: https://moe23333.vercel.app/
-      avatar: https://moe23333.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon.1eed70b8.png&w=2048&q=75
-      description: "We shall meet in the place where there is no darkness."
-      screenshot: /static/friends/moe.webp
     - title: "Tony Ding's Blog"
       url: https://blog.tonyding.net/
       avatar: https://wsrv.nl/?url=https://i0.hdslb.com/bfs/album/4c95991ecda648ffeb1d87a372fef2c481da3886.jpg&s=640&w=200&h=200&output=webp
@@ -66,7 +61,7 @@ my_friends:
       screenshot: /static/friends/stv.webp
     - title: "Pivot of Winslow"
       url: https://winsloweric.com/
-      avatar: https://wsrv.nl/?url=https://winsloweric.com/assets/logo256t.4b80bfe0.png&w=200&h=200&output=webp
+      avatar: https://wsrv.nl/?url=https://winsloweric.com/assets/logo256t-Dqfv6BoD.png&w=200&h=200&output=webp
       description: ""
       screenshot: /static/friends/winslow.webp
     - title: "SheepChef Blog"
@@ -114,11 +109,6 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://dpkg123.github.io/img/author/author.jpg&w=200&h=200&output=webp
       description: "路漫漫其修远兮，吾将上下而求索。"
       screenshot: /static/friends/dpkg.webp
-    - title: "Py's blog"
-      url: https://py233.net/
-      avatar: https://wsrv.nl/?url=https://py233.net/favicon.ico&w=200&h=200&output=webp
-      description: "Py's blog"
-      screenshot: /static/friends/py.webp
     - title: "千雪的咖啡厅"
       url: https://chyk.ink/
       avatar: https://blog.nekoq.top/static/friends/g.jpg
@@ -129,29 +119,24 @@ my_friends:
       avatar: https://krau.top/photo/avatar/avatar.jpg
       description: "子供の时の梦は言えますか"
       screenshot: /static/friends/krau.webp
-    - title: "绒绒洛"
-      url: https://qwq.dog/
-      avatar: https://wsrv.nl/?url=https://qwq.dog/pic/avatar.png&w=200&h=200&output=webp
-      description: "俯いたまま大人になって"
-      screenshot: /static/friends/nelo.webp
     - title: "Unknown blog"
       url: https://blog.tdiant.net
       avatar: https://wsrv.nl/?url=https://nyan.best/avatar.jpg&w=200&h=200&output=webp
       description: "imaging what i cannot do..."
       screenshot: /static/friends/tidant.webp
     - title: "Snow's Blog"
-      url: https://ivansnow02.github.io
-      avatar: https://wsrv.nl/?url=https://ivansnow02.github.io/img/avatar.png&w=200&h=200&output=webp
+      url: https://blog.ivansnow02.xyz/
+      avatar: https://blog.ivansnow02.xyz/img/1733403694565.webp
       description: "Code Blog"
       screenshot: /static/friends/Snow.webp
     - title: "柠檬苏打夹心"
       url: https://lemonkoi.one
-      avatar: https://cdn.sep.cc/avatar/6fd22617894ee4de431dc28927bcd1bb?s=200
+      avatar: https://lemonkoi.one/_next/image?url=https%3A%2F%2Fgravatar.com%2Favatar%2F24972965681ebfcf8369dcecbc7080fa%3Fsize%3D512&w=640&q=75
       description: "是夹子！"
       screenshot: /static/friends/mango.webp
     - title: "Mare_Infinitus"
-      url: https://lab.imgb.space/
-      avatar: https://wsrv.nl/?url=https://lab.imgb.space/img/avatar_huf1b4a994853c6237c44a844673bf4be9_19957_288x288_fill_box_center_3.png&w=200&h=200&output=webp #似乎链接不固定
+      url: https://lab.gb0.dev/
+      avatar: https://wsrv.nl/?url=https://lab.gb0.dev/img/avatar_hu18259482115027619534.png&w=200&h=200&output=webp #似乎链接不固定
       description: "77569号奇点观察员的观察日志"
       screenshot: /static/friends/grasslab.webp
     - title: "Anillc's Blog"
@@ -169,6 +154,11 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://souiken.moe/img/avatar.webp&w=200&h=200&output=webp
       description: "愿我们度过这个漫漫长夜之后，依旧能看到那旭日东升。"
       screenshot: /static/friends/Souiken.webp
+    - title: "huige233's blog"
+      url: https://www.huige233.com
+      avatar: https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/61108540&w=200&h=200&output=webp
+      description: "Everyone can be the light in the darkness."
+      screenshot: /static/friends/huige.webp
 unupdate:
     - title: "梦墨's Blog"
       url: https://dreamo.ink/
@@ -180,8 +170,8 @@ unupdate:
       avatar: https://wsrv.nl/?url=https://s2.loli.net/2023/02/28/PFMGNbWVJcC3p4t.png&w=200&h=200&output=webp
       description: "写代码，二次元，妹控，MtF🏳️‍⚧️，无线电，德国骨科，数学高联什么的太棒了~"
       screenshot: /static/friends/lzumi.webp
-    - title: "huige233's blog"
-      url: https://www.huige233.com
-      avatar: https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/61108540&w=200&h=200&output=webp
-      description: "Everyone can be the light in the darkness."
-      screenshot: /static/friends/huige.webp
+    - title: "Py's blog"
+      url: https://py233.net/
+      avatar: https://wsrv.nl/?url=https://py233.net/favicon.ico&w=200&h=200&output=webp
+      description: "Py's blog"
+      screenshot: /static/friends/py.webp

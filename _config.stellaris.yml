@@ -15,7 +15,7 @@ sidebar:
     post: '[最新](/)'
     archive: '[文章](/archives)'
     links: '[友链](/links)'
-    fluffyluo: '[fluffyluo](/fluffyluo)'
+    # fluffyluo: '[fluffyluo](/fluffyluo)'
     #about: # '[关于](/about/)'
 
   widgets:
@@ -66,8 +66,8 @@ article:
 comments:
   service: waline
   waline:
-    js: https://fastly.jsdelivr.net/npm/@waline/client@2.15.8/dist/waline.min.js
-    css: https://fastly.jsdelivr.net/npm/@waline/client@2.15.8/dist/waline.min.css
+    js: https://fastly.jsdelivr.net/npm/@waline/client@3.4.1/dist/waline.umd.js
+    css: https://fastly.jsdelivr.net/npm/@waline/client@3.4.1/dist/waline.min.css
     # Waline server address url, you should set this to your own link
     serverURL: https://waline.nekoq.top/ # waline 地址
     # If false, comment count will only be displayed in post page, not in home page

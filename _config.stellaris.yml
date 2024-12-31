@@ -116,6 +116,8 @@ tag_plugins:
   # {% image %}
   image:
     fancybox: true
+  link:
+    siteinfo_api: https://ap-blog.nekoq.top/api/v1/?url={href}
 
 ######## JS Plugins ########
 plugins:

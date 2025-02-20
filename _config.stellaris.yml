@@ -198,13 +198,13 @@ style:
     scrollbar: 4px
     highlightjs_theme: https://fastly.jsdelivr.net/npm/highlight.js@11.6.0/styles/atom-one-light.min.css
   font-family:
-    logo: "'Inter var', HarmonyOS_Regular, system-ui, -apple-system, sans-serif"
-    body: "'Inter var', 'Noto Color Emoji', HarmonyOS_Regular, system-ui, -apple-system, sans-serif"
+    logo: "'Inter var', system-ui, -apple-system, sans-serif"
+    body: "'Inter var', 'Noto Color Emoji', system-ui, -apple-system, sans-serif"
     code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
     codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   custom_font_css:
     # 自定义字体
-    enabled: true
+    enabled: false
     css: "https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css"
 
 default:

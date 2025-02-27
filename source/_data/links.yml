@@ -105,7 +105,7 @@ my_friends:
       description: "梦是幽蓝色彩 灵魂如雪纯白"
       screenshot: /static/friends/saku.webp
     - title: "dpkg123 的小站"
-      url: https://dpkg123.site/
+      url: https://dpkg123.top/
       avatar: https://wsrv.nl/?url=https://dpkg123.github.io/img/author/author.jpg&w=200&h=200&output=webp
       description: "路漫漫其修远兮，吾将上下而求索。"
       screenshot: /static/friends/dpkg.webp

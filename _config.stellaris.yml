@@ -233,7 +233,7 @@ inject:
     - '<link rel="stylesheet" href="/css/inter.css">'
     - '<link rel="me" href="https://firefish.nekoq.top/@taranakineko">'
   script:
-    - '<script async defer data-website-id="122d7606-84ea-44f6-b4ca-68f4f9c3f834" src="https://umami.nekoq.eu.org/nya" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org,blog.nekoq.top"></script>'
+    - '<script async defer data-website-id="21bac3fa-b08e-457f-a913-52fe5ecb91c4" src="https://umami.nekoq.eu.org/nya" data-do-not-track="true" data-domains="taranakineko.pages.dev,nekoq.eu.org,blog.nekoq.top"></script>'
   # script:
   #   # 使用 HTML 语法
   #   - '<script src="https://example.com/my_script.js" data-no-instant="true"></script>'

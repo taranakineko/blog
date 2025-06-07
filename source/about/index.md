@@ -30,4 +30,4 @@ sidebar:
 
 或许你可以尝试回到 [nekoq.top](https://nekoq.top/) 看看？
 
-以后会继续完善的
+~~以后会继续完善的...吧？~~

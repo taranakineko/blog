@@ -2,4 +2,5 @@
 
 :root {
     font-feature-settings: "case","cpsp","ss04","cv01","cv02","cv03","cv04","cv06","cv11";
+    text-autospace: normal auto;
 }

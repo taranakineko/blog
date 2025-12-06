@@ -40,7 +40,7 @@ sidebar:
 
 ---
 
-{% folding 一些还没动静的链接？ child:tabs color:gray%}
+{% folding 一些还没动静或不知踪迹的链接 child:tabs color:gray%}
 {% sites unupdate %}
 {% endfolding %}
 

@@ -1,24 +1,9 @@
 my_friends:
-    - title: "Tony Ding's Blog"
-      url: https://blog.tonyding.net/
-      avatar: https://wsrv.nl/?url=https://i0.hdslb.com/bfs/album/4c95991ecda648ffeb1d87a372fef2c481da3886.jpg&s=640&w=200&h=200&output=webp
-      description: "World Peace."
-      screenshot: /static/friends/tongding.webp
-    - title: "Ny3a"
-      url: https://ny3a.github.io/
-      avatar: https://wsrv.nl/?url=https://ny3a.github.io/images/avatar.webp&w=200&h=200&output=webp
-      description: ""
-      screenshot: /static/friends/ny3a.webp
     - title: "Lily Ellenvia"
       url: https://lilynet.work/
       avatar: https://wsrv.nl/?url=https://objs.iasoc.cn/file/iasocs/DN42-LILYNETWORK/LILY_NETWORK_ICON.svg&w=200&h=200&output=webp
       description: "Lily Network"
       screenshot: /static/friends/lily.webp
-    - title: "Moeri 落落格"
-      url: https://blog.bakalu.site/
-      avatar: https://pic.imgdb.cn/item/6380558816f2c2beb15cccb1.webp
-      description: "看一只自稱貓娘的日常"
-      screenshot: /static/friends/moeri.webp
     - title: "Lenger 的后花园"
       url: https://varraro.github.io/
       avatar: https://wsrv.nl/?url=https://raw.githubusercontent.com/SpookerV5/gitdemo/main/waifu.png&w=200&h=200&output=webp
@@ -44,21 +29,11 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://web.archive.org/web/20221231074958if_/https://pic.lijiakaijun.cyou/friends/laochen.webp&w=200&h=200&output=webp
       description: "Life is fantanstic."
       screenshot: /static/friends/laochen.webp
-    - title: "伊緻幻の主页"
-      url: https://www.chwin.asia
-      avatar: https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F187c8b47-9f8f-4cb0-b668-8d6e1e73e564%2Ffavicon.ico?table=block&id=937b1181-9126-413f-96fb-a94a0f7d92ed&cache=v2
-      description: "Take my hands."
-      screenshot: /static/friends/chwin.webp
     - title: "Isoheptane"
       url: https://blog.cascade.moe/
       avatar: https://wsrv.nl/?url=https://blog.cascade.moe/images/avatar.webp&w=200&h=200&output=webp
       description: "工程师猫娘"
       screenshot: /static/friends/iso.webp
-    - title: "Steven Lynn's Blog"
-      url: https://blog.stv.lol
-      avatar: https://wsrv.nl/?url=https://s2.loli.net/2023/05/29/NXUKtpGBlZoij4T.png&w=200&h=200&output=webp
-      description: "Steven Lynn 的个人博客"
-      screenshot: /static/friends/stv.webp
     - title: "Pivot of Winslow"
       url: https://winsloweric.com/
       avatar: https://wsrv.nl/?url=https://winsloweric.com/assets/logo256t-Dqfv6BoD.png&w=200&h=200&output=webp
@@ -74,11 +49,6 @@ my_friends:
       avatar: https://cdn.sunyz.net/avatar@512x512.png
       description: "下一次相遇可能在任何地方，但我们始终灿烂如星海"
       screenshot: /static/friends/7.webp
-    - title: "Nofated's Blog"
-      url: https://blog.nofated.win
-      avatar: https://cdn.nofated.win/avatar/256
-      description: "Forever you will be in my heart."
-      screenshot: /static/friends/nof.webp
     - title: "Cynosura"
       url: https://cynosura.one/
       avatar: https://wsrv.nl/?url=https://cynosura.one/img/avatar.webp&w=200&h=200&output=webp
@@ -136,12 +106,12 @@ my_friends:
       screenshot: /static/friends/mango.webp
     - title: "Mare_Infinitus"
       url: https://lab.gb0.dev/
-      avatar: https://wsrv.nl/?url=https://lab.gb0.dev/img/avatar_hu18259482115027619534.png&w=200&h=200&output=webp #似乎链接不固定
-      description: "77569号奇点观察员的观察日志"
+      avatar: https://wsrv.nl/?url=https://lab.gb0.dev/img/avatar.png&w=200&h=200&output=webp
+      description: "此处会不定时产生包含大量废话的日志文件"
       screenshot: /static/friends/grasslab.webp
     - title: "Anillc's Blog"
       url: https://anillc.cn/
-      avatar: https://wsrv.nl/?url=https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c&w=200&h=200&output=webp #似乎链接不固定
+      avatar: https://wsrv.nl/?url=https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c&w=200&h=200&output=webp
       description: "Anillc dayo~"
       screenshot: /static/friends/anillc.webp
     - title: "Jackie 的猫窝"
@@ -175,3 +145,33 @@ unupdate:
       avatar: https://wsrv.nl/?url=https://py233.net/favicon.ico&w=200&h=200&output=webp
       description: "Py's blog"
       screenshot: /static/friends/py.webp
+    - title: "Tony Ding's Blog"
+      url: https://blog.tonyding.net/
+      avatar: https://wsrv.nl/?url=https://i0.hdslb.com/bfs/album/4c95991ecda648ffeb1d87a372fef2c481da3886.jpg&s=640&w=200&h=200&output=webp
+      description: "World Peace."
+      screenshot: /static/friends/tongding.webp
+    - title: "Ny3a"
+      url: https://ny3a.github.io/
+      avatar: https://wsrv.nl/?url=https://ny3a.github.io/images/avatar.webp&w=200&h=200&output=webp
+      description: ""
+      screenshot: /static/friends/ny3a.webp
+    - title: "Moeri 落落格"
+      url: https://blog.bakalu.site/
+      avatar: https://pic.imgdb.cn/item/6380558816f2c2beb15cccb1.webp
+      description: "看一只自稱貓娘的日常"
+      screenshot: /static/friends/moeri.webp
+    - title: "伊緻幻の主页"
+      url: https://www.chwin.asia
+      avatar: https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F187c8b47-9f8f-4cb0-b668-8d6e1e73e564%2Ffavicon.ico?table=block&id=937b1181-9126-413f-96fb-a94a0f7d92ed&cache=v2
+      description: "Take my hands."
+      screenshot: /static/friends/chwin.webp
+    - title: "Steven Lynn's Blog"
+      url: https://blog.stv.lol
+      avatar: https://wsrv.nl/?url=https://s2.loli.net/2023/05/29/NXUKtpGBlZoij4T.png&w=200&h=200&output=webp
+      description: "Steven Lynn 的个人博客"
+      screenshot: /static/friends/stv.webp
+    - title: "Nofated's Blog"
+      url: https://blog.nofated.win
+      avatar: https://cdn.nofated.win/avatar/256
+      description: "Forever you will be in my heart."
+      screenshot: /static/friends/nof.webp

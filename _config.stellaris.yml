@@ -96,6 +96,8 @@ footer:
     #   url: 'https://t.me/taranaki_neko'
     # - icon: '<img src="/images/github.svg"/>'
     #   url: 'https://github.com/taranakineko'
+    - icon: '<img src="/images/marshmallow.svg"/>'
+      url: 'https://marshmallow-qa.com/kqgk4inr7q3hp0p'
   license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
   source: '[GitHub](https://github.com/taranakineko/blog)'
 

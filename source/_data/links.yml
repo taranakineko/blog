@@ -104,7 +104,7 @@ my_friends:
       avatar: https://lemonkoi.one/_next/image?url=https%3A%2F%2Fgravatar.com%2Favatar%2F24972965681ebfcf8369dcecbc7080fa%3Fsize%3D512&w=640&q=75
       description: "是夹子！"
       screenshot: /static/friends/mango.webp
-    - title: "Mare_Infinitus"
+    - title: "/var/log/gblab"
       url: https://lab.gb0.dev/
       avatar: https://wsrv.nl/?url=https://lab.gb0.dev/img/avatar.png&w=200&h=200&output=webp
       description: "此处会不定时产生包含大量废话的日志文件"

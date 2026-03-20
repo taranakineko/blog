@@ -124,6 +124,11 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/61108540&w=200&h=200&output=webp
       description: "Everyone can be the light in the darkness."
       screenshot: /static/friends/huige.webp
+    - title: "天码行空的小破站"
+      url: https://cs.gt.tc
+      avatar: https://wsrv.nl/?url=https://bu.dusays.com/2026/02/05/6984096009670.jpeg&w=200&h=200&output=webp
+      description: "路漫漫其修远兮，吾将上下而求索"
+      screenshot: /static/friends/tmxk.png
 unupdate:
     - title: "梦墨's Blog"
       url: https://dreamo.ink/

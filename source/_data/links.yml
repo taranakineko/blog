@@ -79,21 +79,16 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://dpkg123.github.io/img/author/author.jpg&w=200&h=200&output=webp
       description: "路漫漫其修远兮，吾将上下而求索。"
       screenshot: /static/friends/dpkg.webp
-    - title: "千雪的咖啡厅"
+    - title: "風雪城"
       url: https://chyk.ink/
-      avatar: https://blog.nekoq.top/static/friends/g.jpg
+      avatar: https://wsrv.nl/?url=https://chyk.ink/img/avatar.webp&w=200&h=200
       description: "浩繁星空下的一场稚嫩的梦"
-      screenshot: /static/friends/qianxue.webp
+      screenshot: /static/friends/qianxue.png
     - title: "krau's blog"
       url: https://krau.top
       avatar: https://krau.top/photo/avatar/avatar.jpg
       description: "子供の时の梦は言えますか"
       screenshot: /static/friends/krau.webp
-    - title: "Unknown blog"
-      url: https://blog.tdiant.net
-      avatar: https://wsrv.nl/?url=https://nyan.best/avatar.jpg&w=200&h=200&output=webp
-      description: "imaging what i cannot do..."
-      screenshot: /static/friends/tidant.webp
     - title: "Snow's Blog"
       url: https://blog.ivansnow02.xyz/
       avatar: https://blog.ivansnow02.xyz/img/1733403694565.webp
@@ -175,3 +170,8 @@ unupdate:
       avatar: https://cdn.nofated.win/avatar/256
       description: "Forever you will be in my heart."
       screenshot: /static/friends/nof.webp
+    - title: "Unknown blog"
+      url: https://blog.tdiant.net
+      avatar: https://wsrv.nl/?url=https://nyan.best/avatar.jpg&w=200&h=200&output=webp
+      description: "imaging what i cannot do..."
+      screenshot: /static/friends/tidant.webp

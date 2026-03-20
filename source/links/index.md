@@ -1,6 +1,6 @@
 ---
 menu_id: links
-description: "看完了？那就去其他地方看看吧"
+description: "看完了？要不去其他地方溜达一下？"
 sidebar:
   - layout: markdown
     content: |
@@ -17,7 +17,7 @@ sidebar:
       Please line up for the train. Let the passengers get off first before you get on.
 ---
 
-# 友情链接
+# 友 链
 
 {% sites my_friends %}
 
@@ -25,18 +25,16 @@ sidebar:
 
 前面的区域，以后再来探索吧
 
-或者说，交換一下友鏈？
-
-{% folding 网站信息 child:tabs color:blue%}
+{% folding 没有什么内容的东西 child:tabs color:blue%}
   - 名称：湛蓝的调色板
   - 描述：有三种描述，取决于你想选择哪个，分别是
       - *青く滲む 青く滲む 綺麗に*
       - *浅渗湛蓝 纵使青涩 难掩绮丽*
       - *A cat lying on the keyboard.*
   - 头像：https://nekoq.eu.org/static/images/avatar.png
-{% endfolding %}
 
-需要添加的自行在下方评论或在[此处](https://github.com/taranakineko/blog/blob/main/source/links/index.md)自己 PR 个（
+  ~~需要添加的自行在下方评论或在[此处](https://github.com/taranakineko/blog/blob/main/source/links/index.md)自己 PR 个，看心情批复（吧？）~~
+{% endfolding %}
 
 ---
 

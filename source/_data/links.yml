@@ -124,6 +124,11 @@ my_friends:
       avatar: https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/61108540&w=200&h=200&output=webp
       description: "Everyone can be the light in the darkness."
       screenshot: /static/friends/huige.webp
+    - title: "py's blog"
+      url: https://py233.net/
+      avatar: https://wsrv.nl/?url=https://py233.net/assets/avatar.jpg&w=200&h=200&output=webp
+      description: ""
+      screenshot: /static/friends/py.png
     - title: "天码行空的小破站"
       url: https://cs.gt.tc
       avatar: https://wsrv.nl/?url=https://bu.dusays.com/2026/02/05/6984096009670.jpeg&w=200&h=200&output=webp
@@ -140,11 +145,6 @@ unupdate:
       avatar: https://wsrv.nl/?url=https://s2.loli.net/2023/02/28/PFMGNbWVJcC3p4t.png&w=200&h=200&output=webp
       description: "写代码，二次元，妹控，MtF🏳️‍⚧️，无线电，德国骨科，数学高联什么的太棒了~"
       screenshot: /static/friends/lzumi.webp
-    - title: "Py's blog"
-      url: https://py233.net/
-      avatar: https://wsrv.nl/?url=https://py233.net/favicon.ico&w=200&h=200&output=webp
-      description: "Py's blog"
-      screenshot: /static/friends/py.webp
     - title: "Tony Ding's Blog"
       url: https://blog.tonyding.net/
       avatar: https://wsrv.nl/?url=https://i0.hdslb.com/bfs/album/4c95991ecda648ffeb1d87a372fef2c481da3886.jpg&s=640&w=200&h=200&output=webp

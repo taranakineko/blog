@@ -31,7 +31,7 @@ sidebar:
       - *青く滲む 青く滲む 綺麗に*
       - *浅渗湛蓝 纵使青涩 难掩绮丽*
       - *A cat lying on the keyboard.*
-  - 头像：https://nekoq.eu.org/static/images/avatar.png
+  - 头像：[https://nekoq.eu.org/static/images/avatar.png](https://blog.nekoq.top/static/images/avatar.png)
 
   ~~需要添加的自行在下方评论或在[此处](https://github.com/taranakineko/blog/blob/main/source/links/index.md)自己 PR 个，看心情批复（吧？）~~
 {% endfolding %}
